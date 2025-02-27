@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH],use_pages=True,suppress_callback_exceptions=True)
-
+server = app.server
 app.layout = html.Div([
     html.H1('quitterz depression tracker',style={'textAlign':'center'}),
     html.Div('keeping tabs on how we feel until we become happy or die',style={'textAlign':'center'},),

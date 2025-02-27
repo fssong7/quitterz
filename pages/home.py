@@ -9,19 +9,19 @@ layout = html.Div([
     html.H4('what is your name?',style={'textAlign':'center'}),
     dcc.Link(
         dbc.Button(
-            "sara barrows", id="btn-nclicks-1", size = "lg",className="d-grid gap-1 col-6 mx-auto", n_clicks=0,
+            "sara barrows", id="btn-nclicks-1", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
         ),href="/sara-daily",style={"text-decoration": "none"},),
     html.Div(style={'padding': '5px'}),
     
     dcc.Link(
         dbc.Button(
-            "grace patterson", id="btn-nclicks-2", size = "lg",className="d-grid gap-1 col-6 mx-auto", n_clicks=0,
+            "grace patterson", id="btn-nclicks-2", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
         ),href="/grace-daily",style={"text-decoration": "none"},),
     html.Div(style={'padding': '5px'}),
     
     dcc.Link(
         dbc.Button(
-            "forest song", id="btn-nclicks-3", size = "lg",className="d-grid gap-1 col-6 mx-auto", n_clicks=0,
+            "forest song", id="btn-nclicks-3", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
         ),href="/forest-daily",style={"text-decoration": "none"},),
     html.Div(style={'padding': '5px'}),
     html.Div(id='empty_container'),

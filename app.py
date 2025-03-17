@@ -24,3 +24,4 @@ if __name__ == '__main__':
 # Enter: check in page, select name
 # Once entered, input selection for rating, optional
 # submitted page -> option to check out other quitter ratings, your own
+# GE0SsNARhMKigDzv

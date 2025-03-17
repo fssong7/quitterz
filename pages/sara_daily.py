@@ -1,8 +1,14 @@
 import dash
 from dash import Dash, html, dcc, callback,callback_context,Output, Input,State
 import dash_bootstrap_components as dbc
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+from mongoDB import database
+from datetime import date
+
 
 dash.register_page(__name__)
+data_base = database()
 
 layout = html.Div([
     html.H4('welcome sara',style={'textAlign':'center'}),
@@ -24,7 +30,7 @@ layout = html.Div([
                 {"label": "10","value": "10"},
             ],
         ),
-        width={"size":6,"offset":3},
+        width={"size":8,"offset":2},
     ),
     html.Div(style={'padding': '10px'}),
     html.Div('and why is that? (optional)',style={'textAlign':'center'}),
@@ -36,12 +42,13 @@ layout = html.Div([
     ),
     html.Div(id='dbtn'),
     dcc.Store(id='dval'),
+    dcc.Store(id='dreason'),
     dbc.Modal(
     [
         dbc.ModalHeader(dbc.ModalTitle("thanks for submitting sara")),
         dbc.ModalBody("hopefully tomorrow is a better day :)"),
         dbc.ModalFooter(
-            dcc.Link("return to home",href=dash.page_registry['pages.home']['path']),
+            dcc.Link("return to home",href=dash.page_registry['pages.ahome']['path']),
         ),
     ],
     id="modal",
@@ -57,7 +64,7 @@ def rating(depressionlvl):
     return depressionlvl
 
 @callback(
-    Output('dreason','value'),
+    Output('dreason','data'),
     Input('reason','value')
 )
 def rating(reason):
@@ -67,18 +74,24 @@ def rating(reason):
     Output('modal','is_open'),
     Input('btn_submit', 'n_clicks'),
     Input('dval','data'),
+    Input('dreason','data'),
     [State("modal", "is_open")],
+    allow_duplicate=True
 )
-def rating(btn_submit,dval,is_open):
+def rating(btn_submit,dval,dreason,is_open):
     #changed_id = [p['prop_id'] for p in callback_context.triggered][0]
     
     if btn_submit and dval is not None:
         print(dval)
+        print(dreason)
+        submitted_date = date.today().strftime("%Y-%m-%d")
+        data = {
+            'name': 'sara',
+            'dval': int(dval),
+            'dreason': dreason,
+            'date': submitted_date
+        }
+        
+        data_base.collection.insert_one(data)
         return not is_open
     return is_open
-
-
-# rating dropdown
-# note(optional)
-# submit btn
-# back to home

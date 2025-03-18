@@ -1,8 +1,6 @@
 import dash
 from dash import Dash, html, dcc, callback,callback_context,Output, Input,State
 import dash_bootstrap_components as dbc
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 from mongoDB import database
 from datetime import date
 
@@ -89,7 +87,7 @@ def rating(btn_submit,gdval,gdreason,is_open):
             'name': 'grace',
             'dval': int(gdval),
             'dreason': gdreason,
-            'date': submitted_date
+            'date': "2025-02-19"#submitted_date
         }
         
         data_base.collection.insert_one(data)

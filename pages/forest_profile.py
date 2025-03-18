@@ -7,38 +7,38 @@ from statCalculator import dataAnalyzer
 import plotly.graph_objs as go
 
 dash.register_page(__name__)
-sara_calc = dataAnalyzer()
+forest_calc = dataAnalyzer()
 init_df = pd.DataFrame({
     'name': [],
-    'depression value': [], 
+    'depression value': [],
     'reason': []
 })
 
 layout = html.Div([
-    html.H2("sara's profile",style={'textAlign':'center'}),
-    html.Div('check out how sad she is',style={'textAlign':'center'}),
+    html.H2("forest's profile",style={'textAlign':'center'}),
+    html.Div('check out how sad he is',style={'textAlign':'center'}),
     html.Div(style={'padding': '20px'}),
     html.H4("today's entry",style={'textAlign':'center'}),
-    html.Div(id='todays info',style={'textAlign':'center'}),
+    html.Div(id='ftodays info',style={'textAlign':'center'}),
     dcc.Location(id='url', refresh=False),
     html.Div(style={'padding': '20px'}),
     dcc.Tabs([
         dcc.Tab(label='last 7 days', children=[
-            dcc.Graph(id='graph-1'),
+            dcc.Graph(id='fgraph-1'),
             dcc.Interval(id='interval-1', interval=10000, n_intervals=0)
         ]),
         dcc.Tab(label='last 30 days', children=[
-            dcc.Graph(id='graph-2'),
+            dcc.Graph(id='fgraph-2'),
             dcc.Interval(id='interval-2', interval=10000, n_intervals=0)
         ]),
         dcc.Tab(label='all time', children=[
-            dcc.Graph(id='graph-3'),
+            dcc.Graph(id='fgraph-3'),
             dcc.Interval(id='interval-3', interval=10000, n_intervals=0)
         ])
     ]),
     html.Div(style={'padding': '20px'}),
     dash_table.DataTable(
-        id='table',
+        id='ftable',
         columns=[
             {"name": col, "id": col} for col in init_df.keys()  # Dynamically create column headers
         ],
@@ -51,27 +51,27 @@ layout = html.Div([
 ])
 
 @callback(
-    Output('todays info','children'),
+    Output('ftodays info','children'),
     Input('url','href'),
     allow_duplicate=True
 )
 def rating(href):
-    sara_calc.update_db()
-    index = sara_calc.todays_entry(sara_calc.saradb)
+    forest_calc.update_db()
+    index = forest_calc.todays_entry(forest_calc.forestdb)
     #print(index)
     if index == -1:
-        return "sara has yet to submit her rating for today :("
+        return "forest has yet to submit his rating for today :("
     else:
-        dval = sara_calc.saradb.loc[index,'dval']
-        return f'sara is feeling at a {dval} out of 10, and her reason is "' + str(sara_calc.saradb.loc[index,'dreason']) + '"'
+        dval = forest_calc.forestdb.loc[index,'dval']
+        return f'forest is feeling at a {dval} out of 10, and his reason is "' + str(forest_calc.forestdb.loc[index,'dreason']) + '"'
 
 @callback(
-    Output('graph-1', 'figure'),
+    Output('fgraph-1', 'figure'),
     Input('interval-1', 'n_intervals')
 )
 def update_graph_1(n_intervals):
-    sara_calc.update_db()
-    df,mean,std = sara_calc.seven_days(sara_calc.saradb)
+    forest_calc.update_db()
+    df,mean,std = forest_calc.seven_days(forest_calc.forestdb)
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
@@ -85,12 +85,12 @@ def update_graph_1(n_intervals):
     return figure
 
 @callback(
-    Output('graph-2', 'figure'),
+    Output('fgraph-2', 'figure'),
     Input('interval-2', 'n_intervals')
 )
 def update_graph_2(n_intervals):
-    sara_calc.update_db()
-    df,mean,std = sara_calc.thirty_days(sara_calc.saradb)
+    forest_calc.update_db()
+    df,mean,std = forest_calc.thirty_days(forest_calc.forestdb)
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
@@ -104,12 +104,12 @@ def update_graph_2(n_intervals):
     return figure
 
 @callback(
-    Output('graph-3', 'figure'),
+    Output('fgraph-3', 'figure'),
     Input('interval-3', 'n_intervals')
 )
 def update_graph_3(n_intervals):
-    sara_calc.update_db()
-    df,mean,std = sara_calc.all_time(sara_calc.saradb)
+    forest_calc.update_db()
+    df,mean,std = forest_calc.all_time(forest_calc.forestdb)
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
@@ -123,14 +123,13 @@ def update_graph_3(n_intervals):
     return figure
 
 @callback(
-    Output('table','data'),
-    Output('table','columns'),
-    Input('url','href')  # Trigger callback based on data in the table
+    Output('ftable','data'),
+    Output('ftable','columns'),
+    Input('url','href')
 )
 def display_data_on_load(data):
-    # Simply display the entire table data when the page loads
-    sara_calc.update_db()
-    df,mean,std = sara_calc.all_time(sara_calc.saradb)
+    forest_calc.update_db()
+    df,mean,std = forest_calc.all_time(forest_calc.forestdb)
     data = df[['date','dval','dreason','name']]
     column = 'name'
     if column in data:

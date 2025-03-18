@@ -10,14 +10,27 @@ class dataAnalyzer():
     def __init__(self):
         self.db = database()
         self.saradb = pd.DataFrame(list(self.db.collection.find({"name":"sara"})))
-        #print(self.saradb.keys())
         self.gracedb = pd.DataFrame(list(self.db.collection.find({"name":"grace"})))
         self.forestdb = pd.DataFrame(list(self.db.collection.find({"name":"forest"})))
-        self.seven_days(self.saradb)
+        self.drop_id()
+
+    def update_db(self):
+        self.saradb = pd.DataFrame(list(self.db.collection.find({"name":"sara"})))
+        self.gracedb = pd.DataFrame(list(self.db.collection.find({"name":"grace"})))
+        self.forestdb = pd.DataFrame(list(self.db.collection.find({"name":"forest"})))
+        self.drop_id()
+
+    def drop_id(self):
+        column = '_id'
+        if column in self.saradb.columns:
+            self.saradb = self.saradb.drop(column,axis=1)
+        if column in self.gracedb.columns:
+            self.gracedb = self.gracedb.drop(column,axis=1)
+        if column in self.forestdb.columns:
+            self.forestdb = self.forestdb.drop(column,axis=1)
 
     def todays_entry(self,db):
         todays_date = date.today().strftime("%Y-%m-%d")
-        #print(self.saradb['date'])
         dates = db['date'].astype(str)
 
         index_check = 0
@@ -37,6 +50,7 @@ class dataAnalyzer():
         db['date'] = pd.to_datetime(db['date'])
         recent_dates_db = db[db['date'] > seven_days_ago]
         recent_dates_db = recent_dates_db.drop_duplicates(subset=['date'],keep='last')
+        recent_dates_db = recent_dates_db.sort_values(by='date')
         mean = recent_dates_db['dval'].mean()
         std = recent_dates_db['dval'].std()
         return recent_dates_db,mean,std
@@ -46,12 +60,14 @@ class dataAnalyzer():
         db['date'] = pd.to_datetime(db['date'])
         recent_dates_db = db[db['date'] > thirty_days_ago]
         recent_dates_db = recent_dates_db.drop_duplicates(subset=['date'],keep='last')
+        recent_dates_db = recent_dates_db.sort_values(by='date')
         mean = recent_dates_db['dval'].mean()
         std = recent_dates_db['dval'].std()
         return recent_dates_db,mean,std
     
     def all_time(self,db):
         db = db.drop_duplicates(subset=['date'],keep='last')
+        db = db.sort_values(by='date')
         mean = db['dval'].mean()
         std = db['dval'].std()
         return db,mean,std

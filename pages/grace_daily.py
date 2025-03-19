@@ -87,7 +87,7 @@ def rating(btn_submit,gdval,gdreason,is_open):
             'name': 'grace',
             'dval': int(gdval),
             'dreason': gdreason,
-            'date': "2025-02-19"#submitted_date
+            'date': submitted_date
         }
         
         data_base.collection.insert_one(data)

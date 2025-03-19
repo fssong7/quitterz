@@ -33,7 +33,7 @@ class dataAnalyzer():
         todays_date = date.today().strftime("%Y-%m-%d")
         dates = db['date'].astype(str)
         #print(todays_date)
-        index_check = 0
+        index_check = -1
         for index,value in dates.items():
             if value == todays_date:
                 #print(index)

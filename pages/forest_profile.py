@@ -58,7 +58,7 @@ layout = html.Div([
 def rating(href):
     forest_calc.update_db()
     index = forest_calc.todays_entry(forest_calc.forestdb)
-    #print(index)
+    print(index)
     if index == -1:
         return "forest has yet to submit his rating for today :("
     else:

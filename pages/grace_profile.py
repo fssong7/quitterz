@@ -62,7 +62,7 @@ def rating(href):
     if index == -1:
         return "grace has yet to submit her rating for today :("
     else:
-        dval = grace_calc.saradb.loc[index,'dval']
+        dval = grace_calc.gracedb.loc[index,'dval']
         return f'grace is feeling at a {dval} out of 10, and her reason is "' + str(grace_calc.gracedb.loc[index,'dreason']) + '"'
 
 @callback(

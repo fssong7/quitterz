@@ -32,11 +32,11 @@ class dataAnalyzer():
     def todays_entry(self,db):
         todays_date = date.today().strftime("%Y-%m-%d")
         dates = db['date'].astype(str)
-
+        print(todays_date)
         index_check = 0
         for index,value in dates.items():
             if value == todays_date:
-                #print(index)
+                print(index)
                 index_check = index
             else:
                 continue

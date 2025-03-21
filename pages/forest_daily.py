@@ -2,7 +2,8 @@ import dash
 from dash import Dash, html, dcc, callback,callback_context,Output, Input,State
 import dash_bootstrap_components as dbc
 from mongoDB import database
-from datetime import date
+from datetime import date,datetime
+import pytz
 
 
 dash.register_page(__name__)
@@ -82,7 +83,9 @@ def rating(btn_submit,fdval,fdreason,is_open):
     if btn_submit and fdval is not None:
         print(fdval)
         print(fdreason)
-        submitted_date = date.today().strftime("%Y-%m-%d")
+        eastern_tz = pytz.timezone("US/Eastern")
+        submitted_date = datetime.now(eastern_tz).strftime("%Y-%m-%d")
+        #submitted_date = date.today().strftime("%Y-%m-%d")
         data = {
             'name': 'forest',
             'dval': int(fdval),

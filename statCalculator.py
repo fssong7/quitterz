@@ -2,6 +2,7 @@
 # from dash import dcc, html
 # from dash.dependencies import Input, Output
 from datetime import date,timedelta,datetime
+import pytz
 from mongoDB import database
 import pandas as pd
 # import df
@@ -30,10 +31,12 @@ class dataAnalyzer():
             self.forestdb = self.forestdb.drop(column,axis=1)
 
     def todays_entry(self,db):
-        todays_date = date.today().strftime("%Y-%m-%d")
+        eastern_tz = pytz.timezone("US/Eastern")
+        todays_date = datetime.now(eastern_tz).strftime("%Y-%m-%d")
+        #todays_date = date.today().strftime("%Y-%m-%d")
         dates = db['date'].astype(str)
         #print(todays_date)
-        index_check = -1
+        index_check = 0
         for index,value in dates.items():
             if value == todays_date:
                 #print(index)

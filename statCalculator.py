@@ -53,7 +53,7 @@ class dataAnalyzer():
         db['date'] = pd.to_datetime(db['date'])
         recent_dates_db = db[db['date'] > seven_days_ago]
         recent_dates_db = recent_dates_db.drop_duplicates(subset=['date'],keep='last')
-        recent_dates_db = recent_dates_db.sort_values(by='date')
+        recent_dates_db = recent_dates_db.sort_values(by='date',ascending=False)
         mean = recent_dates_db['dval'].mean()
         std = recent_dates_db['dval'].std()
         return recent_dates_db,mean,std
@@ -63,14 +63,14 @@ class dataAnalyzer():
         db['date'] = pd.to_datetime(db['date'])
         recent_dates_db = db[db['date'] > thirty_days_ago]
         recent_dates_db = recent_dates_db.drop_duplicates(subset=['date'],keep='last')
-        recent_dates_db = recent_dates_db.sort_values(by='date')
+        recent_dates_db = recent_dates_db.sort_values(by='date',ascending=False)
         mean = recent_dates_db['dval'].mean()
         std = recent_dates_db['dval'].std()
         return recent_dates_db,mean,std
     
     def all_time(self,db):
         db = db.drop_duplicates(subset=['date'],keep='last')
-        db = db.sort_values(by='date')
+        db = db.sort_values(by='date',ascending=False)
         mean = db['dval'].mean()
         std = db['dval'].std()
         return db,mean,std

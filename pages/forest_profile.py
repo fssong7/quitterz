@@ -58,7 +58,7 @@ layout = html.Div([
 def rating(href):
     forest_calc.update_db()
     index = forest_calc.todays_entry(forest_calc.forestdb)
-    print(index)
+    #print(index)
     if index == -1:
         return "forest has yet to submit his rating for today :("
     else:
@@ -74,7 +74,7 @@ def update_graph_1(n_intervals):
     df,mean,std = forest_calc.seven_days(forest_calc.forestdb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the last week<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -93,7 +93,7 @@ def update_graph_2(n_intervals):
     df,mean,std = forest_calc.thirty_days(forest_calc.forestdb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the last thirty days<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -112,7 +112,7 @@ def update_graph_3(n_intervals):
     df,mean,std = forest_calc.all_time(forest_calc.forestdb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the entire history<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",

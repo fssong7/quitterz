@@ -74,7 +74,7 @@ def update_graph_1(n_intervals):
     df,mean,std = sara_calc.seven_days(sara_calc.saradb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the last week<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -93,7 +93,7 @@ def update_graph_2(n_intervals):
     df,mean,std = sara_calc.thirty_days(sara_calc.saradb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the last thirty days<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -112,7 +112,7 @@ def update_graph_3(n_intervals):
     df,mean,std = sara_calc.all_time(sara_calc.saradb)
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
         ],
         'layout': go.Layout(
             title=f"depression over the entire history<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",

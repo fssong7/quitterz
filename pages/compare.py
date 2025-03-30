@@ -139,7 +139,12 @@ def update_graph_1(n_intervals):
     fig.update_layout(title=f"quitterz over the last 7 days<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
                     xaxis={'title': 'date'},
                     yaxis={'title': 'depression level'},
-                    template="plotly_white")
+                    template="plotly_white",
+                    title_font_color="royalblue",
+                    legend=dict(
+                        yanchor="top",
+                        y = 0.5)
+                    )
     return fig
 
 @callback(
@@ -160,7 +165,12 @@ def update_graph_2(n_intervals):
     fig.update_layout(title=f"depression over the last 30 days<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
                     xaxis={'title': 'date'},
                     yaxis={'title': 'depression level'},
-                    template="plotly_white")
+                    template="plotly_white",
+                    title_font_color="royalblue",
+                    legend=dict(
+                        yanchor="top",
+                        y = 0.5)
+                    )
     return fig
 
 @callback(
@@ -178,24 +188,14 @@ def update_graph_3(n_intervals):
     fig.add_trace(go.Scatter(x=dfga["date"], y=dfga["dval"], mode='lines+markers', name="grace",opacity=0.8))
     fig.add_trace(go.Scatter(x=dffa["date"], y=dffa["dval"], mode='lines+markers', name="forest",opacity=0.6))
 
+
     fig.update_layout(title=f"quitterz throughout history<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
                     xaxis={'title': 'date'},
                     yaxis={'title': 'depression level'},
-                    template="plotly_white")
+                    template="plotly_white",
+                    title_font_color="royalblue",
+                    legend=dict(
+                        yanchor="top",
+                        y = 0.5)
+                    )
     return fig
-
-# @callback(
-#     Output('ftable','data'),
-#     Output('ftable','columns'),
-#     Input('url','href')
-# )
-# def display_data_on_load(data):
-#     forest_calc.update_db()
-#     df,mean,std = forest_calc.all_time(forest_calc.forestdb)
-#     data = df[['date','dval','dreason','name']]
-#     column = 'name'
-#     if column in data:
-#         data = data.drop(column,axis=1)
-#     data = data.rename(columns={'date':'date','dval':'depression level','dreason':'reason'})
-#     columns = [{"name": col, "id": col} for col in data.columns]
-#     return data.to_dict('records'),columns

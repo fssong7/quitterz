@@ -117,7 +117,7 @@ def sad_compare(href):
                 return 'good job grace, you are the saddest today!'
             else:
                 return 'good job forest, you are the saddest today!'
-        elif len(max_indices == 2):
+        elif len(max_indices) == 2:
             return "wow there's a tie, it's too annoying to code this"
         else:
             return "wow we all had the same rating, we're like triplets"

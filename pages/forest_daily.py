@@ -47,7 +47,7 @@ layout = html.Div([
         dbc.ModalHeader(dbc.ModalTitle("thanks for submitting forest")),
         dbc.ModalBody("hopefully tomorrow is a better day :)"),
         dbc.ModalFooter(
-            dcc.Link("return to home",href=dash.page_registry['pages.ahome']['path']),
+            dcc.Link("return to home",href='/'),#dash.page_registry['pages.ahome']['path']),
         ),
     ],
     id="fmodal",

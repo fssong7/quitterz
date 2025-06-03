@@ -43,8 +43,13 @@ layout = html.Div([
             {"name": col, "id": col} for col in init_df.keys()  # Dynamically create column headers
         ],
         data=init_df.to_dict('records'),  # Convert DataFrame to list of dictionaries
-        style_table={'height': '400px', 'overflowY': 'auto'},  # Optional: Make table scrollable
-        style_cell={'textAlign': 'center', 'padding': '10px'},  # Style for table cells
+        style_table={
+            'width': '98%',  # Make table take full width of its container
+            #'overflowX': 'auto',
+            #'overflowY': 'auto',
+            #'height': '400px'  # Allows horizontal scrolling if needed
+        },
+        style_cell={'whiteSpace': 'normal','textAlign': 'center', 'height':'auto','padding': '10px'},  # Style for table cells
         style_header={'backgroundColor': '#f5f5f5', 'fontWeight': 'bold'},  # Header style
         style_data={'backgroundColor': '#f9f9f9'},  # Data row style
     ),

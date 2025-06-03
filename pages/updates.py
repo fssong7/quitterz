@@ -4,12 +4,18 @@ from dash import html
 dash.register_page(__name__)
 
 layout = html.Div([
-    html.H4('last bug fixes update: 3/29/25'),
+    html.H4('most recent update: 6/3/25'),
+    html.Div('-fixed issue where grace wasnt being compared (srry grace)'),
+    html.Div('-wrap tables (ty sara)'),
+    html.Div('-memories'),
+    html.Div('-submit entries for days you may have missed'),
+
+    html.H4('prev update: 3/29/25'),
     html.Div('-reverse table list'),
     html.Div('-date timezone issue'),
     html.Div('-comparison page'),
 
-    html.H4('next major updates'),
+    html.H4('next major updates (never happening)'),
     html.Div('-calendar with strava bubbles'),
     html.Div('-send encouraging note to fellow quitter'),
     html.Div('-profile picture upload'),

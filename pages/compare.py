@@ -96,7 +96,7 @@ def sad_compare(href):
         sval = 0
     gindex = compare.todays_entry(compare.gracedb)
     try:
-        gval = compare.gracedb.loc[sindex,'dval']
+        gval = compare.gracedb.loc[gindex,'dval']
     except(KeyError):
         gval = 0
     findex = compare.todays_entry(compare.forestdb)
@@ -143,6 +143,8 @@ def update_graph_1(n_intervals):
                     yaxis={'title': 'depression level'},
                     template="plotly_white",
                     title_font_color="royalblue",
+                    title_x = 0.5,
+                    title_font=dict(size=14),
                     legend=dict(
                         yanchor="top",
                         y = 0.5)
@@ -169,6 +171,8 @@ def update_graph_2(n_intervals):
                     yaxis={'title': 'depression level'},
                     template="plotly_white",
                     title_font_color="royalblue",
+                    title_x = 0.5,
+                    title_font=dict(size=14),
                     legend=dict(
                         yanchor="top",
                         y = 0.5)
@@ -196,6 +200,8 @@ def update_graph_3(n_intervals):
                     yaxis={'title': 'depression level'},
                     template="plotly_white",
                     title_font_color="royalblue",
+                    title_x = 0.5,
+                    title_font=dict(size=14),
                     legend=dict(
                         yanchor="top",
                         y = 0.5)

@@ -61,7 +61,27 @@ app.layout = html.Div([
                         'margin': '5px',
                         'textAlign': 'center'
                     }
-                ), 
+                ),
+                html.Div(
+                    dcc.Link("old", href='/old', style={'textDecoration': 'none'}),
+                    style={
+                        'border': '1px solid', 
+                        'padding': '10px',
+                        'borderRadius': '5px',
+                        'margin': '5px',
+                        'textAlign': 'center'
+                    }
+                ),
+                html.Div(
+                    dcc.Link("memories", href='/memories', style={'textDecoration': 'none'}),
+                    style={
+                        'border': '1px solid', 
+                        'padding': '10px',
+                        'borderRadius': '5px',
+                        'margin': '5px',
+                        'textAlign': 'center'
+                    }
+                ),  
                 html.Div(
                     dcc.Link("updates", href='/updates', style={'textDecoration': 'none'}),
                     style={

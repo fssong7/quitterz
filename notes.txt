@@ -1,0 +1,9 @@
+TO DO:
+finish when db wokrs:
+[] compare callbacks
+[] old callbacks
+[] profile callbacks
+[] daily callbacks
+
+personal:
+[] fix environment on sab comp...

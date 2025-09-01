@@ -7,12 +7,12 @@ from statCalculator import dataAnalyzer
 import plotly.graph_objs as go
 
 dash.register_page(__name__)
-# forest_calc = dataAnalyzer()
-# init_df = pd.DataFrame({
-#     'name': [],
-#     'depression value': [],
-#     'reason': []
-# })
+forest_calc = dataAnalyzer()
+init_df = pd.DataFrame({
+    'name': [],
+    'depression value': [],
+    'reason': []
+})
 
 layout = html.Div([
     html.H2("memories",style={'textAlign':'center'}),

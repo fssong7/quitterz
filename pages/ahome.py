@@ -2,44 +2,41 @@ import dash
 from dash import Dash, html, dcc, callback,callback_context,Output, Input
 import dash_bootstrap_components as dbc
 
+from inputs import people
 
 dash.register_page(__name__, path='/')
 
-layout = html.Div([
-    html.H4('what is your name?',style={'textAlign':'center'}),
-    dcc.Link(
-        dbc.Button(
-            "sara barrows", id="btn-nclicks-1", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
-        ),href="/sara-daily",style={"text-decoration": "none"},),
-    html.Div(style={'padding': '5px'}),
-    
-    dcc.Link(
-        dbc.Button(
-            "grace patterson", id="btn-nclicks-2", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
-        ),href="/grace-daily",style={"text-decoration": "none"},),
-    html.Div(style={'padding': '5px'}),
-    
-    dcc.Link(
-        dbc.Button(
-            "forest song", id="btn-nclicks-3", size = "lg",className="d-grid gap-1 col-8 mx-auto", n_clicks=0,
-        ),href="/forest-daily",style={"text-decoration": "none"},),
-    html.Div(style={'padding': '5px'}),
-    html.Div(id='empty_container'),
-])
+layout = html.Div(
+    [
+        html.Div([
+            dcc.Link(
+                dbc.Button(
+                    f"{person['name_first']} {person['name_last']}",
+                    id=f"btn-nclicks-{person['name_first']}-{person['name_last']}",
+                    size="lg",
+                    className="d-grid gap-1 col-8 mx-auto",
+                    n_clicks=0,
+                ),
+                href=f"/{person['name_first']}-daily",
+                style={"text-decoration": "none"},
+            ),
+            html.Div(style={'padding': '5px'}),
+        ])
+        for person in people
+    ] +
+    [html.Div(id='empty_container')]
+)
 
 @callback(
     Output('empty_container', 'children'),
-    Input('btn-nclicks-1', 'n_clicks'),
-    Input('btn-nclicks-2', 'n_clicks'),
-    Input('btn-nclicks-3', 'n_clicks'),
+    [Input(f"""btn-nclicks-{person["name_first"]}-{person["name_last"]}""",'n_clicks') for person in people],
+
 )
 
-def displayClick(btn1,btn2,btn3):
+def displayClick(*btns):
     changed_id = [p['prop_id'] for p in callback_context.triggered][0]
-    if 'btn-nclicks-1' in changed_id:
-        print("sara pressed")
-    elif 'btn-nclicks-2' in changed_id:
-        print("grace pressed")
-    elif 'btn-nclicks-3' in changed_id:
-        print("forest pressed")
-    return
+    for person in people:
+        btn_id = f'btn-nclicks-{person["name_first"]}-{person["name_last"]}'
+        if btn_id in changed_id:
+            print(f'{person["name_first"]} pressed')
+    return 

@@ -5,11 +5,9 @@ from mongoDB import database
 from datetime import date,datetime
 import pytz
 
-from inputs import people
-
 today = datetime.today().strftime('%Y-%m-%d')
 dash.register_page(__name__)
-# data_base = database()
+data_base = database()
 
 layout = html.Div([
     html.H2('welcome quitter',style={'textAlign':'center'}),
@@ -21,7 +19,7 @@ layout = html.Div([
     style={'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'},
     children=[
         dcc.DatePickerSingle(
-            id='date_picker',
+            id='date_picker-old',
             date=today,  # Set the default date
             display_format='YYYY-MM-DD',  # Format of the date
             style={
@@ -33,9 +31,11 @@ layout = html.Div([
     ),
     html.Div(style={'padding': '5px'}),
     dbc.Col(
-        dbc.Select(id="name",placeholder="your name",
+        dbc.Select(id="name-old",placeholder="your name",
             options=[
-                {"label": person["nickname"],"value": person["name_first"]} for person in people
+                {"label": "sabby barr","value": "sara"},
+                {"label": "gabby patty","value": "grace"},
+                {"label": "trash","value": "forest"},
             ],
         ),
         width={"size":8,"offset":2},
@@ -43,7 +43,7 @@ layout = html.Div([
 
     html.Div(style={'padding': '5px'}),
     dbc.Col(
-        dbc.Select(id="depressionlvl",placeholder="depression level",
+        dbc.Select(id="depressionlvl-old",placeholder="depression level",
             options=[
                 {"label": f"{i}","value": f"{i}"} for i in range(1,11)
             ],
@@ -52,17 +52,17 @@ layout = html.Div([
     ),
     html.Div(style={'padding': '5px'}),
     html.Div('reason (optional)',style={'textAlign':'center'}),
-    dbc.Col(dbc.Input(id="reason",type="text",placeholder="your 13th reason"),width={"size":10,"offset":1}),
+    dbc.Col(dbc.Input(id="reason-old",type="text",placeholder="your 13th reason"),width={"size":10,"offset":1}),
     
     html.Div(style={'padding': '20px'}),
     dbc.Button(
-        "submit", id="btn_submit", size = "lg",className="d-grid gap-1 col-6 mx-auto", n_clicks=0,
+        "submit", id="btn_submit-old", size = "lg",className="d-grid gap-1 col-6 mx-auto", n_clicks=0,
     ),
-    html.Div(id='dbtn'),
-    dcc.Store(id='idname'),
-    dcc.Store(id='iddate'),
-    dcc.Store(id='idval'),
-    dcc.Store(id='idreason'),
+    # html.Div(id='dbtn'),
+    # dcc.Store(id='idname'),
+    # dcc.Store(id='iddate'),
+    # dcc.Store(id='idval'),
+    # dcc.Store(id='idreason'),
     dbc.Modal(
     [
         dbc.ModalHeader(dbc.ModalTitle("thanks for submitting")),
@@ -71,74 +71,50 @@ layout = html.Div([
             dcc.Link("return to home",href='/'),#dash.page_registry['pages.ahome']['path']),
         ),
     ],
-    id="imodal",
+    id="modal-old",
     is_open=False,
 ),
 ])
 
 @callback(
-    Output('date_picker', 'date'),
+    Output('date_picker-old', 'date'),
     Input('url', 'pathname')  # or any input that triggers on page load
 )
 def update_date_picker(pathname):
     return datetime.today().strftime('%Y-%m-%d')
 
-# @callback(
-#     Output('idname','data'),
-#     Input('name','value')
-# )
-# def rating(name):
-#     return name
 
-# @callback(
-#     Output('iddate','data'),
-#     Input('date_picker','date')
-# )
-# def rating(date_picker):
-#     return date_picker
-
-# @callback(
-#     Output('idval','data'),
-#     Input('depressionlvl','value')
-# )
-# def rating(depressionlvl):
-#     return depressionlvl
-
-# @callback(
-#     Output('idreason','data'),
-#     Input('reason','value')
-# )
-# def rating(reason):
-#     return reason
-
-# @callback(
-#     Output('imodal','is_open'),
-#     Input('btn_submit', 'n_clicks'),
-#     Input('idname','data'),
-#     Input('iddate','data'),
-#     Input('idval','data'),
-#     Input('idreason','data'),
-#     [State("imodal", "is_open")],
-#     allow_duplicate=True
-# )
-# def rating(btn_submit,idname,iddate,idval,idreason,is_open):
-#     #changed_id = [p['prop_id'] for p in callback_context.triggered][0]
+@callback(
+    Output('modal-old','is_open'),
+    Input('btn_submit-old', 'n_clicks'),
+    State('name-old','value'),
+    State('date_picker-old','date'),
+    State('depressionlvl-old','value'),
+    State('reason-old','value'),
+    prevent_initial_call=True
+    
+)
+def rating(btn_submit,name,date_picker,depression_lvl,reason):
+    #changed_id = [p['prop_id'] for p in callback_context.triggered][0]
   
-#     if btn_submit and idname and iddate and idval is not None:
-#         print(idname)
-#         print(iddate)
-#         print(idval)
-#         print(idreason)
-#         # eastern_tz = pytz.timezone("US/Eastern")
-#         # submitted_date = datetime.now(eastern_tz).strftime("%Y-%m-%d")
-#         #submitted_date = date.today().strftime("%Y-%m-%d")
-#         data = {
-#             'name': idname,
-#             'dval': int(idval),
-#             'dreason': idreason,
-#             'date': iddate#submitted_date
-#         }
+    if btn_submit and name and date_picker and depression_lvl is not None:
+        print(name)
+        print(date_picker)
+        print(depression_lvl)
+        print(reason)
+        # eastern_tz = pytz.timezone("US/Eastern")
+        # submitted_date = datetime.now(eastern_tz).strftime("%Y-%m-%d")
+        #submitted_date = date.today().strftime("%Y-%m-%d")
+        data = {
+            'name': name,
+            'dval': int(depression_lvl),
+            'dreason': reason,
+            'date': date_picker#submitted_date
+        }
         
-#         data_base.collection.insert_one(data)
-#         return not is_open
-#     return is_open
+        data_base.collection.insert_one(data)
+        return True
+    return False
+
+
+

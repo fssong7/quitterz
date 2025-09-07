@@ -110,7 +110,7 @@ def rating(person):
     index = analyzers[person["name_first"]].todays_entry(df)
     #print(index)
     if index == -1:
-        return "forest has yet to submit his rating for today :("
+        return f"""{person["name_first"]} has yet to submit {person["pronoun_obj"]} rating for today :("""
     else:
         dval = df.loc[index,'dval']
         dreason = df.loc[index,'dreason']

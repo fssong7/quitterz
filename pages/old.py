@@ -5,6 +5,8 @@ from mongoDB import database
 from datetime import date,datetime, timedelta
 import pytz
 
+from inputs import people
+
 today = datetime.today().strftime('%Y-%m-%d')
 dash.register_page(__name__)
 data_base = database()
@@ -33,9 +35,8 @@ layout = html.Div([
     dbc.Col(
         dbc.Select(id="name-old",placeholder="your name",
             options=[
-                {"label": "sabby barr","value": "sara"},
-                {"label": "gabby patty","value": "grace"},
-                {"label": "trash","value": "forest"},
+                {"label": person["nickname"],"value":person["name_first"]} for person in people
+
             ],
         ),
         width={"size":8,"offset":2},

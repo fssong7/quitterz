@@ -4,6 +4,9 @@ from dash import html
 dash.register_page(__name__)
 
 layout = html.Div([
+    html.H4('modularize: 9/6/25'),
+    html.Div("9/1/25 - sara gets access to repo and applys her type A mindset to codebase."),
+
     html.H4('most recent update: 6/3/25'),
     html.Div('-fixed issue where grace wasnt being compared (srry grace)'),
     html.Div('-wrap tables (ty sara)'),
@@ -24,4 +27,4 @@ layout = html.Div([
     html.Div('-dskafj;lsdkfjsdklfja;ksldfj ji i hate myself'),
     #html.Div('-reverse order of datatable'),
     html.Div('-moving averages')
-])
+], style={'margin': '0 40px'})

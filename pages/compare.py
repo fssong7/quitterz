@@ -75,7 +75,7 @@ def rating(href):
     allow_duplicate=True
 )
 def sad_compare(href):
-
+    print("running sad_compare on compar")
     vals = {}
 
     for name, analyzer in compare.items():

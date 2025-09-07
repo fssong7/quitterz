@@ -2,7 +2,7 @@ import dash
 from dash import Dash, html, dcc, callback,callback_context,Output, Input,State
 import dash_bootstrap_components as dbc
 from mongoDB import database
-from datetime import date,datetime
+from datetime import date,datetime, timedelta
 import pytz
 
 today = datetime.today().strftime('%Y-%m-%d')
@@ -64,16 +64,17 @@ layout = html.Div([
     # dcc.Store(id='idval'),
     # dcc.Store(id='idreason'),
     dbc.Modal(
-    [
-        dbc.ModalHeader(dbc.ModalTitle("thanks for submitting")),
-        dbc.ModalBody("ur cool :)"),
-        dbc.ModalFooter(
-            dcc.Link("return to home",href='/'),#dash.page_registry['pages.ahome']['path']),
-        ),
-    ],
-    id="modal-old",
-    is_open=False,
-),
+        [
+            dbc.ModalHeader(dbc.ModalTitle("thanks for submitting")),
+            dbc.ModalBody("ur cool :)"),
+            dbc.ModalFooter(
+                dcc.Link("return to home",href='/'),#dash.page_registry['pages.ahome']['path']),
+            ),
+        ],
+        id="modal-old",
+        is_open=False,
+    ),
+    dcc.Location(id='url', refresh=False),
 ])
 
 @callback(
@@ -81,11 +82,17 @@ layout = html.Div([
     Input('url', 'pathname')  # or any input that triggers on page load
 )
 def update_date_picker(pathname):
-    return datetime.today().strftime('%Y-%m-%d')
+
+    eastern = pytz.timezone("US/Eastern")
+    now_eastern = datetime.now(eastern)
+
+    yesterday_eastern = now_eastern - timedelta(days=1)
+    return yesterday_eastern.strftime('%Y-%m-%d')
 
 
 @callback(
     Output('modal-old','is_open'),
+    
     Input('btn_submit-old', 'n_clicks'),
     State('name-old','value'),
     State('date_picker-old','date'),
@@ -98,6 +105,7 @@ def rating(btn_submit,name,date_picker,depression_lvl,reason):
     #changed_id = [p['prop_id'] for p in callback_context.triggered][0]
   
     if btn_submit and name and date_picker and depression_lvl is not None:
+
         print(name)
         print(date_picker)
         print(depression_lvl)

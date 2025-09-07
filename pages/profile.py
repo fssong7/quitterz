@@ -136,7 +136,7 @@ def update_graph_1(n_intervals, personn):
         'layout': go.Layout(
             title=f"depression over the last week<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level'}
+            yaxis={'title': 'depression level', 'range': [0, 11]}
         )
     }
     return figure
@@ -159,7 +159,7 @@ def update_graph_2(n_intervals, person):
         'layout': go.Layout(
             title=f"depression over the last thirty days<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level'}
+            yaxis={'title': 'depression level', 'range': [0, 11]}
         )
     }
     return figure
@@ -181,7 +181,7 @@ def update_graph_3(n_intervals, person):
         'layout': go.Layout(
             title=f"depression over the entire history<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level'}
+            yaxis={'title': 'depression level', 'range': [0, 11]}
         )
     }
     return figure

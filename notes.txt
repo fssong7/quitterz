@@ -1,9 +1,11 @@
 TO DO:
 [] add in last name for everything
 [] make coder more organized overall
+[x] scale
+[] hover with reasons
 
 personal:
-[] fix environment on sab comp...
+[x] fix environment on sab comp...
 [] fix my entries that got messed up
 
 Forest:

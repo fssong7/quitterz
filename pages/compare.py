@@ -124,7 +124,7 @@ def update_graph_1(n_intervals):
 
     fig.update_layout(title=f"quitterz over the last 7 days<br>" + "<br>".join(titles),
                     xaxis={'title': 'date'},
-                    yaxis={'title': 'depression level'},
+                    yaxis={'title': 'depression level', 'range': [0, 11]},
                     template="plotly_white",
                     title_font_color="royalblue",
                     title_x = 0.5,
@@ -155,7 +155,7 @@ def update_graph_2(n_intervals):
 
         fig.update_layout(title=f"quitterz over the last 30 days<br>" + "<br>".join(titles),
                         xaxis={'title': 'date'},
-                        yaxis={'title': 'depression level'},
+                        yaxis={'title': 'depression level', 'range': [0, 11]},
                         template="plotly_white",
                         title_font_color="royalblue",
                         title_x = 0.5,
@@ -187,7 +187,7 @@ def update_graph_3(n_intervals):
 
         fig.update_layout(title=f"quitterz throughout history<br>" + "<br>".join(titles),
                         xaxis={'title': 'date'},
-                        yaxis={'title': 'depression level'},
+                        yaxis={'title': 'depression level', 'range': [0, 11]},
                         template="plotly_white",
                         title_font_color="royalblue",
                         title_x = 0.5,

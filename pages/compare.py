@@ -10,7 +10,7 @@ from statCalculator import dataAnalyzer
 
 dash.register_page(__name__)
 
-# compare = dataAnalyzer()
+compare = {person["name_first"]: dataAnalyzer() for person in people}
 
 layout = html.Div([
     html.H2("comparison",style={'textAlign':'center'}),
@@ -46,171 +46,155 @@ layout = html.Div([
 ])
 
 
-# @callback(
-#     Output('sara info','children'),
-#     Input('url','href'),
-#     allow_duplicate=True
-# )
-# def srating(href):
-#     compare.update_db()
-#     index = compare.todays_entry(compare.saradb)
-#     #print(index)
-#     if index == -1:
-#         return "sara has yet to submit her rating for today :("
-#     else:
-#         dval = compare.saradb.loc[index,'dval']
-#         return f'sara is feeling at a {dval} out of 10, and her reason is "' + str(compare.saradb.loc[index,'dreason']) + '"'
+@callback(
+    Output('info','children'),
+    Input('url','href'),
+    allow_duplicate=True
+)
+def rating(href):
+    for analyzer in compare.values():
+        analyzer.update_db()
+
+    messages=[]
+
+    for name, analyzer in compare.items():
+        df = analyzer.db[name]  
+        index = analyzer.todays_entry(df)
+        if index == -1:
+            messages.append(f"{name} has yet to submit their rating for today :(")
+        else:
+            dval = df.loc[index,'dval']
+            dreason = df.loc[index,'dreason']
+            messages.append(f"{name} is feeling at a {dval} out of 10, and their reason is \"{dreason}\"")
+
+    return html.Div([html.P(msg) for msg in messages])
     
-# @callback(
-#     Output('grace info','children'),
-#     Input('url','href'),
-#     allow_duplicate=True
-# )
-# def grating(href):
-#     compare.update_db()
-#     index = compare.todays_entry(compare.gracedb)
-#     #print(index)
-#     if index == -1:
-#         return "grace has yet to submit her rating for today :("
-#     else:
-#         dval = compare.gracedb.loc[index,'dval']
-#         return f'grace is feeling at a {dval} out of 10, and her reason is "' + str(compare.gracedb.loc[index,'dreason']) + '"'
-# @callback(
-#     Output('forest info','children'),
-#     Input('url','href'),
-#     allow_duplicate=True
-# )
-# def frating(href):
-#     compare.update_db()
-#     index = compare.todays_entry(compare.forestdb)
-#     #print(index)
-#     if index == -1:
-#         return "forest has yet to submit his rating for today :("
-#     else:
-#         dval = compare.forestdb.loc[index,'dval']
-#         return f'forest is feeling at a {dval} out of 10, and his reason is "' + str(compare.forestdb.loc[index,'dreason']) + '"'
+@callback(
+    Output('saddest','children'),
+    Input('url','href'),
+    allow_duplicate=True
+)
+def sad_compare(href):
 
-# @callback(
-#     Output('saddest','children'),
-#     Input('url','href'),
-#     allow_duplicate=True
-# )
-# def sad_compare(href):
-#     sindex = compare.todays_entry(compare.saradb)
-#     try:
-#         sval = compare.saradb.loc[sindex,'dval']
-#     except(KeyError):
-#         sval = 0
-#     gindex = compare.todays_entry(compare.gracedb)
-#     try:
-#         gval = compare.gracedb.loc[gindex,'dval']
-#     except(KeyError):
-#         gval = 0
-#     findex = compare.todays_entry(compare.forestdb)
-#     try:
-#         fval = compare.forestdb.loc[findex,'dval']
-#     except(KeyError):
-#         fval = 0
-#     vals = [sval,gval,fval]
-#     if (sindex == -1 and gindex == -1 and findex == -1):
-#         return 'nobody had submitted their ratings for today'
-#     else:
-#         highest_val = max(num for num in vals if num == num)
-#         max_indices = [i for i, num in enumerate(vals) if num == highest_val]
-#         if len(max_indices) == 1:
-#             if (max_indices[0] == 0):
-#                 return 'good job sara, you are the saddest today!'
-#             elif (max_indices[0] == 1):
-#                 return 'good job grace, you are the saddest today!'
-#             else:
-#                 return 'good job forest, you are the saddest today!'
-#         elif len(max_indices) == 2:
-#             return "wow there's a tie, it's too annoying to code this"
-#         else:
-#             return "wow we all had the same rating, we're like triplets"
-        
-# @callback(
-#     Output('graph-seven', 'figure'),
-#     Input('interval-1', 'n_intervals')
-# )
-# def update_graph_1(n_intervals):
-#     compare.update_db()
-#     dfs,smean,sstd = compare.seven_days(compare.saradb)
-#     dfg,gmean,gstd = compare.seven_days(compare.gracedb)
-#     dff,fmean,fstd = compare.seven_days(compare.forestdb)
+    vals = {}
 
-#     fig = go.Figure()
+    for name, analyzer in compare.items():
+        df = analyzer.db[name]  
+        index = analyzer.todays_entry(df)
+        try:
+            dval = df.loc[index, 'dval'] if index != -1 else None
+        except (KeyError, IndexError):
+            dval = None
+        vals[name] = dval
 
-#     fig.add_trace(go.Scatter(x=dfs["date"], y=dfs["dval"], mode='lines+markers', name="sara"))
-#     fig.add_trace(go.Scatter(x=dfg["date"], y=dfg["dval"], mode='lines+markers', name="grace",opacity=0.8))
-#     fig.add_trace(go.Scatter(x=dff["date"], y=dff["dval"], mode='lines+markers', name="forest",opacity=0.6))
+        submitted = {name: val for name, val in vals.items() if val is not None}
 
-#     fig.update_layout(title=f"quitterz over the last 7 days<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
-#                     xaxis={'title': 'date'},
-#                     yaxis={'title': 'depression level'},
-#                     template="plotly_white",
-#                     title_font_color="royalblue",
-#                     title_x = 0.5,
-#                     title_font=dict(size=14),
-#                     legend=dict(
-#                         yanchor="top",
-#                         y = 0.5)
-#                     )
-#     return fig
+    if not submitted:
+        return "nobody had submitted their ratings for today"
+    
+    lowest_val = min(submitted.values())
+    saddest = [name for name, val in submitted.items() if val == lowest_val]
 
-# @callback(
-#     Output('graph-thirty', 'figure'),
-#     Input('interval-2', 'n_intervals')
-# )
-# def update_graph_2(n_intervals):
-#     compare.update_db()
-#     dfst,smean,sstd = compare.thirty_days(compare.saradb)
-#     dfgt,gmean,gstd = compare.thirty_days(compare.gracedb)
-#     dfft,fmean,fstd = compare.thirty_days(compare.forestdb)
-#     fig = go.Figure()
+    if len(saddest) == 1:
+        return f"good job {saddest[0]}, you are the saddest today!"
+    elif len(saddest) == len(submitted):
+        return "wow we all had the same rating, we're like triplets"
+    else:
+        tied_names = ", ".join(saddest)
+        return f"Wow, there's a tie for saddest today: {tied_names}!"
+    
 
-#     fig.add_trace(go.Scatter(x=dfst["date"], y=dfst["dval"], mode='lines+markers', name="sara"))
-#     fig.add_trace(go.Scatter(x=dfgt["date"], y=dfgt["dval"], mode='lines+markers', name="grace",opacity=0.8))
-#     fig.add_trace(go.Scatter(x=dfft["date"], y=dfft["dval"], mode='lines+markers', name="forest",opacity=0.6))
-
-#     fig.update_layout(title=f"depression over the last 30 days<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
-#                     xaxis={'title': 'date'},
-#                     yaxis={'title': 'depression level'},
-#                     template="plotly_white",
-#                     title_font_color="royalblue",
-#                     title_x = 0.5,
-#                     title_font=dict(size=14),
-#                     legend=dict(
-#                         yanchor="top",
-#                         y = 0.5)
-#                     )
-#     return fig
-
-# @callback(
-#     Output('graph-all', 'figure'),
-#     Input('interval-3', 'n_intervals')
-# )
-# def update_graph_3(n_intervals):
-#     compare.update_db()
-#     dfsa,smean,sstd = compare.all_time(compare.saradb)
-#     dfga,gmean,gstd = compare.all_time(compare.gracedb)
-#     dffa,fmean,fstd = compare.all_time(compare.forestdb)
-#     fig = go.Figure()
-
-#     fig.add_trace(go.Scatter(x=dfsa["date"], y=dfsa["dval"], mode='lines+markers', name="sara"))
-#     fig.add_trace(go.Scatter(x=dfga["date"], y=dfga["dval"], mode='lines+markers', name="grace",opacity=0.8))
-#     fig.add_trace(go.Scatter(x=dffa["date"], y=dffa["dval"], mode='lines+markers', name="forest",opacity=0.6))
+@callback(
+    Output('graph-seven', 'figure'),
+    Input('interval-1', 'n_intervals')
+)
+def update_graph_1(n_intervals):
+    titles=[]
+    for analyzer in compare.values():
+        analyzer.update_db()
 
 
-#     fig.update_layout(title=f"quitterz throughout history<br>sara: avg rating of {round(smean,2)} and std of {round(sstd,2)}<br>grace: avg rating of {round(gmean,2)} and std of {round(gstd,2)}<br>forest: avg rating of {round(fmean,2)} and std of {round(fstd,2)}",
-#                     xaxis={'title': 'date'},
-#                     yaxis={'title': 'depression level'},
-#                     template="plotly_white",
-#                     title_font_color="royalblue",
-#                     title_x = 0.5,
-#                     title_font=dict(size=14),
-#                     legend=dict(
-#                         yanchor="top",
-#                         y = 0.5)
-#                     )
-#     return fig
+    fig = go.Figure()
+
+    for name, analyzer in compare.items():
+        df = analyzer.db[name]
+        recent_df, mean, std = analyzer.seven_days(df)
+        fig.add_trace(go.Scatter(x=recent_df["date"], y=recent_df["dval"], mode='lines+markers', name=name))
+        titles.append(f"{name}: avg rating of {round(mean,2)} and std of {round(std,2)}")
+
+    fig.update_layout(title=f"quitterz over the last 7 days<br>" + "<br>".join(titles),
+                    xaxis={'title': 'date'},
+                    yaxis={'title': 'depression level'},
+                    template="plotly_white",
+                    title_font_color="royalblue",
+                    title_x = 0.5,
+                    title_font=dict(size=14),
+                    legend=dict(
+                        yanchor="top",
+                        y = 0.5)
+                    )
+    return fig
+
+@callback(
+    Output('graph-thirty', 'figure'),
+    Input('interval-2', 'n_intervals')
+)
+def update_graph_2(n_intervals):
+        titles=[]
+        for analyzer in compare.values():
+            analyzer.update_db()
+
+
+        fig = go.Figure()
+
+        for name, analyzer in compare.items():
+            df = analyzer.db[name]
+            recent_df,mean,std = analyzer.thirty_days(df)
+            fig.add_trace(go.Scatter(x=recent_df["date"], y=recent_df["dval"], mode='lines+markers', name=name))
+            titles.append(f"{name}: avg rating of {round(mean,2)} and std of {round(std,2)}")
+
+        fig.update_layout(title=f"quitterz over the last 30 days<br>" + "<br>".join(titles),
+                        xaxis={'title': 'date'},
+                        yaxis={'title': 'depression level'},
+                        template="plotly_white",
+                        title_font_color="royalblue",
+                        title_x = 0.5,
+                        title_font=dict(size=14),
+                        legend=dict(
+                            yanchor="top",
+                            y = 0.5)
+                        )
+        return fig
+    
+
+@callback(
+    Output('graph-all', 'figure'),
+    Input('interval-3', 'n_intervals')
+)
+def update_graph_3(n_intervals):
+        titles=[]
+        for analyzer in compare.values():
+            analyzer.update_db()
+
+
+        fig = go.Figure()
+
+        for name, analyzer in compare.items():
+            df = analyzer.db[name]
+            recent_df,mean,std = analyzer.all_time(df)
+            fig.add_trace(go.Scatter(x=recent_df["date"], y=recent_df["dval"], mode='lines+markers', name=name))
+            titles.append(f"{name}: avg rating of {round(mean,2)} and std of {round(std,2)}")
+
+        fig.update_layout(title=f"quitterz throughout history<br>" + "<br>".join(titles),
+                        xaxis={'title': 'date'},
+                        yaxis={'title': 'depression level'},
+                        template="plotly_white",
+                        title_font_color="royalblue",
+                        title_x = 0.5,
+                        title_font=dict(size=14),
+                        legend=dict(
+                            yanchor="top",
+                            y = 0.5)
+                        )
+        return fig
+    

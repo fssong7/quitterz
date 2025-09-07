@@ -41,7 +41,8 @@ def fetch_person(pathname):
 
 @callback(
     Output('profile-container', 'children'),
-    Input('profile-name', 'data')
+    Input('profile-name', 'data'),
+    
 )
 def update_profile(person):
 
@@ -104,21 +105,29 @@ def update_profile(person):
 )
 def rating(person):
     analyzers[person["name_first"]].update_db()
-    index = analyzers[person["name_first"]].todays_entry(analyzers[person["name_first"]].forestdb)
+    df = analyzers[person["name_first"]].db[person["name_first"]]
+    index = analyzers[person["name_first"]].todays_entry(df)
     #print(index)
     if index == -1:
         return "forest has yet to submit his rating for today :("
     else:
-        dval = analyzers[person["name_first"]].forestdb.loc[index,'dval']
-        return f'forest is feeling at a {dval} out of 10, and his reason is "' + str(analyzers[person["name_first"]].forestdb.loc[index,'dreason']) + '"'
+        dval = df.loc[index,'dval']
+        dreason = df.loc[index,'dreason']
+        return f'{person["name_first"]} is feeling at a {dval} out of 10, and {person["pronoun_obj"]} reason is "{dreason}"'
 
 @callback(
     Output(f"""graph-1""", 'figure'),
-    Input(f"""interval-1""", 'n_intervals')
+    Input(f"""interval-1""", 'n_intervals'),
+    State("profile-name", "data")
 )
-def update_graph_1(n_intervals):
-    analyzers[person["name_first"]].update_db()
-    df,mean,std = analyzers[person["name_first"]].seven_days(analyzers[person["name_first"]].forestdb)
+def update_graph_1(n_intervals, personn):
+    if not personn:
+        raise PreventUpdate
+    
+    name = personn["name_first"]
+    analyzers[name].update_db()
+    
+    df,mean,std = analyzers[name].seven_days(analyzers[name].db[name])
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
@@ -133,11 +142,15 @@ def update_graph_1(n_intervals):
 
 @callback(
     Output(f"""graph-2""", 'figure'),
-    Input(f"""interval-2""", 'n_intervals')
+    Input(f"""interval-2""", 'n_intervals'),
+    State("profile-name", "data")
 )
-def update_graph_2(n_intervals):
-    analyzers[person["name_first"]].update_db()
-    df,mean,std = analyzers[person["name_first"]].thirty_days(analyzers[person["name_first"]].forestdb)
+def update_graph_2(n_intervals, person):
+    name = person["name_first"]
+    analyzers[name].update_db()
+    
+    df,mean,std = analyzers[name].thirty_days(analyzers[name].db[name])
+
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
@@ -152,11 +165,14 @@ def update_graph_2(n_intervals):
 
 @callback(
     Output(f"""graph-3""", 'figure'),
-    Input(f"""interval-3""", 'n_intervals')
+    Input(f"""interval-3""", 'n_intervals'),
+    State("profile-name", "data")
 )
-def update_graph_3(n_intervals):
-    analyzers[person["name_first"]].update_db()
-    df,mean,std = analyzers[person["name_first"]].all_time(analyzers[person["name_first"]].forestdb)
+def update_graph_3(n_intervals, person):
+    name = person["name_first"]
+    analyzers[name].update_db()
+    
+    df,mean,std = analyzers[name].all_time(analyzers[name].db[name])
     figure = {
         'data': [
             go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
@@ -176,7 +192,7 @@ def update_graph_3(n_intervals):
 )
 def display_data_on_load(person):
     analyzers[person["name_first"]].update_db()
-    df,mean,std = analyzers[person["name_first"]].all_time(analyzers[person["name_first"]].forestdb)
+    df,mean,std = analyzers[person["name_first"]].all_time(analyzers[person["name_first"]].db[person["name_first"]])
     data = df[['date','dval','dreason','name']]
     column = 'name'
     if column in data:

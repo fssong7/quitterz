@@ -16,7 +16,7 @@ people = [
      {"name_first": "forest",
      "name_last": "song",
      "pronoun_sub": "he",
-     "pronoun_obj": "him",
+     "pronoun_obj": "his",
      "nickname": "trash / antonio's excretion",
      "birthday": "07/18/1998"},
 ]

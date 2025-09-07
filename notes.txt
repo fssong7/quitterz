@@ -1,9 +1,6 @@
 TO DO:
-finish when db wokrs:
-[] compare callbacks
-[] old callbacks
-[x] profile callbacks
-[x] daily callbacks
+[] add in last name for everything
+[] make coder more organized overall
 
 personal:
 [] fix environment on sab comp...
@@ -12,3 +9,11 @@ personal:
 Forest:
 [] add me to mongo db
 [] modify render env vars
+
+
+depr:
+finish when db wokrs:
+[x] compare callbacks
+[x] old callbacks
+[x] profile callbacks
+[x] daily callbacks

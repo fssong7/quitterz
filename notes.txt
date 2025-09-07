@@ -10,6 +10,21 @@ Forest:
 [] add me to mongo db
 [] modify render env vars
 
+v2:
+9/6:
+all backend changes.
+
+- new inputs page for names & details
+- in ahome, daily, profile, and compare pages, bring modularity that works based on name inputs
+- in statCalculator, modified dataAnalyzer to run for all people
+- for daily, profile, and old, simplify button submissions and callbacks
+- in profile, text wrap for long words in table
+- in old, data submits only when button is clicked
+- in old, calendar auto updates to be yesterdays date
+- keys.py in gitignore for mongodb access
+
+
+
 
 depr:
 finish when db wokrs:

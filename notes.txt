@@ -25,6 +25,10 @@ all backend changes.
 - in old, calendar auto updates to be yesterdays date
 - keys.py in gitignore for mongodb access
 
+9/9/25
+- added distribution chart to profiles & compare
+- moving average for compare all time plot by week
+- fixed bug in compare today's entries section
 
 
 

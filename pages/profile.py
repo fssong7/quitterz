@@ -78,6 +78,11 @@ def update_profile(person):
             ])
         ]),
         html.Div(style={'padding': '20px'}),
+        html.Div([
+            dcc.Graph(id="curve"),
+            dcc.Interval(id=f"""interval-4""", interval=10000, n_intervals=0)
+        ]),
+        html.Div(style={'padding': '20px'}),
         dash_table.DataTable(
             id=f"""table""",
             columns=[
@@ -136,7 +141,8 @@ def update_graph_1(n_intervals, personn):
         'layout': go.Layout(
             title=f"depression over the last week<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level', 'range': [0, 11]}
+            yaxis={'title': 'depression level', 'range': [0, 11]},
+            template="plotly_white",
         )
     }
     return figure
@@ -159,7 +165,8 @@ def update_graph_2(n_intervals, person):
         'layout': go.Layout(
             title=f"depression over the last thirty days<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level', 'range': [0, 11]}
+            yaxis={'title': 'depression level', 'range': [0, 11]},
+            template="plotly_white",
         )
     }
     return figure
@@ -181,10 +188,42 @@ def update_graph_3(n_intervals, person):
         'layout': go.Layout(
             title=f"depression over the entire history<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
             xaxis={'title': 'date'},
-            yaxis={'title': 'depression level', 'range': [0, 11]}
+            yaxis={'title': 'depression level', 'range': [0, 11]},
+            template="plotly_white",
         )
     }
     return figure
+
+@callback(
+    Output("curve", 'figure'),
+    Input(f"""interval-4""", 'n_intervals'),
+    State("profile-name", "data")
+)
+def update_graph_4(n_intervals, person):
+    name = person["name_first"]
+    analyzers[name].update_db()
+    
+    df,mean,std = analyzers[name].all_time(analyzers[name].db[name])
+    
+    counts = df['dval'].value_counts().sort_index()
+    figure = {
+        'data': [
+            go.Bar(x=counts.index, y=counts.values, name='y vs x'),
+            go.Scatter(x=counts.index, y=counts.values, mode='lines+markers', name='y vs x',
+                       line=dict(shape='spline', smoothing=1.3, color='red'))
+            
+        ],
+        
+        'layout': go.Layout(
+            title=f"distribution of depression over the entire history",
+            xaxis={'title': 'rating','range': [0, 11]},
+            yaxis={'title': 'count',},
+            template="plotly_white",
+            showlegend=False
+        )
+    }
+    return figure
+
 
 @callback(
     Output(f"""table""",'data'),

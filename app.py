@@ -73,6 +73,6 @@ class MainApp():
 
 if __name__ == '__main__':
     app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH], use_pages=True, suppress_callback_exceptions=True)
-    app = MainApp(app)
     server = app.server
+    app = MainApp(app)
     app.app.run_server(debug=True, port=8063)

@@ -7,24 +7,11 @@ import pandas as pd
 
 from inputs import people, styles
 
-
-class MainApp():
-
-    def __init__(self, app):
-        super().__init__()
-        self.app = app 
-        # self.server = self.app.server
+app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH],use_pages=True,suppress_callback_exceptions=True)
+server = app.server
 
 
-        self.app.layout = html.Div([
-            self.ahome()
-        ])
-        
-    
-
-
-    def ahome(self):
-        return html.Div([
+app.layout = html.Div([
                 html.H1('quitterz depression tracker',style=styles["center"]),
                 html.Div('keeping tabs on how we feel until we become happy or die',style=styles["center"]),
                 html.Div(
@@ -69,9 +56,7 @@ class MainApp():
                 dash.page_container,
             ])
 
-
 if __name__ == '__main__':
-    dash_app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH], use_pages=True, suppress_callback_exceptions=True)
-    server = dash_app.server  # keep the server
-    app = MainApp(dash_app)   # wrap dash app in your class
-    dash_app.run_server(debug=True, port=8063)
+    app.run(debug=False, port=8063)
+
+

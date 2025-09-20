@@ -2,13 +2,14 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import os
 
-from keys import mongo_uri
+
 
 class database:
     def __init__(self):
         self.status = os.environ.get("APP_STATUS", "LOCAL")
 
         if self.status=="LOCAL":
+            from keys import mongo_uri
             self.uri = mongo_uri
         elif self.status=="DEPLOY":
             self.uri = os.environ.get("MONGO_URI")

@@ -13,7 +13,7 @@ class MainApp():
     def __init__(self, app):
         super().__init__()
         self.app = app 
-       
+        # self.server = self.app.server
 
 
         self.app.layout = html.Div([
@@ -70,9 +70,8 @@ class MainApp():
             ])
 
 
-
 if __name__ == '__main__':
-    app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH], use_pages=True, suppress_callback_exceptions=True)
-    server = app.server
-    app = MainApp(app)
-    app.app.run_server(debug=True, port=8063)
+    dash_app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH], use_pages=True, suppress_callback_exceptions=True)
+    server = dash_app.server  # keep the server
+    app = MainApp(dash_app)   # wrap dash app in your class
+    dash_app.run_server(debug=True, port=8063)

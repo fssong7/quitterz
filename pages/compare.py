@@ -97,10 +97,13 @@ def sad_compare(href):
             dval = None
         vals[name] = dval
     submitted = {name: val for name, val in vals.items() if val is not None}
+    print(submitted)
     if not submitted:
-        return "Nobody had submitted their ratings for today."
-    lowest_val = min(submitted.values())
-    saddest = [name for name, val in submitted.items() if val == lowest_val]
+        return "nobody has submitted their ratings for today"
+    most_depressed = max(submitted.values())
+    print(most_depressed)
+    saddest = [name for name, val in submitted.items() if val == most_depressed]
+    print(saddest)
     if len(saddest) == 1:
         return f"Good job {saddest[0]}, you are the saddest today!"
     elif len(saddest) == len(submitted) and len(submitted) == len(people):

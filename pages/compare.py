@@ -61,11 +61,18 @@ def rating(href):
     messages=[]
 
     for name, analyzer in compare.items():
+        print("analyzer.db:", analyzer.db)
+
         df = analyzer.db[name]  
+        
+        # print(df.head())
         index = analyzer.todays_entry(df)
+        print(index)
         if index == -1:
+            print("nothign submitted")
             messages.append(f"{name} has yet to submit their rating for today :(")
         else:
+            print("from today")
             dval = df.loc[index,'dval']
             dreason = df.loc[index,'dreason']
             messages.append(f"{name} is feeling at a {dval} out of 10, and their reason is \"{dreason}\"")

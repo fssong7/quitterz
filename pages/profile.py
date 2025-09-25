@@ -32,12 +32,32 @@ layout = html.Div([
     Input('url', 'pathname')
 )
 def fetch_person(pathname):
+    # if not pathname:
+    #     return {}  # instead of None, return empty dict
+    # profile_id = pathname.strip('/')
+    # name_first = profile_id.split('-')[0]
+    # return next((p for p in people if p['name_first'] == name_first), {})
     if not pathname:
-        return {}  # instead of None, return empty dict
+        return {}  # no URL yet
+    
     profile_id = pathname.strip('/')
     name_first = profile_id.split('-')[0]
-    return next((p for p in people if p['name_first'] == name_first), {})
 
+    # 🔹 Try to find existing person
+    person = next((p for p in people if p['name_first'] == name_first), None)
+
+    if not person:
+        # 🔹 If not found, create a new one
+        person = {
+            "name_first": name_first,
+            "name_last": "",   # or fetch from input later
+            "pronoun_sub": "they",
+            "pronoun_obj": "their"
+        }
+        people.append(person)  # keep it in memory
+        analyzers[name_first] = dataAnalyzer()  # give them a fresh analyzer
+
+    return person
 
 @callback(
     Output('profile-container', 'children'),
@@ -143,6 +163,7 @@ def update_graph_1(n_intervals, personn):
             xaxis={'title': 'date'},
             yaxis={'title': 'depression level', 'range': [0, 11]},
             template="plotly_white",
+            title_x=0.5
         )
     }
     return figure
@@ -167,6 +188,7 @@ def update_graph_2(n_intervals, person):
             xaxis={'title': 'date'},
             yaxis={'title': 'depression level', 'range': [0, 11]},
             template="plotly_white",
+            title_x=0.5
         )
     }
     return figure
@@ -190,6 +212,7 @@ def update_graph_3(n_intervals, person):
             xaxis={'title': 'date'},
             yaxis={'title': 'depression level', 'range': [0, 11]},
             template="plotly_white",
+            title_x=0.5
         )
     }
     return figure
@@ -219,7 +242,8 @@ def update_graph_4(n_intervals, person):
             xaxis={'title': 'rating','range': [0, 11]},
             yaxis={'title': 'count',},
             template="plotly_white",
-            showlegend=False
+            showlegend=False,
+            title_x=0.5
         )
     }
     return figure

@@ -20,12 +20,12 @@ people = [
      "nickname": "trash / antonio's excrement",
      "birthday": "07/08/1998"},
 
-     {"name_first": "sara's knees",
-     "name_last": "tracking",
-     "pronoun_sub": "the",
-     "pronoun_obj": "theirs",
-     "nickname": "not the bees knees",
-     "birthday": "01/18/2000"},
+    #  {"name_first": "sarahealth",
+    #  "name_last": "tracking",
+    #  "pronoun_sub": "they",
+    #  "pronoun_obj": "theirs",
+    #  "nickname": "not the bees knees",
+    #  "birthday": "01/18/2000"},
 ]
 
 # for person in people:

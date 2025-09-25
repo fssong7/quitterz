@@ -5,6 +5,9 @@ from mongoDB import database
 from datetime import date,datetime
 import pytz
 
+
+from statCalculator import dataAnalyzer
+
 from inputs import people
 
 for person in people:
@@ -24,11 +27,35 @@ layout = html.Div([
     Input('url', 'pathname')
 )
 def fetch_person(pathname):
+    # if not pathname:
+    #     return {}  # instead of None, return empty dict
+    # profile_id = pathname.strip('/')
+    # name_first = profile_id.split('-')[0]
+    # return next((p for p in people if p['name_first'] == name_first), {})
+  
     if not pathname:
-        return {}  # instead of None, return empty dict
+        return {}  # no URL yet
+    
     profile_id = pathname.strip('/')
     name_first = profile_id.split('-')[0]
-    return next((p for p in people if p['name_first'] == name_first), {})
+
+    # 🔹 Try to find existing person
+    person = next((p for p in people if p['name_first'] == name_first), None)
+
+    if not person:
+        # 🔹 If not found, create a new one with default pronouns
+        person = {
+            "name_first": name_first,
+            "name_last": "",
+            "pronoun_sub": "they",
+            "pronoun_obj": "their"
+        }
+        people.append(person)
+        analyzers[name_first] = dataAnalyzer()
+
+    return person
+
+
 
 @callback(
     Output('daily-container', 'children'),

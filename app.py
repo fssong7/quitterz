@@ -3,7 +3,7 @@ from dash import Dash, html, dcc, callback, Output, Input
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
-
+import os
 
 from inputs import people, styles
 
@@ -57,6 +57,12 @@ app.layout = html.Div([
             ])
 
 # if __name__ == '__main__':
-app.run(host="0.0.0.0", debug=False)
+
+status = os.environ.get("APP_STATUS", "LOCAL")
+if status == "LOCAL":
+    app.run(port=1863, debug=True)
+elif status == "DEPLOY":
+    app.run(host="0.0.0.0", debug=False)
+
 
 

@@ -5,6 +5,7 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 import plotly.graph_objs as go
 from dash.exceptions import PreventUpdate
+import datetime as datetime
 
 from statCalculator import dataAnalyzer
 from inputs import people
@@ -154,9 +155,19 @@ def update_graph_1(n_intervals, personn):
     analyzers[name].update_db()
     
     df,mean,std = analyzers[name].seven_days(analyzers[name].db[name])
+
+    hover_text = [
+        f"Date: {row['date'].strftime('%Y-%m-%d')}<br>"
+        # f"Name: {row['name']}<br>"
+        f"Value: {row['dval']}<br>"
+        f"Reason: {'<br>'.join([str(row['dreason'])[i:i+80] for i in range(0, len(str(row['dreason'])), 80)])}"
+        for _, row in df.iterrows()
+    ]
+
+
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x',text=hover_text,hoverinfo='text')
         ],
         'layout': go.Layout(
             title=f"depression over the last week<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -179,9 +190,17 @@ def update_graph_2(n_intervals, person):
     
     df,mean,std = analyzers[name].thirty_days(analyzers[name].db[name])
 
+    hover_text = [
+        f"Date: {row['date'].strftime('%Y-%m-%d')}<br>"
+        # f"Name: {row['name']}<br>"
+        f"Value: {row['dval']}<br>"
+        f"Reason: {'<br>'.join([str(row['dreason'])[i:i+80] for i in range(0, len(str(row['dreason'])), 80)])}"
+        for _, row in df.iterrows()
+    ]
+
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x',text=hover_text,hoverinfo='text')
         ],
         'layout': go.Layout(
             title=f"depression over the last thirty days<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -203,9 +222,19 @@ def update_graph_3(n_intervals, person):
     analyzers[name].update_db()
     
     df,mean,std = analyzers[name].all_time(analyzers[name].db[name])
+
+    hover_text = [
+        f"Date: {str(row['date']).split(' ')[0]}<br>"
+        # f"Name: {row['name']}<br>"
+        f"Value: {row['dval']}<br>"
+        f"Reason: {'<br>'.join([str(row['dreason'])[i:i+80] for i in range(0, len(str(row['dreason'])), 80)])}"
+        for _, row in df.iterrows()
+    ]
+
+
     figure = {
         'data': [
-            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x')
+            go.Scatter(x=df['date'], y=df['dval'], mode='lines+markers', name='y vs x',text=hover_text,hoverinfo='text')
         ],
         'layout': go.Layout(
             title=f"depression over the entire history<br>with an avg rating of {round(mean,2)} and std of {round(std,2)}",
@@ -213,6 +242,7 @@ def update_graph_3(n_intervals, person):
             yaxis={'title': 'depression level', 'range': [0, 11]},
             template="plotly_white",
             title_x=0.5
+            
         )
     }
     return figure

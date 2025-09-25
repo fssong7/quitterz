@@ -61,18 +61,18 @@ def rating(href):
     messages=[]
 
     for name, analyzer in compare.items():
-        print("analyzer.db:", analyzer.db)
+        # print("analyzer.db:", analyzer.db)
 
         df = analyzer.db[name]  
         
         # print(df.head())
         index = analyzer.todays_entry(df)
-        print(index)
+        # print(index)
         if index == -1:
-            print("nothign submitted")
+            # print("nothign submitted")
             messages.append(f"{name} has yet to submit their rating for today :(")
         else:
-            print("from today")
+            # print("from today")
             dval = df.loc[index,'dval']
             dreason = df.loc[index,'dreason']
             messages.append(f"{name} is feeling at a {dval} out of 10, and their reason is \"{dreason}\"")
@@ -85,7 +85,7 @@ def rating(href):
     allow_duplicate=True
 )
 def sad_compare(href):
-    print("running sad_compare on compar")
+    # print("running sad_compare on compar")
     
     vals = {}
     for name, analyzer in compare.items():
@@ -126,7 +126,31 @@ def update_graph_1(n_intervals):
     for name, analyzer in compare.items():
         df = analyzer.db[name]
         recent_df, mean, std = analyzer.seven_days(df)
-        fig.add_trace(go.Scatter(x=recent_df["date"], y=recent_df["dval"], mode='lines+markers', name=name))
+         
+        hover_text = [
+            f"Date: {row['date'].strftime('%Y-%m-%d')}<br>"
+            f"Name: {row['name']}<br>"
+            f"Value: {row['dval']}<br>"
+            f"Reason: {'<br>'.join([str(row['dreason'])[i:i+80] for i in range(0, len(str(row['dreason'])), 80)])}"
+            for _, row in recent_df.iterrows()
+        ]
+            
+
+        fig.add_trace(go.Scatter(
+            x=recent_df["date"],
+            y=recent_df["dval"],
+            mode='lines+markers',
+            name=name,
+            text=hover_text,
+            hoverinfo='text',
+            hoverlabel=dict(
+                bgcolor="white",
+                bordercolor="black",
+                font_size=12,
+                font_family="Arial",
+                align="left"
+            )
+        ))
         titles.append(f"{name}: avg rating of {round(mean,2)} and std of {round(std,2)}")
 
     fig.update_layout(title=f"quitterz over the last 7 days<br>" + "<br>".join(titles),
@@ -157,7 +181,31 @@ def update_graph_2(n_intervals):
         for name, analyzer in compare.items():
             df = analyzer.db[name]
             recent_df,mean,std = analyzer.thirty_days(df)
-            fig.add_trace(go.Scatter(x=recent_df["date"], y=recent_df["dval"], mode='lines+markers', name=name))
+            
+            hover_text = [
+                f"Date: {row['date'].strftime('%Y-%m-%d')}<br>"
+                f"Name: {row['name']}<br>"
+                f"Value: {row['dval']}<br>"
+                f"Reason: {'<br>'.join([str(row['dreason'])[i:i+80] for i in range(0, len(str(row['dreason'])), 80)])}"
+                for _, row in recent_df.iterrows()
+            ]
+                
+
+            fig.add_trace(go.Scatter(
+                x=recent_df["date"],
+                y=recent_df["dval"],
+                mode='lines+markers',
+                name=name,
+                text=hover_text,
+                hoverinfo='text',
+                hoverlabel=dict(
+                    bgcolor="white",
+                    bordercolor="black",
+                    font_size=12,
+                    font_family="Arial",
+                    align="left"
+                )
+            ))
             titles.append(f"{name}: avg rating of {round(mean,2)} and std of {round(std,2)}")
 
         fig.update_layout(title=f"quitterz over the last 30 days<br>" + "<br>".join(titles),

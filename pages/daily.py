@@ -126,8 +126,8 @@ def rating(btn_submit,name,depressionlvl,reason):
     #changed_id = [p['prop_id'] for p in callback_context.triggered][0]
     
     if btn_submit and depressionlvl is not None:
-        print(depressionlvl)
-        print(reason)
+        # print(depressionlvl)
+        # print(reason)
         eastern_tz = pytz.timezone("US/Eastern")
         submitted_date = datetime.now(eastern_tz).strftime("%Y-%m-%d")
         #submitted_date = date.today().strftime("%Y-%m-%d")

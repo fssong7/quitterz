@@ -1,0 +1,7047 @@
+[{
+  "_id": {
+    "$oid": "67d9660a5b954dc3cbe76981"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I hate my life",
+  "date": "2025-03-18"
+},
+{
+  "_id": {
+    "$oid": "67da0aaf8b68166269ea9e55"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Feel bad physically, run sucked. Idk why I’d rather die than go grocery shopping",
+  "date": "2025-03-18"
+},
+{
+  "_id": {
+    "$oid": "67db51e0953b0d4395106626"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-03-19"
+},
+{
+  "_id": {
+    "$oid": "67db5c0f90f17e46ac8ae21a"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "I’m actually so sad and melancholic and hate my life and myself and everything but it’s fine bc I am not important and I don’t matter",
+  "date": "2025-03-19"
+},
+{
+  "_id": {
+    "$oid": "67dbfbaedb74db8a6d367b23"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Put me out of my misery. ",
+  "date": "2025-03-20"
+},
+{
+  "_id": {
+    "$oid": "67dca58ad4e0c8f031161058"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Confused",
+  "date": "2025-03-20"
+},
+{
+  "_id": {
+    "$oid": "67dd978076d07331a9fbe98f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "The more I think about it the more guilty I feel about how mean I was yesterday. Why am I like this",
+  "date": "2025-03-21"
+},
+{
+  "_id": {
+    "$oid": "67de30ace918a3b3ff30d9da"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Should I off myself tomorrow",
+  "date": "2025-03-21"
+},
+{
+  "_id": {
+    "$oid": "67deb55c88ace833cf0fd53e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I actually want to kill myself and hate myself but what’s new",
+  "date": "2025-03-22"
+},
+{
+  "_id": {
+    "$oid": "67deb64688ace833cf0fd53f"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "I slept for 12 hours, anime new ep just dropped, and am high rn so life is güd",
+  "date": "2025-03-22"
+},
+{
+  "_id": {
+    "$oid": "67df4185dc9857855eb83b65"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "Resolve",
+  "date": "2025-03-22"
+},
+{
+  "_id": {
+    "$oid": "67e03e674d21b2dfc8e4c3f9"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "Met cute dowgs at park, eating good noodles, getting high later",
+  "date": "2025-03-23"
+},
+{
+  "_id": {
+    "$oid": "67e03fb84d21b2dfc8e4c3fa"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I didn’t know it was possible to hate myself this much",
+  "date": "2025-03-23"
+},
+{
+  "_id": {
+    "$oid": "67e03fbc4d21b2dfc8e4c3fb"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I didn’t know it was possible to hate myself this much",
+  "date": "2025-03-23"
+},
+{
+  "_id": {
+    "$oid": "67e078be4fc84c39985d8ad9"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "Run went as good as it could have today, and hanging out w friends even though they hate me",
+  "date": "2025-03-23"
+},
+{
+  "_id": {
+    "$oid": "67e1431fc3484454024e9d0a"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I won’t not be depressed and stressed until after my presentation and Europe trip",
+  "date": "2025-03-24"
+},
+{
+  "_id": {
+    "$oid": "67e19781841acf1a09b7ca27"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Not even Jupiter can find a lost opportunity ",
+  "date": "2025-03-24"
+},
+{
+  "_id": {
+    "$oid": "67e2a5462bab24daca94aafc"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I had forgotten this feeling, that makes me question my core being. Need to repress it again or I’ll go insane",
+  "date": "2025-03-25"
+},
+{
+  "_id": {
+    "$oid": "67e2bbf47ad33b078c9f35c0"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Cried on the way to work idk why but I couldn’t stop",
+  "date": "2025-03-25"
+},
+{
+  "_id": {
+    "$oid": "67e2c3d9de4d4aa0832ade44"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "booooo but my interview was promising yesterday. cried myself to sleep 👍",
+  "date": "2025-03-25"
+},
+{
+  "_id": {
+    "$oid": "67e3e350e109607571052ffb"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "I know it won’t last",
+  "date": "2025-03-26"
+},
+{
+  "_id": {
+    "$oid": "67e40febc841558dc8c31f7e"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i’ve been so stressed that i have 6 canker sores atm ;( BUT more houses to tourrr",
+  "date": "2025-03-26"
+},
+{
+  "_id": {
+    "$oid": "67e45ad0c7d3deb9aac19adc"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "哈哈笑笑",
+  "date": "2025-03-26"
+},
+{
+  "_id": {
+    "$oid": "67e52ce7178fe00622f886f9"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Maybe I won’t cry today for the first time in weeks",
+  "date": "2025-03-27"
+},
+{
+  "_id": {
+    "$oid": "67e5d89084318f8bec53a3f1"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Take care of the little things everyday",
+  "date": "2025-03-27"
+},
+{
+  "_id": {
+    "$oid": "67e5e4f41c1c8c771a862825"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "meh",
+  "date": "2025-03-27"
+},
+{
+  "_id": {
+    "$oid": "67e67d5c3e0bb2ac263db07a"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I want to die and I don’t know why I ever try to be honest with the people in my life. I’m seeing my family friends tonight, maybe that will make me feel better. Prob not. I’m a lost cause. ",
+  "date": "2025-03-28"
+},
+{
+  "_id": {
+    "$oid": "67e710a6126b1a98601c6a3a"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "It’s not that I believe I can do it, I just have to do it to justify my existence ",
+  "date": "2025-03-28"
+},
+{
+  "_id": {
+    "$oid": "67e8291e8dc0b87fa35b5379"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I thought I wasn’t gonna cry today but I’m depressed so I can’t help it and feel hopeless",
+  "date": "2025-03-29"
+},
+{
+  "_id": {
+    "$oid": "67e87bab0f9e0da2c4147fcf"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Fish filet and tofu hit harder than my parents",
+  "date": "2025-03-29"
+},
+{
+  "_id": {
+    "$oid": "67e8b41ac8c78e0291d1440f"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "wet soggy and cold",
+  "date": "2025-03-29"
+},
+{
+  "_id": {
+    "$oid": "67e8c72dffb3a6cf9f22fa23"
+  },
+  "name": "forest",
+  "dval": 1,
+  "dreason": "Test",
+  "date": "2025-03-30"
+},
+{
+  "_id": {
+    "$oid": "67e96392e0e2ae3faa335a0f"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I miss the way things were. I might just do it one of these days. (Do it referring to offing myself)",
+  "date": "2025-03-30"
+},
+{
+  "_id": {
+    "$oid": "67e99522cc1d7e8999f726eb"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "Hip hurt so bad could barely sleep, last long run was v hard. Went grocery shopping tho 😎I like drinking juice from the carton directly",
+  "date": "2025-03-30"
+},
+{
+  "_id": {
+    "$oid": "67ea7cf7e32acaba3cd66acd"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I know it will go up bc i hate work and am dying and want to kms",
+  "date": "2025-03-31"
+},
+{
+  "_id": {
+    "$oid": "67eaeb3e9b1b06a242cee0a9"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-03-31"
+},
+{
+  "_id": {
+    "$oid": "67eaeb689b1b06a242cee0aa"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-03-31"
+},
+{
+  "_id": {
+    "$oid": "67eb01b8b8d6a29cf36ec7b4"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-03-31"
+},
+{
+  "_id": {
+    "$oid": "67ebb4b51dffda3121d7a11e"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Why am I always in the shittiest of moods at the airport. I hate everything and want to cry but am in public so I won’t. ",
+  "date": "2025-04-01"
+},
+{
+  "_id": {
+    "$oid": "67ec5020d468a7e45952898e"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Need to decide soon",
+  "date": "2025-04-01"
+},
+{
+  "_id": {
+    "$oid": "67ed2adfa45071a004254ec0"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I had a nightmare last night I want to curl up into a ball and die",
+  "date": "2025-04-02"
+},
+{
+  "_id": {
+    "$oid": "67edd440555c4b977fb421eb"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "joipjpklj;lkj;",
+  "date": "2025-04-02"
+},
+{
+  "_id": {
+    "$oid": "67ee785e9379660632832f06"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Woke up and my knees felt okay but i think they are pulling a prank on me and will start hurting soon.  Also been having terrible dreams lately but haven’t cried yet this morning so we’re thriving",
+  "date": "2025-04-03"
+},
+{
+  "_id": {
+    "$oid": "67eecc86c71b3e6468eb79ff"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "月虹",
+  "date": "2025-04-03"
+},
+{
+  "_id": {
+    "$oid": "67eff547ad3928a1ec90d09b"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Surprisingly ok today but still #depressed. I still end up having a minor mental breakdown yesterday bc i can’t handle work. ",
+  "date": "2025-04-04"
+},
+{
+  "_id": {
+    "$oid": "67eff99abe7dacb97784923c"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "",
+  "date": "2025-04-04"
+},
+{
+  "_id": {
+    "$oid": "67f19b20967ae79dab0b2d02"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I am still depressed don’t u worry",
+  "date": "2025-04-05"
+},
+{
+  "_id": {
+    "$oid": "67f19b40967ae79dab0b2d03"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "meow",
+  "date": "2025-04-05"
+},
+{
+  "_id": {
+    "$oid": "67f1bcfa00ce86c946e07de1"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "did alot of cleaning today",
+  "date": "2025-04-05"
+},
+{
+  "_id": {
+    "$oid": "67f28ca915004ce24f362ea0"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Hip pain got no sleep. Why do I keep making the same mistakes over and over",
+  "date": "2025-04-06"
+},
+{
+  "_id": {
+    "$oid": "67f2ac5b11d124f82552614c"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Honestly more stressed than depressed today",
+  "date": "2025-04-06"
+},
+{
+  "_id": {
+    "$oid": "67f3d9ba2078d6ccc361385d"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Tfw u have to stay mentally strong prior to a marathon but have to stay a weekend with the song family and can’t walk w/o pain",
+  "date": "2025-04-07"
+},
+{
+  "_id": {
+    "$oid": "67f461e52c49b0e041f3fd98"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Worked 10 hrs today. Thriving. I love life. ",
+  "date": "2025-04-07"
+},
+{
+  "_id": {
+    "$oid": "67f541170cedb50ef804e226"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I hate my life I want to die - at baseline and not depressed depressed anymore tho",
+  "date": "2025-04-08"
+},
+{
+  "_id": {
+    "$oid": "67f57051a256f28690b042da"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": ".",
+  "date": "2025-04-08"
+},
+{
+  "_id": {
+    "$oid": "67f65ea2c300e1ae5490f22c"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "I’m gonna end it all today. I feel sick to my stomach. ",
+  "date": "2025-04-09"
+},
+{
+  "_id": {
+    "$oid": "67f6c31eb50573b0dbfad021"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Protect those precious memories. Also woah my sis got a professor job at Princeton 🤯🤯🤯",
+  "date": "2025-04-09"
+},
+{
+  "_id": {
+    "$oid": "67f7f412d1493b1ead11bd51"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "REGRET. I feel like a fool. ",
+  "date": "2025-04-10"
+},
+{
+  "_id": {
+    "$oid": "67f8203455a91de64a56d330"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Broken",
+  "date": "2025-04-10"
+},
+{
+  "_id": {
+    "$oid": "67f8f7d74f720563b7d93306"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "So nervios and stressed but it’s fine I need to get my act together and stop being such an anxious bean",
+  "date": "2025-04-11"
+},
+{
+  "_id": {
+    "$oid": "67f98a032b210c8821ea0cfd"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Feels like the world is just out to get me sometimes. But I suppose this time it truly is the consequences of my own actions",
+  "date": "2025-04-11"
+},
+{
+  "_id": {
+    "$oid": "67fad35479dbac87cb22fde7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I am stressed but also feel this is the calm before the storm",
+  "date": "2025-04-12"
+},
+{
+  "_id": {
+    "$oid": "67fafefa3ea780856a4a2944"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Hard work will always pay off, just not always in the way you expect",
+  "date": "2025-04-12"
+},
+{
+  "_id": {
+    "$oid": "67fc1b4a930bbf9cc391f4a7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Museums were fun albeit tiring and lonely. Plus I feel I’m back to square one. But yay to forest for running a marathon!",
+  "date": "2025-04-13"
+},
+{
+  "_id": {
+    "$oid": "67fc593bab7f1ce8c25221ee"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "disapointed but then I realized its like whatever",
+  "date": "2025-04-13"
+},
+{
+  "_id": {
+    "$oid": "67fd26464b168d02a84ba5eb"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "Every leg muscle hurts. Took the day off work and being a bum 😇",
+  "date": "2025-04-14"
+},
+{
+  "_id": {
+    "$oid": "67fd63ad4b168d02a84ba5ec"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Can I say 8.5 instead. I hate everything and want to disappear. ",
+  "date": "2025-04-14"
+},
+{
+  "_id": {
+    "$oid": "67fe9e1ddbc051a0513a5a80"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "So tired today terrible headache ",
+  "date": "2025-04-15"
+},
+{
+  "_id": {
+    "$oid": "67febca644738e77620ba078"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Fml. ",
+  "date": "2025-04-15"
+},
+{
+  "_id": {
+    "$oid": "68000627a514ee589e80b38e"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "My running form looks terrible",
+  "date": "2025-04-16"
+},
+{
+  "_id": {
+    "$oid": "68006dcb94430caa5793d3b5"
+  },
+  "name": "grace",
+  "dval": 4,
+  "dreason": "good interviews and mc w forest ",
+  "date": "2025-04-16"
+},
+{
+  "_id": {
+    "$oid": "6801218e2906524f9c0e531e"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Going to steal sara’s suit jacket ",
+  "date": "2025-04-17"
+},
+{
+  "_id": {
+    "$oid": "68017d796d08156a87addd60"
+  },
+  "name": "sara",
+  "dval": 3,
+  "dreason": "Relief. Silvia said our presentation was miles better than all the other ones. ",
+  "date": "2025-04-17"
+},
+{
+  "_id": {
+    "$oid": "680235647b7a806b1080fdfb"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "bizarre depressing dream",
+  "date": "2025-04-18"
+},
+{
+  "_id": {
+    "$oid": "680256ea3d34dcb0f824147b"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I hate that I’m so insecure. I hate that I’m jealous of other people’s happiness. I hate that I’m saying this, it makes me sick. I hate that I keep a distance from others but crave attention. I hate that I don’t care about the important things but am set off by the unimportant ones. I hate that I no longer believe in myself and never will again. I hate that I look down on others for being way worse than me while still thinking I’m a genius and trash at the same time. I hate myself I hate myself. I want to destroy myself so I can suffer. Why am I saying these things. It feels like I’ve taken so many wrong turns in life, and there’s no chance of ever being happy now because of those decisions.",
+  "date": "2025-04-18"
+},
+{
+  "_id": {
+    "$oid": "680256fb3d34dcb0f824147c"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I hate that I’m so insecure. I hate that I’m jealous of other people’s happiness. I hate that I’m saying this, it makes me sick. I hate that I keep a distance from others but crave attention. I hate that I don’t care about the important things but am set off by the unimportant ones. I hate that I no longer believe in myself and never will again. I hate that I look down on others for being way worse than me while still thinking I’m a genius and trash at the same time. I hate myself I hate myself. I want to destroy myself so I can suffer. Why am I saying these things. It feels like I’ve taken so many wrong turns in life, and there’s no chance of ever being happy now because of those decisions.",
+  "date": "2025-04-18"
+},
+{
+  "_id": {
+    "$oid": "6803c327710f3abf33e841a6"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i need to make a irl platform to jump off of ",
+  "date": "2025-04-19"
+},
+{
+  "_id": {
+    "$oid": "6803e26f710f3abf33e841a7"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-04-19"
+},
+{
+  "_id": {
+    "$oid": "680530386386530edcbf5180"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-04-20"
+},
+{
+  "_id": {
+    "$oid": "6806abc0c6b425e98516639c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-04-21"
+},
+{
+  "_id": {
+    "$oid": "6807c75703fa835c74055740"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Downward spiral",
+  "date": "2025-04-22"
+},
+{
+  "_id": {
+    "$oid": "68093aa321289174e5ae41d9"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "It’s ogre",
+  "date": "2025-04-23"
+},
+{
+  "_id": {
+    "$oid": "680a764d3f0c7c36442fb10d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Activation energy for anything is so high",
+  "date": "2025-04-24"
+},
+{
+  "_id": {
+    "$oid": "680c0adb54124d8add405f97"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Just don’t think",
+  "date": "2025-04-25"
+},
+{
+  "_id": {
+    "$oid": "680d181cd792d6afceb56df4"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "what am i doing with my life",
+  "date": "2025-04-18"
+},
+{
+  "_id": {
+    "$oid": "680d183dd792d6afceb56df5"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "im glad im horizontal rn. 17 miles down, blisters for dayz",
+  "date": "2025-04-19"
+},
+{
+  "_id": {
+    "$oid": "680d18aad792d6afceb56df6"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "idk how i survived today. y legs are weak. 7 more days lol",
+  "date": "2025-04-21"
+},
+{
+  "_id": {
+    "$oid": "680d18edd792d6afceb56df7"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "gustavo and elena bought me a lemonade.",
+  "date": "2025-04-22"
+},
+{
+  "_id": {
+    "$oid": "680d1926d792d6afceb56df8"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "my blisters will be the death of me. lunch=scenic.",
+  "date": "2025-04-23"
+},
+{
+  "_id": {
+    "$oid": "680d195ed792d6afceb56df9"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "my legs hurt and im lonely but i got a thicc hot chocolate",
+  "date": "2025-04-20"
+},
+{
+  "_id": {
+    "$oid": "680d199dd792d6afceb56dfa"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "my pinkies are throbbing and i want my own bed",
+  "date": "2025-04-24"
+},
+{
+  "_id": {
+    "$oid": "680d19ddd792d6afceb56dfb"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "i think im hitting my stride here, good bunk bed chats.",
+  "date": "2025-04-25"
+},
+{
+  "_id": {
+    "$oid": "680d1a25d792d6afceb56dfc"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "prob best day yet, in a good routine now, chatted with folks",
+  "date": "2025-04-26"
+},
+{
+  "_id": {
+    "$oid": "680d3163c36e753fbcc81d9e"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "mc w best bud. why is grace leaving us :(",
+  "date": "2025-04-26"
+},
+{
+  "_id": {
+    "$oid": "680ecb3846b9fcc0676d4f7f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Struggling",
+  "date": "2025-04-27"
+},
+{
+  "_id": {
+    "$oid": "680fcfff6bd939a94ccb663e"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-04-28"
+},
+{
+  "_id": {
+    "$oid": "681166c75f4c55cf3f77ff97"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Nothing ever goes how I want",
+  "date": "2025-04-29"
+},
+{
+  "_id": {
+    "$oid": "6811785636d15a7546532545"
+  },
+  "name": "sara",
+  "dval": 2,
+  "dreason": "\"so should we walk today?\" + dinner serendipity",
+  "date": "2025-04-27"
+},
+{
+  "_id": {
+    "$oid": "681178a136d15a7546532546"
+  },
+  "name": "sara",
+  "dval": 2,
+  "dreason": "the wine made it a 10/10 despite no pwr",
+  "date": "2025-04-28"
+},
+{
+  "_id": {
+    "$oid": "681178b536d15a7546532547"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "happy for the adventure sad for goodbyes",
+  "date": "2025-04-29"
+},
+{
+  "_id": {
+    "$oid": "6811fc5bda5c9d097d3f15db"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Fml i have cried 3 times today and I’m not even back at work yet",
+  "date": "2025-04-30"
+},
+{
+  "_id": {
+    "$oid": "6811fc63da5c9d097d3f15dc"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Fml i have cried 3 times today and I’m not even offici back at work yet",
+  "date": "2025-04-30"
+},
+{
+  "_id": {
+    "$oid": "6811fc69da5c9d097d3f15dd"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Fml i have cried 3 times today and I’m not even officially back at work yet",
+  "date": "2025-04-30"
+},
+{
+  "_id": {
+    "$oid": "6811fc6bda5c9d097d3f15de"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Fml i have cried 3 times today and I’m not even officially back at work yet",
+  "date": "2025-04-30"
+},
+{
+  "_id": {
+    "$oid": "6812630f822d838cb263b9c9"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "At my limit",
+  "date": "2025-04-30"
+},
+{
+  "_id": {
+    "$oid": "6813b0357c8f0fbca3db47eb"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Surprising feel okay despite everything that’s happened today thus far. ",
+  "date": "2025-05-01"
+},
+{
+  "_id": {
+    "$oid": "6813b0797c8f0fbca3db47ec"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "My animal instincts are telling me that I need to do whatever it takes to survive",
+  "date": "2025-05-01"
+},
+{
+  "_id": {
+    "$oid": "68151e3678be8f37c3300753"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "The closest that I’ve ever been",
+  "date": "2025-05-02"
+},
+{
+  "_id": {
+    "$oid": "681538354ef460965040030d"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "How can one be so at peace yet so sad within",
+  "date": "2025-05-02"
+},
+{
+  "_id": {
+    "$oid": "68166cc79e41ab78770f8501"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "hanging w the best of buds ",
+  "date": "2025-05-03"
+},
+{
+  "_id": {
+    "$oid": "68166d2c9e41ab78770f8502"
+  },
+  "name": "sara",
+  "dval": 3,
+  "dreason": "Really sweet morning and now drinking four loco with buddies so what more could I ask for",
+  "date": "2025-05-03"
+},
+{
+  "_id": {
+    "$oid": "68166dae9e41ab78770f8503"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I feel self conscious typing in front of these peeps",
+  "date": "2025-05-03"
+},
+{
+  "_id": {
+    "$oid": "68176062e2b9e5cfe578fc97"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Enough said",
+  "date": "2025-05-04"
+},
+{
+  "_id": {
+    "$oid": "681817ef53e40d9108dfd194"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "A battle on all fronts",
+  "date": "2025-05-04"
+},
+{
+  "_id": {
+    "$oid": "6818ef63c6af91d66da9d2f0"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I hate my life but my postcards have been sent",
+  "date": "2025-05-05"
+},
+{
+  "_id": {
+    "$oid": "68194730b4b049c4a6d5201e"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Ate w buds for lunch, crazy. 8/10 is a W",
+  "date": "2025-05-05"
+},
+{
+  "_id": {
+    "$oid": "681a48b8d948091e58b61f59"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I W E A",
+  "date": "2025-05-06"
+},
+{
+  "_id": {
+    "$oid": "681ab8a6d065c24db5acd465"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I stood up to a bully today and was defeated by another ",
+  "date": "2025-05-06"
+},
+{
+  "_id": {
+    "$oid": "681c004d1f9900fa94824d19"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I understand myself a little better now",
+  "date": "2025-05-07"
+},
+{
+  "_id": {
+    "$oid": "681c14c268d88f1721c07c7c"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "I still hate myself but I’m less in my head rn",
+  "date": "2025-05-07"
+},
+{
+  "_id": {
+    "$oid": "681cfa7f4c6d94ba2cc28918"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I said it’s too lateeeeee",
+  "date": "2025-05-08"
+},
+{
+  "_id": {
+    "$oid": "681d62814bc1b1e6dd6fbf51"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "At baseline once again",
+  "date": "2025-05-08"
+},
+{
+  "_id": {
+    "$oid": "681e3148ba2ca74f415adf51"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "It’s never too late to apologize.",
+  "date": "2025-05-09"
+},
+{
+  "_id": {
+    "$oid": "681e979af9667b77c8d4ef3c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Have to stop relying on others for happiness ",
+  "date": "2025-05-09"
+},
+{
+  "_id": {
+    "$oid": "681ed9196dbb4072ae84077c"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Feeling like I need to take the t more",
+  "date": "2025-05-10"
+},
+{
+  "_id": {
+    "$oid": "681fb574451f23a3a9a5371e"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Haven’t quit running yet which means there is still some additional hope left",
+  "date": "2025-05-10"
+},
+{
+  "_id": {
+    "$oid": "681ffb55889624cb52ff37e9"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "Hi",
+  "date": "2025-05-10"
+},
+{
+  "_id": {
+    "$oid": "682020f8786c9596be24d1de"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-05-11"
+},
+{
+  "_id": {
+    "$oid": "68214eb7022cd76e1e6b67a8"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "I had a lot of fun today with the gang",
+  "date": "2025-05-11"
+},
+{
+  "_id": {
+    "$oid": "6821713e62fc059ea9fdb0ab"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Hanging out w the quitterz, trying my best to treasure these mundane moments, just wish I could appreciate them more",
+  "date": "2025-05-11"
+},
+{
+  "_id": {
+    "$oid": "68222c066ad882c193cd5eb4"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Can’t think straight. I want to be pitied and get sympathy, but I wish I was strong and didn’t need it. I think I’m running too much to punish myself, and it’s the only thing I can do. Aaaaaaaaaaa",
+  "date": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "6822744d9214487838c87d8f"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "A cheery morning for all to see, a secret between you and me, followed by the most heinous of things, I always wanna die rings in my head as I go through the day with a lot to say but don’t really speak because life is meal and I am weak",
+  "date": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "682274929214487838c87d90"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "A cheery morning for all to see, a secret between you and me, followed by the most heinous of things, I always wanna die rings in my head as I go through the day with a lot to say but don’t really speak because life is meak and I am weak",
+  "date": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "6822749b9214487838c87d91"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "A cheery morning for all to see, a secret between you and me, followed by the most heinous of things, I always wanna die rings in my head as I go through the day with a lot to say but don’t really speak because life is mek and I am weak",
+  "date": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "682274a29214487838c87d92"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "A cheery morning for all to see, a secret between you and me, followed by the most heinous of things, I always wanna die rings in my head as I go through the day with a lot to say but don’t really speak because life is meek and I am weak",
+  "date": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "68238592c8ae4883a6ededa8"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I hate everyone",
+  "date": "2025-05-13"
+},
+{
+  "_id": {
+    "$oid": "6823e9abc1f4846a8c28d02e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Sour",
+  "date": "2025-05-13"
+},
+{
+  "_id": {
+    "$oid": "6824e02dd855129e5d330413"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I actually might quit if this doesn’t get resolved soon. I am breaking and I cannot do this for much longer. ",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "68250e30c46a4cace1a45bc7"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Idk how much more resilience I have in me",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "682681310b29072dcd04d157"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "The process matters more than the results",
+  "date": "2025-05-15"
+},
+{
+  "_id": {
+    "$oid": "68268adfcbf41f29a8af544a"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Clarity in my future (edu)",
+  "date": "2025-05-15"
+},
+{
+  "_id": {
+    "$oid": "682796d6f1ccb44a0f90d5c2"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Congratz to grace for being the first quitter 🥲I feel old, I pulled a calf muscle going down two stairs in front of my house",
+  "date": "2025-05-16"
+},
+{
+  "_id": {
+    "$oid": "6827b488eb419eddd9ee9391"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I spent 7 hrs on my phone today scrolling plz help",
+  "date": "2025-05-16"
+},
+{
+  "_id": {
+    "$oid": "682929ec8c4d9560d6995752"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Absolutely destroyed by run today and lack of sleep. But hung out with quitterz which was good 🦛🦛",
+  "date": "2025-05-17"
+},
+{
+  "_id": {
+    "$oid": "68294b92a5cdd2c99b92260b"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "Mc and taco bell",
+  "date": "2025-05-17"
+},
+{
+  "_id": {
+    "$oid": "682a5b4ced760e4c05b1b995"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "My aunt said I am bolder than I used to be",
+  "date": "2025-05-18"
+},
+{
+  "_id": {
+    "$oid": "682a91bca0d8a5330ab8a394"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Crazy how easy it is for negative thoughts to spiral",
+  "date": "2025-05-18"
+},
+{
+  "_id": {
+    "$oid": "682ab42bbe27ecaf9b3efc5a"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "judy marty and somer",
+  "date": "2025-05-19"
+},
+{
+  "_id": {
+    "$oid": "682bb61514858368ac27ebac"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Positivity is my misery",
+  "date": "2025-05-19"
+},
+{
+  "_id": {
+    "$oid": "682bd0977ddce7c3c715f70b"
+  },
+  "name": "sara",
+  "dval": 3,
+  "dreason": "Watching pitch perfect 2, so what more could I ask for",
+  "date": "2025-05-19"
+},
+{
+  "_id": {
+    "$oid": "682cfd91e300925f6d76b446"
+  },
+  "name": "sara",
+  "dval": 3,
+  "dreason": "This morning was all I’ve ever wanted and Emily gave me a drawing kit and tonight is gonna go hard",
+  "date": "2025-05-20"
+},
+{
+  "_id": {
+    "$oid": "682e5c31c0274698bb421914"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Tired and feeling somewhat  depleted and apathetic",
+  "date": "2025-05-21"
+},
+{
+  "_id": {
+    "$oid": "682e6ce014673ce40074783d"
+  },
+  "name": "forest",
+  "dval": 6,
+  "dreason": "Actually feeling squishy today",
+  "date": "2025-05-21"
+},
+{
+  "_id": {
+    "$oid": "682f5cb4fff4508f3f60d931"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Jealousy, admiration, envy. Small unimportant things destroy me",
+  "date": "2025-05-22"
+},
+{
+  "_id": {
+    "$oid": "682f92d0bd851402e22bcd4b"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Someone teach me how to not hate myseeeeeeelllttt",
+  "date": "2025-05-22"
+},
+{
+  "_id": {
+    "$oid": "6830b203db6b0009688d0f64"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Work is actually way lonelier without grace here",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "68310e554f6b670a14252acf"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Surprisingly today went well despite the horrors I was ruminating in from the hours of 10pm to 7am",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "683113b561d9db3214589818"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "s a d a n d a l o n e ",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "683211bbfe6e9a90d174c973"
+  },
+  "name": "sara",
+  "dval": 3,
+  "dreason": "3.5. Lyle gave my a free art print - highlight of my week. ",
+  "date": "2025-05-24"
+},
+{
+  "_id": {
+    "$oid": "683288de2cfd0cd9fc6256de"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Signed up for half mara tmrrw this could go poorly",
+  "date": "2025-05-24"
+},
+{
+  "_id": {
+    "$oid": "683358cbb333779ae80b0394"
+  },
+  "name": "sara",
+  "dval": 4,
+  "dreason": "I’m doing fine",
+  "date": "2025-05-25"
+},
+{
+  "_id": {
+    "$oid": "6833c07dd7cc23897e2e8ed2"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Took 5 hr nap today",
+  "date": "2025-05-25"
+},
+{
+  "_id": {
+    "$oid": "68349727750acf53275b4ffb"
+  },
+  "name": "sara",
+  "dval": 5,
+  "dreason": "I finished my book today ",
+  "date": "2025-05-26"
+},
+{
+  "_id": {
+    "$oid": "6834d8e67db75855e69e1100"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Feels hopeless ",
+  "date": "2025-05-26"
+},
+{
+  "_id": {
+    "$oid": "6836387bfe4951d1a7767d88"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I’m tired",
+  "date": "2025-05-27"
+},
+{
+  "_id": {
+    "$oid": "683663fafd1936b7fa57669d"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Trying to take care of my body (rolling is so painful as is not eating chips)",
+  "date": "2025-05-27"
+},
+{
+  "_id": {
+    "$oid": "68375c3de837c14037944e45"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "If this is how I will feel the rest of my life then why am I still alive",
+  "date": "2025-05-28"
+},
+{
+  "_id": {
+    "$oid": "68378dfaae2af0b898ab35e5"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Quaking from malnutrition and the graduation traffic",
+  "date": "2025-05-28"
+},
+{
+  "_id": {
+    "$oid": "6838c06d29757e7b6c0947ff"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "**** *** *******",
+  "date": "2025-05-29"
+},
+{
+  "_id": {
+    "$oid": "683904fe27679503d53aff92"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "bedge ",
+  "date": "2025-05-29"
+},
+{
+  "_id": {
+    "$oid": "6839082827679503d53aff93"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Existential crisis - I think I need to go back to school. At least I got to talk to Emily today and made her laugh joking about wanting to off myself. I think she thinks I’m serious. Maybe I am. ",
+  "date": "2025-05-29"
+},
+{
+  "_id": {
+    "$oid": "6839ecd8072e8303d49f6b32"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "got my stuff today and am now overwhelmed with unpackingggg",
+  "date": "2025-05-30"
+},
+{
+  "_id": {
+    "$oid": "683a3236f276b188f4a570c2"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "So tired. Running has not been going well lately ",
+  "date": "2025-05-30"
+},
+{
+  "_id": {
+    "$oid": "683b42388a9d6ec3fa37a456"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Never been worse",
+  "date": "2025-05-31"
+},
+{
+  "_id": {
+    "$oid": "683bb53016cf0fb4bd104803"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "good: got to hang w sara. bad: traffic, parallel parking, watermelon destroyed my arms, (no jacket)",
+  "date": "2025-05-31"
+},
+{
+  "_id": {
+    "$oid": "683c96cbfe1e9a1d4a5adb84"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Why can grown adults not manage their emotions and act maturely",
+  "date": "2025-06-01"
+},
+{
+  "_id": {
+    "$oid": "683ced7089d2f51d609c26c9"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Long run felt like death. Not smart to run my highest mileage week the week after a hm pr but I’m too stubborn ",
+  "date": "2025-06-01"
+},
+{
+  "_id": {
+    "$oid": "683e4533da3557d55ea35935"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Today wasn’t the best but it’s good that I have something to give me a false sense of purpose. Plus I finally started working on my website again which I’ve been putting off for the past 2 months. ",
+  "date": "2025-06-02"
+},
+{
+  "_id": {
+    "$oid": "683e47f2da3557d55ea35936"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Talked a bunch to Tori today which was nice. Running hurts rn",
+  "date": "2025-06-02"
+},
+{
+  "_id": {
+    "$oid": "683f5923906a0f391ea0a90d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I need to find a cliff",
+  "date": "2025-06-03"
+},
+{
+  "_id": {
+    "$oid": "6840d07f4e61bb96a6883cd0"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Ugh I’ve been bad at ahome lately bc I haven’t been using my phone much but I had a convo with clemence and I think she wants me to join adfors. Also I went to lunch today. ",
+  "date": "2025-06-04"
+},
+{
+  "_id": {
+    "$oid": "6840eca28b0a5a6ae40c07ef"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "someone in my year of highschool committed suicide, crazy cause he got married last year. also I hate myself btw",
+  "date": "2025-06-04"
+},
+{
+  "_id": {
+    "$oid": "6840f3ec8b0a5a6ae40c07f0"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "lunch here costs less than the cafe to eat at a restaurant",
+  "date": "2025-06-04"
+},
+{
+  "_id": {
+    "$oid": "6840f4068b0a5a6ae40c07f1"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "lunch here costs less than the cafe to eat at a restaurant",
+  "date": "2025-06-04"
+},
+{
+  "_id": {
+    "$oid": "6840f46e8b0a5a6ae40c07f2"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "brought and ate my lunch before a meeting just to find out that it was a catered meeting 🙃",
+  "date": "2025-06-04"
+},
+{
+  "_id": {
+    "$oid": "6840f4b78b0a5a6ae40c07f3"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "lunch here costs less than the cafe for an actual restaurant ",
+  "date": "2025-06-03"
+},
+{
+  "_id": {
+    "$oid": "6840fd048b0a5a6ae40c07f4"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "i left to go get some milk from the store",
+  "date": "2025-05-22"
+},
+{
+  "_id": {
+    "$oid": "6840fd0c8b0a5a6ae40c07f5"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "i left to go get some milk from the store",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd168b0a5a6ae40c07f6"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd198b0a5a6ae40c07f7"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "mc",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd1c8b0a5a6ae40c07f8"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "m",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd1c8b0a5a6ae40c07f9"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd318b0a5a6ae40c07fa"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "mc is the only reason i’m not crying rn",
+  "date": "2025-05-23"
+},
+{
+  "_id": {
+    "$oid": "6840fd588b0a5a6ae40c07fb"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i’m so anxious",
+  "date": "2025-06-02"
+},
+{
+  "_id": {
+    "$oid": "6840fdbd8b0a5a6ae40c07fc"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "~ lonely ~ i am so lone-ly - i have no-bodyyy to call my own ~",
+  "date": "2025-05-18"
+},
+{
+  "_id": {
+    "$oid": "6840fdc78b0a5a6ae40c07fd"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "~ lonely ~ i am so lone-ly - i have no-bodyyy to call my own ~",
+  "date": "2025-05-25"
+},
+{
+  "_id": {
+    "$oid": "6840fe008b0a5a6ae40c07fe"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "gotta clean for packersssss",
+  "date": "2025-05-18"
+},
+{
+  "_id": {
+    "$oid": "6840fe1c8b0a5a6ae40c07ff"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "quitterz unite",
+  "date": "2025-05-17"
+},
+{
+  "_id": {
+    "$oid": "6840fe268b0a5a6ae40c0800"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "quitterz unite",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe3e8b0a5a6ae40c0801"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang ",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe428b0a5a6ae40c0802"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang  ",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe458b0a5a6ae40c0803"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang  i",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe4a8b0a5a6ae40c0804"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang  ir",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe4a8b0a5a6ae40c0805"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang  irl",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe4c8b0a5a6ae40c0806"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang irl",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fe958b0a5a6ae40c0807"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "the last time for a while we got to hang irl",
+  "date": "2025-05-21"
+},
+{
+  "_id": {
+    "$oid": "6840feb48b0a5a6ae40c0808"
+  },
+  "name": "grace",
+  "dval": 5,
+  "dreason": "going away party 10/10 - i love my friends ",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fee78b0a5a6ae40c0809"
+  },
+  "name": "grace",
+  "dval": 5,
+  "dreason": "",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fef18b0a5a6ae40c080a"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6840fef68b0a5a6ae40c080b"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "m",
+  "date": "2025-05-14"
+},
+{
+  "_id": {
+    "$oid": "6841ecb0dab34a86e7f40a3f"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Can barely function, head only has negative thoughts, had to leave work early",
+  "date": "2025-06-05"
+},
+{
+  "_id": {
+    "$oid": "684236eded0ac44afa9861c7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "And the thing is I don’t even know how to feel",
+  "date": "2025-06-05"
+},
+{
+  "_id": {
+    "$oid": "68436a6fd1ad1c7f350f6567"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Distract my brain from the terrible news, it’s not living if it’s not with u",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "68437e913f015384d23880ac"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Survived another bad patch. Maybe I have a stronger heart than I thought",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "6844bcad7a94f906efd9c7f7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Surprising calm despite the chaos - not soaking wet anymore after Italy pt 2",
+  "date": "2025-06-07"
+},
+{
+  "_id": {
+    "$oid": "6844f03be32f51ef9ac67e1c"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Rain is wet",
+  "date": "2025-06-07"
+},
+{
+  "_id": {
+    "$oid": "684614b424d83032753f35ff"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "When does running get easier ",
+  "date": "2025-06-08"
+},
+{
+  "_id": {
+    "$oid": "684646e7a34604edbdb678e8"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "How did we end up here",
+  "date": "2025-06-08"
+},
+{
+  "_id": {
+    "$oid": "68474e799c7f58ad68a3c80a"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I hate the person I’m becoming and I’m more insecure than ever",
+  "date": "2025-06-09"
+},
+{
+  "_id": {
+    "$oid": "684767bcf25b4121e71582dc"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Cron for the win",
+  "date": "2025-06-09"
+},
+{
+  "_id": {
+    "$oid": "6848ba35c308ac63d22da899"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "How does one decipher a plethora of punctuation marks",
+  "date": "2025-06-10"
+},
+{
+  "_id": {
+    "$oid": "6848c384c308ac63d22da89a"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I was feeling terrible but run went good for the first time in a while and gonna mindlessly farm diamonds later so it’s not all bad",
+  "date": "2025-06-10"
+},
+{
+  "_id": {
+    "$oid": "6849d23e3d7e9ce22b80edd3"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Don’t do it!!!",
+  "date": "2025-06-11"
+},
+{
+  "_id": {
+    "$oid": "684a264d091ea311fb510c18"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Wish me luck I’m ded",
+  "date": "2025-06-11"
+},
+{
+  "_id": {
+    "$oid": "684b4f4d3c473ab0a8002eac"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "My brain can agree with the logic but my heart can’t, it hurts",
+  "date": "2025-06-12"
+},
+{
+  "_id": {
+    "$oid": "684c8d597a7a89b3d73625fb"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "got off work early and ate like a pig at lunch by myself in my car",
+  "date": "2025-06-13"
+},
+{
+  "_id": {
+    "$oid": "684c8d8e7a7a89b3d73625fc"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "the political state of this country is what’s driving me over the edge. how am i supposed to go to work everyday and pretend nothings happening ",
+  "date": "2025-06-12"
+},
+{
+  "_id": {
+    "$oid": "684c8db57a7a89b3d73625fd"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "ate lunch w a coworkerrrrr im not lonely at alllllll ",
+  "date": "2025-06-10"
+},
+{
+  "_id": {
+    "$oid": "684c8dce7a7a89b3d73625fe"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i hate myself",
+  "date": "2025-06-08"
+},
+{
+  "_id": {
+    "$oid": "684c8dfc7a7a89b3d73625ff"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "week 1 donerz ",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c8e187a7a89b3d7362600"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "week 1 donerz",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c8e187a7a89b3d7362601"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "week 1 doner",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c8e1a7a7a89b3d7362602"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "week 1 done",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c8e1f7a7a89b3d7362603"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "week 1 done!",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c8e227a7a89b3d7362604"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "week 1 done!",
+  "date": "2025-06-06"
+},
+{
+  "_id": {
+    "$oid": "684c904e7a7a89b3d7362605"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Hope my best bud feels better soon",
+  "date": "2025-06-13"
+},
+{
+  "_id": {
+    "$oid": "684f6277f34ffe37a547c8c3"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Dead tired ",
+  "date": "2025-06-15"
+},
+{
+  "_id": {
+    "$oid": "684f6afff34ffe37a547c8c4"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-15"
+},
+{
+  "_id": {
+    "$oid": "68508619f34ffe37a547c8c5"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Trying to do things for future me makes me want to end present me",
+  "date": "2025-06-16"
+},
+{
+  "_id": {
+    "$oid": "6851b865fc8119ed7a4b5602"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I hate myself so much it disgusts me",
+  "date": "2025-06-17"
+},
+{
+  "_id": {
+    "$oid": "6851f7bbfc8119ed7a4b5603"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-17"
+},
+{
+  "_id": {
+    "$oid": "685347d6fc8119ed7a4b5604"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "So tired",
+  "date": "2025-06-18"
+},
+{
+  "_id": {
+    "$oid": "68534fcdfc8119ed7a4b5605"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-18"
+},
+{
+  "_id": {
+    "$oid": "6854b7ecfc8119ed7a4b5606"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I should just die already. I’m broken beyond repair",
+  "date": "2025-06-19"
+},
+{
+  "_id": {
+    "$oid": "6855daf8d2fe8982612e3929"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-06-20"
+},
+{
+  "_id": {
+    "$oid": "685613354b348b37abf90c2b"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "i’ve gotten free lunch every day this week at work",
+  "date": "2025-06-20"
+},
+{
+  "_id": {
+    "$oid": "685613614b348b37abf90c2c"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i cri ",
+  "date": "2025-06-19"
+},
+{
+  "_id": {
+    "$oid": "6856138e4b348b37abf90c2d"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "no work tmrw 🥳",
+  "date": "2025-06-18"
+},
+{
+  "_id": {
+    "$oid": "685613b04b348b37abf90c2e"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "i’ve done nothing productive in my life for the past 5 years",
+  "date": "2025-06-14"
+},
+{
+  "_id": {
+    "$oid": "685613b94b348b37abf90c2f"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "i’ve done nothing productive in my life for the past 5 years",
+  "date": "2025-06-11"
+},
+{
+  "_id": {
+    "$oid": "685613ca4b348b37abf90c30"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "idioté",
+  "date": "2025-06-11"
+},
+{
+  "_id": {
+    "$oid": "6856145e4b348b37abf90c31"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "espresso depresso but good burrito for lunch that was paid for by not even my boss 10/10 as a reward for coming in today HAHAHAHA we didn’t even have off, just most ppl took off so it was a thanks for still coming even tho ik none of us want to be here consolation prize but ill take it! ",
+  "date": "2025-06-20"
+},
+{
+  "_id": {
+    "$oid": "685614d14b348b37abf90c32"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’ve been so bad about taking my medication",
+  "date": "2025-06-16"
+},
+{
+  "_id": {
+    "$oid": "685614d84b348b37abf90c33"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’ve been so bad about taking my medication ",
+  "date": "2025-06-16"
+},
+{
+  "_id": {
+    "$oid": "685614f24b348b37abf90c34"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’ve been so bad about taking my medication so weed it is!",
+  "date": "2025-06-16"
+},
+{
+  "_id": {
+    "$oid": "68562bfe4b348b37abf90c35"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Fgffffffffffffffffffffffffff",
+  "date": "2025-06-20"
+},
+{
+  "_id": {
+    "$oid": "68573a564b348b37abf90c36"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "what am i doing with my life",
+  "date": "2025-06-21"
+},
+{
+  "_id": {
+    "$oid": "685749f24b348b37abf90c37"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-21"
+},
+{
+  "_id": {
+    "$oid": "68574a314b348b37abf90c38"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Sjhshdjdjjddbjdjdbdhhhj",
+  "date": "2025-06-21"
+},
+{
+  "_id": {
+    "$oid": "6857804a4b348b37abf90c39"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "what am i doing w my life",
+  "date": "2025-06-21"
+},
+{
+  "_id": {
+    "$oid": "685780ad4b348b37abf90c3a"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "どうか私を死なせてください",
+  "date": "2025-06-22"
+},
+{
+  "_id": {
+    "$oid": "6857a14cfb5232c72dc3ed77"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "no work tmrw 🥳",
+  "date": "2025-06-18"
+},
+{
+  "_id": {
+    "$oid": "68586dcbfb5232c72dc3ed78"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Why did I do that",
+  "date": "2025-06-22"
+},
+{
+  "_id": {
+    "$oid": "68586dd0fb5232c72dc3ed79"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Why did I do that",
+  "date": "2025-06-22"
+},
+{
+  "_id": {
+    "$oid": "6858b2a7fb5232c72dc3ed7a"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-22"
+},
+{
+  "_id": {
+    "$oid": "6859a3d0fb5232c72dc3ed7b"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-06-23"
+},
+{
+  "_id": {
+    "$oid": "6859f057fb5232c72dc3ed7c"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Prob just ran the best workout of my life in 90 degrees. Might have to full send a sub 20 min 5k attempt this weekend ",
+  "date": "2025-06-23"
+},
+{
+  "_id": {
+    "$oid": "685aeadfafe536433ad1973d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Today sucked a lot. Idk why when nothing even happened. Just feels terrible when you can randomly have bad days. Also feeling a weird tingling sensation in my hamstring hopefully nothing wrong or it’s over ovee",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b3484afe536433ad1973e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels emtpy without you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b3642afe536433ad1973f"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels emtpy without you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b3642afe536433ad19740"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels emtpwithout you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b364fafe536433ad19741"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels empty you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b3654afe536433ad19742"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels emptyw you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b3654afe536433ad19743"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels empty you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685b365aafe536433ad19744"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life feels normal and I don’t like it. Yet it feels empty without you",
+  "date": "2025-06-24"
+},
+{
+  "_id": {
+    "$oid": "685bff7069bc6754e4cc953d"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-06-12"
+},
+{
+  "_id": {
+    "$oid": "685bff7869bc6754e4cc953e"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-06-13"
+},
+{
+  "_id": {
+    "$oid": "685c998a69bc6754e4cc953f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "It’s fine it only hurts if the rode slopes to the right",
+  "date": "2025-06-25"
+},
+{
+  "_id": {
+    "$oid": "685d8fdd69bc6754e4cc9540"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I can support sg’s goal of making the world a better home by leaving it",
+  "date": "2025-06-26"
+},
+{
+  "_id": {
+    "$oid": "685dcc0769bc6754e4cc9541"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Indifference",
+  "date": "2025-06-26"
+},
+{
+  "_id": {
+    "$oid": "685eeb1b69bc6754e4cc9542"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I want to be hurt",
+  "date": "2025-06-27"
+},
+{
+  "_id": {
+    "$oid": "685f424969bc6754e4cc9543"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I hate how happy I am",
+  "date": "2025-06-27"
+},
+{
+  "_id": {
+    "$oid": "68606a9ace165c32571e25d3"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-06-28"
+},
+{
+  "_id": {
+    "$oid": "68608f43ce165c32571e25d4"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "The longing never ends",
+  "date": "2025-06-28"
+},
+{
+  "_id": {
+    "$oid": "68619206ce165c32571e25d5"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "fell a bit short, story of my life",
+  "date": "2025-06-29"
+},
+{
+  "_id": {
+    "$oid": "6861dd63ce165c32571e25d6"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Today was a good day honestly, but my mind can’t escape from the nightmare. ",
+  "date": "2025-06-29"
+},
+{
+  "_id": {
+    "$oid": "6862fc7e1ca117355006a813"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I will punish myself",
+  "date": "2025-06-30"
+},
+{
+  "_id": {
+    "$oid": "68634e6b886454b77c428b22"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "",
+  "date": "2025-06-30"
+},
+{
+  "_id": {
+    "$oid": "68634e84886454b77c428b23"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "mooooo",
+  "date": "2025-06-29"
+},
+{
+  "_id": {
+    "$oid": "68634e87886454b77c428b24"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "mooooo",
+  "date": "2025-06-29"
+},
+{
+  "_id": {
+    "$oid": "68634ec2886454b77c428b25"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m a waste of space ",
+  "date": "2025-06-28"
+},
+{
+  "_id": {
+    "$oid": "68634eeb886454b77c428b26"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "thunderstormssssssssss ⚡️ ",
+  "date": "2025-06-25"
+},
+{
+  "_id": {
+    "$oid": "6863cbc3886454b77c428b27"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-06-30"
+},
+{
+  "_id": {
+    "$oid": "68643bff78de4ab15114eca5"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Nana korobi ya oki",
+  "date": "2025-07-01"
+},
+{
+  "_id": {
+    "$oid": "686587b4f8c237c7aea23c22"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-01"
+},
+{
+  "_id": {
+    "$oid": "686587c3f8c237c7aea23c23"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-02"
+},
+{
+  "_id": {
+    "$oid": "686587d1f8c237c7aea23c24"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "just sad today",
+  "date": "2025-07-02"
+},
+{
+  "_id": {
+    "$oid": "686587d3f8c237c7aea23c25"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "just sad today",
+  "date": "2025-07-02"
+},
+{
+  "_id": {
+    "$oid": "6865add6f8c237c7aea23c26"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Figuring out my expenses for June made me feel ill and so angry at myself. I am pathetic ",
+  "date": "2025-07-02"
+},
+{
+  "_id": {
+    "$oid": "6866e74b24c095b9515e3fe9"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-07-03"
+},
+{
+  "_id": {
+    "$oid": "6866f70624c095b9515e3fea"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "My new baseline",
+  "date": "2025-07-03"
+},
+{
+  "_id": {
+    "$oid": "6868236a24c095b9515e3feb"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-07-04"
+},
+{
+  "_id": {
+    "$oid": "68687645afc54ab926b5c24b"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Hip starting to hurt again",
+  "date": "2025-07-04"
+},
+{
+  "_id": {
+    "$oid": "6869a85b11416a6c5458fdb9"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-05"
+},
+{
+  "_id": {
+    "$oid": "686af46d46fe77d86de2755f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Maybe I’m slowly getting better at doing the “hard” things again. Mental is still in the drain as is from job. S@y0n@r@ grace",
+  "date": "2025-07-06"
+},
+{
+  "_id": {
+    "$oid": "686af4c546fe77d86de27560"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Maybe getting slowly getting better at doing “hard” things but mental is still in the drain, as is cron job. S@y0n@r@ grace. Also biggest mileage week ever",
+  "date": "2025-07-06"
+},
+{
+  "_id": {
+    "$oid": "686b4ad615a1788dcd36ee99"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-07-05"
+},
+{
+  "_id": {
+    "$oid": "686b4adb15a1788dcd36ee9a"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-07-06"
+},
+{
+  "_id": {
+    "$oid": "686b4ade15a1788dcd36ee9b"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-07-06"
+},
+{
+  "_id": {
+    "$oid": "686c65feabe97d242547e9a5"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "7 on 7/7",
+  "date": "2025-07-07"
+},
+{
+  "_id": {
+    "$oid": "686dae3ca4100150d9e38947"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Enough said",
+  "date": "2025-07-08"
+},
+{
+  "_id": {
+    "$oid": "686de35b81a801ad47a0988c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "This feels so hard to maintain. Not enough time in a day",
+  "date": "2025-07-08"
+},
+{
+  "_id": {
+    "$oid": "686eeabbeaa185a6b8895e2c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Even cron job has abandoned me",
+  "date": "2025-07-09"
+},
+{
+  "_id": {
+    "$oid": "686fe7bbca1b3f59a90aff13"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-09"
+},
+{
+  "_id": {
+    "$oid": "686ff667ca1b3f59a90aff14"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "My legs are so destroyed. Having doubts I can keep doing this",
+  "date": "2025-07-10"
+},
+{
+  "_id": {
+    "$oid": "68710aaf7debbbb99e714001"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-10"
+},
+{
+  "_id": {
+    "$oid": "6871a63dcf45163b24580a4c"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-11"
+},
+{
+  "_id": {
+    "$oid": "6871a931cf45163b24580a4d"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-11"
+},
+{
+  "_id": {
+    "$oid": "6872c5fdb240b8df844e3a35"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Brutal run, now I have to hang with the song family, wish me luck",
+  "date": "2025-07-12"
+},
+{
+  "_id": {
+    "$oid": "6872c908b240b8df844e3a36"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "We’ve regressed folks",
+  "date": "2025-07-12"
+},
+{
+  "_id": {
+    "$oid": "687413961714baf554c3b924"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "They never fail to bring out the worst in me",
+  "date": "2025-07-13"
+},
+{
+  "_id": {
+    "$oid": "68742f05ca94211f90804ecf"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I still miss lasagna girl. Yesterday I felt more whole after attending the b day party (despite crying most of the day). Today I feel that life has moved on but a piece of me never will. ",
+  "date": "2025-07-13"
+},
+{
+  "_id": {
+    "$oid": "68758e9801e375f9efb69dea"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "I think I had a panic attack today",
+  "date": "2025-07-14"
+},
+{
+  "_id": {
+    "$oid": "6875999d10ab4f0276e86e75"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I feel like the fatigue in my legs has gone beyond and now is just pain",
+  "date": "2025-07-14"
+},
+{
+  "_id": {
+    "$oid": "6876fb256b7052906bcfd2ed"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Work has been stressful, and my body is falling apart. Full send tho",
+  "date": "2025-07-15"
+},
+{
+  "_id": {
+    "$oid": "6877d61ad1ef956c3c5fe7fe"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-15"
+},
+{
+  "_id": {
+    "$oid": "6877d626d1ef956c3c5fe7ff"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I’m dead and I’m sorry that I’m like this",
+  "date": "2025-07-16"
+},
+{
+  "_id": {
+    "$oid": "6877d659d1ef956c3c5fe800"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-16"
+},
+{
+  "_id": {
+    "$oid": "68783688d1ef956c3c5fe801"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Crashed out",
+  "date": "2025-07-16"
+},
+{
+  "_id": {
+    "$oid": "6879342ad1ef956c3c5fe802"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I just want to die, I don’t care about anything else",
+  "date": "2025-07-17"
+},
+{
+  "_id": {
+    "$oid": "6879b5d5d1ef956c3c5fe803"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I went on a date today with snail boy. I still miss lasagna girl but it’s different now. I question who I was during our whole relationship tho. Did I lose myself?  Maybe I’ll always lose myself in the other person tho. But will they lose themself in me?",
+  "date": "2025-07-17"
+},
+{
+  "_id": {
+    "$oid": "687ab113d1ef956c3c5fe804"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "8.5",
+  "date": "2025-07-18"
+},
+{
+  "_id": {
+    "$oid": "687ab4b5d1ef956c3c5fe805"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Die",
+  "date": "2025-07-18"
+},
+{
+  "_id": {
+    "$oid": "687ce53ed1ef956c3c5fe806"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "New jacket, nice music",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687ceaafd1ef956c3c5fe807"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d48abd1ef956c3c5fe808"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d48b9d1ef956c3c5fe809"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": null,
+  "date": "2025-07-18"
+},
+{
+  "_id": {
+    "$oid": "687d48cdd1ef956c3c5fe80a"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-14"
+},
+{
+  "_id": {
+    "$oid": "687d48e5d1ef956c3c5fe80b"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-12"
+},
+{
+  "_id": {
+    "$oid": "687d48f8d1ef956c3c5fe80c"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m such a liar",
+  "date": "2025-07-13"
+},
+{
+  "_id": {
+    "$oid": "687d48ffd1ef956c3c5fe80d"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m such a liar",
+  "date": "2025-07-09"
+},
+{
+  "_id": {
+    "$oid": "687d490bd1ef956c3c5fe80e"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "bleh",
+  "date": "2025-07-09"
+},
+{
+  "_id": {
+    "$oid": "687d492fd1ef956c3c5fe80f"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "back in bos",
+  "date": "2025-07-04"
+},
+{
+  "_id": {
+    "$oid": "687d4939d1ef956c3c5fe810"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": null,
+  "date": "2025-07-05"
+},
+{
+  "_id": {
+    "$oid": "687d4949d1ef956c3c5fe811"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-07-06"
+},
+{
+  "_id": {
+    "$oid": "687d4958d1ef956c3c5fe812"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "leaving",
+  "date": "2025-07-08"
+},
+{
+  "_id": {
+    "$oid": "687d4965d1ef956c3c5fe813"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i’m so shook",
+  "date": "2025-07-09"
+},
+{
+  "_id": {
+    "$oid": "687d4a7bd1ef956c3c5fe814"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "sister left so now i can breathe and smoke weed",
+  "date": "2025-07-20"
+},
+{
+  "_id": {
+    "$oid": "687d4aa0d1ef956c3c5fe815"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "icri ",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d4aa9d1ef956c3c5fe816"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "icri -",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d4aa9d1ef956c3c5fe817"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "icri - ",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d4aacd1ef956c3c5fe818"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "icri",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d4ab0d1ef956c3c5fe819"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "icri",
+  "date": "2025-07-19"
+},
+{
+  "_id": {
+    "$oid": "687d4ae0d1ef956c3c5fe81a"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "my sis unpacked like 80% of the rest of my boxes which was nice but her grubby little hands touched all my stuff and organized everything in a way that doesn’t make sense to me but still grateful ",
+  "date": "2025-07-18"
+},
+{
+  "_id": {
+    "$oid": "687d4af3d1ef956c3c5fe81b"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "work is good",
+  "date": "2025-07-15"
+},
+{
+  "_id": {
+    "$oid": "687d5a22d1ef956c3c5fe81c"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Life is so hard",
+  "date": "2025-07-20"
+},
+{
+  "_id": {
+    "$oid": "687d9088d1ef956c3c5fe81d"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "No one will make me a 2 like she did",
+  "date": "2025-07-20"
+},
+{
+  "_id": {
+    "$oid": "687ec227d1ef956c3c5fe81e"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date": "2025-07-21"
+},
+{
+  "_id": {
+    "$oid": "687f1276d1ef956c3c5fe81f"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Why must life go on. ",
+  "date": "2025-07-21"
+},
+{
+  "_id": {
+    "$oid": "687feeaed1ef956c3c5fe820"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I really am struggling. Idk how much longer I can endure. I’m not that strong.",
+  "date": "2025-07-22"
+},
+{
+  "_id": {
+    "$oid": "68802a74d1ef956c3c5fe821"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "My knees are not the bees",
+  "date": "2025-07-22"
+},
+{
+  "_id": {
+    "$oid": "68814d66d1ef956c3c5fe822"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Didn’t get the apt, ankle messed up, work is terrible, I was so angry last night I was hitting my head and now I have a headache, I am a disaster, I’m so alone",
+  "date": "2025-07-23"
+},
+{
+  "_id": {
+    "$oid": "68817ed4d1ef956c3c5fe823"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Tough cay. V tired. ",
+  "date": "2025-07-23"
+},
+{
+  "_id": {
+    "$oid": "68825a11d1ef956c3c5fe824"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": "Cry. ",
+  "date": "2025-07-24"
+},
+{
+  "_id": {
+    "$oid": "6882bc2ed1ef956c3c5fe825"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "No complaining allowed, go at it ahome",
+  "date": "2025-07-24"
+},
+{
+  "_id": {
+    "$oid": "6883d953d1ef956c3c5fe826"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "First time in 3 months that I’m not running. It’s frustrating and it sucks.",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "688566bcd1ef956c3c5fe827"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "The pain is worse",
+  "date": "2025-07-26"
+},
+{
+  "_id": {
+    "$oid": "6886bba8d1ef956c3c5fe828"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia sunset",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bbb2d1ef956c3c5fe829"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia sunset",
+  "date": "2025-07-26"
+},
+{
+  "_id": {
+    "$oid": "6886bbb7d1ef956c3c5fe82a"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia sunset",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bbbad1ef956c3c5fe82b"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia suns",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bbbad1ef956c3c5fe82c"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia sun",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bbbbd1ef956c3c5fe82d"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia su",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bbbcd1ef956c3c5fe82e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Acadia s",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "6886bc33d1ef956c3c5fe82f"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Nice day, cool cave",
+  "date": "2025-07-26"
+},
+{
+  "_id": {
+    "$oid": "6886bca0d1ef956c3c5fe830"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Nice sunrise, beehive hike, laughed a lot, should not have checked my phone,",
+  "date": "2025-07-27"
+},
+{
+  "_id": {
+    "$oid": "6886d1d4d1ef956c3c5fe831"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Trying to be resilient",
+  "date": "2025-07-27"
+},
+{
+  "_id": {
+    "$oid": "6887ada5d1ef956c3c5fe832"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Something is off w my foot, it doesn’t feel like my own. Firmly in the denial stage. Pls just get better if I can’t run I have nothing",
+  "date": "2025-07-28"
+},
+{
+  "_id": {
+    "$oid": "688805dbd1ef956c3c5fe833"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "emails with derek :)",
+  "date": "2025-07-28"
+},
+{
+  "_id": {
+    "$oid": "6889402fd1ef956c3c5fe834"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-07-29"
+},
+{
+  "_id": {
+    "$oid": "688a0dead1ef956c3c5fe835"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Life is ok",
+  "date": "2025-07-29"
+},
+{
+  "_id": {
+    "$oid": "688a925fd1ef956c3c5fe836"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "W s s m I h e t a a m n",
+  "date": "2025-07-30"
+},
+{
+  "_id": {
+    "$oid": "688aa3c3d1ef956c3c5fe837"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Today has been nonstop",
+  "date": "2025-07-30"
+},
+{
+  "_id": {
+    "$oid": "688aaefed1ef956c3c5fe838"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "🍚 ",
+  "date": "2025-07-21"
+},
+{
+  "_id": {
+    "$oid": "688aaf17d1ef956c3c5fe839"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i hate danny",
+  "date": "2025-07-24"
+},
+{
+  "_id": {
+    "$oid": "688aaf33d1ef956c3c5fe83a"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i was at work until 6 on a friday :0",
+  "date": "2025-07-25"
+},
+{
+  "_id": {
+    "$oid": "688aaf48d1ef956c3c5fe83b"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "🍹 ",
+  "date": "2025-07-26"
+},
+{
+  "_id": {
+    "$oid": "688aaf61d1ef956c3c5fe83c"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "🍹 w michelle",
+  "date": "2025-07-26"
+},
+{
+  "_id": {
+    "$oid": "688aaf77d1ef956c3c5fe83d"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i’m so fake",
+  "date": "2025-07-27"
+},
+{
+  "_id": {
+    "$oid": "688aaf9fd1ef956c3c5fe83e"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m so stressed out i need weed but i broke my vape and my vaporizer 😵‍💫 i can’t survive this anymore",
+  "date": "2025-07-28"
+},
+{
+  "_id": {
+    "$oid": "688aafa4d1ef956c3c5fe83f"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m so stressed out i need weed but i broke my vape and my vaporizer 😵‍💫 i can’t survive this anymore",
+  "date": "2025-07-29"
+},
+{
+  "_id": {
+    "$oid": "688aafb3d1ef956c3c5fe840"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i’m sinking",
+  "date": "2025-07-29"
+},
+{
+  "_id": {
+    "$oid": "688aafdfd1ef956c3c5fe841"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "danny can go FUCK HIMSELF 🖕 ",
+  "date": "2025-07-16"
+},
+{
+  "_id": {
+    "$oid": "688aafe7d1ef956c3c5fe842"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "danny can go FUCK HIMSELF 🖕 ",
+  "date": "2025-07-30"
+},
+{
+  "_id": {
+    "$oid": "688ab01ad1ef956c3c5fe843"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i can finally kinda breath and i think he finally got the hint and stfu 🧘 i need to calm down",
+  "date": "2025-07-30"
+},
+{
+  "_id": {
+    "$oid": "688ab048d1ef956c3c5fe844"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i’m so fucking pissed but at least i can kinda breath now",
+  "date": "2025-07-30"
+},
+{
+  "_id": {
+    "$oid": "688c12ccd1ef956c3c5fe845"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Shut up you stupid idiot",
+  "date": "2025-07-31"
+},
+{
+  "_id": {
+    "$oid": "688ca61dd1ef956c3c5fe846"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Date, concert, trying to be in the moment and just enjoy",
+  "date": "2025-07-31"
+},
+{
+  "_id": {
+    "$oid": "688cfe4bd1ef956c3c5fe847"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Lunch w Tori was nice but not even she can heal me. My hip hurts a lot too now.",
+  "date": "2025-08-01"
+},
+{
+  "_id": {
+    "$oid": "688d51a3d1ef956c3c5fe848"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Bc I only worked 5 hrs today",
+  "date": "2025-08-01"
+},
+{
+  "_id": {
+    "$oid": "688e74d2d1ef956c3c5fe849"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Lying in bed the whole day, listening to bite me, feeling tired. Wondering if the me that is hateful and miserable is the real me or is it a bad patch",
+  "date": "2025-08-02"
+},
+{
+  "_id": {
+    "$oid": "688e8990d1ef956c3c5fe84a"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Dnd. Also leave me alone",
+  "date": "2025-08-02"
+},
+{
+  "_id": {
+    "$oid": "68900b46d1ef956c3c5fe84b"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-08-03"
+},
+{
+  "_id": {
+    "$oid": "68901be1d1ef956c3c5fe84c"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-08-03"
+},
+{
+  "_id": {
+    "$oid": "689109dbd1ef956c3c5fe84d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Sara is funny and has flow. I hope she finds someone soon that appreciates her wit. Why is work stressing me out so much again. I def have an unhealthy obsession with needing to run, but it really was important for staying alive. Now everything hurts to think about.",
+  "date": "2025-08-04"
+},
+{
+  "_id": {
+    "$oid": "689139bdd1ef956c3c5fe84e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Just woke up from a 2 hr nap I was so tired",
+  "date": "2025-08-04"
+},
+{
+  "_id": {
+    "$oid": "68914caad1ef956c3c5fe84f"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "🔴",
+  "date": "2025-08-04"
+},
+{
+  "_id": {
+    "$oid": "689268c5d1ef956c3c5fe850"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I must run off all this anger. I fear I am going to implode soon. ",
+  "date": "2025-08-05"
+},
+{
+  "_id": {
+    "$oid": "68928227d1ef956c3c5fe851"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Perpetually stressed unless I can destroy my body w running",
+  "date": "2025-08-05"
+},
+{
+  "_id": {
+    "$oid": "689282a8d1ef956c3c5fe852"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Let’s run together ",
+  "date": "2025-08-05"
+},
+{
+  "_id": {
+    "$oid": "6893cfc3d1ef956c3c5fe853"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "My personality used to be running, now it’s taking 1 hr baths",
+  "date": "2025-08-06"
+},
+{
+  "_id": {
+    "$oid": "6893cff5d1ef956c3c5fe854"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I’m ready to fkn kms blood boiling everyone makes me so angry",
+  "date": "2025-08-06"
+},
+{
+  "_id": {
+    "$oid": "68951413d1ef956c3c5fe855"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Chips at lunch with buddy was nice",
+  "date": "2025-08-07"
+},
+{
+  "_id": {
+    "$oid": "68954d76d1ef956c3c5fe856"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "So tired from driving so much and work. Toured Arlington apt, see if we get it. It’s hard to accept, but I think it’s a stress fracture.",
+  "date": "2025-08-07"
+},
+{
+  "_id": {
+    "$oid": "68961c8cd1ef956c3c5fe857"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Applying is stressful w needing to talk to people and forms. Drinking milk even though I don’t like milk to boost calcium and get better.",
+  "date": "2025-08-08"
+},
+{
+  "_id": {
+    "$oid": "68962aa9d1ef956c3c5fe858"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "leaving for alaska!!!!! ",
+  "date": "2025-08-08"
+},
+{
+  "_id": {
+    "$oid": "68962ad4d1ef956c3c5fe859"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "free lunch 10/10",
+  "date": "2025-08-06"
+},
+{
+  "_id": {
+    "$oid": "6896c9bad1ef956c3c5fe85a"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Yippie neighbor my screen time today is over 5 hrs",
+  "date": "2025-08-08"
+},
+{
+  "_id": {
+    "$oid": "6898b6e9d1ef956c3c5fe85b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "funeral, forest, etc.",
+  "date": "2025-08-09"
+},
+{
+  "_id": {
+    "$oid": "6898dceed1ef956c3c5fe85c"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "was a nice day hangin w sabby, just hard to not be a bit sad about ankle",
+  "date": "2025-08-09"
+},
+{
+  "_id": {
+    "$oid": "6898f99ed1ef956c3c5fe85d"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "More and more likely seems like a stress fracture. 6-8 weeks on avg off.",
+  "date": "2025-08-10"
+},
+{
+  "_id": {
+    "$oid": "6899d735d1ef956c3c5fe85e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Thought about grad school - stressed a bit but it’s fine came to some conclusion so that’s good. Worked on dresser. Maybe I’m over cad now. ",
+  "date": "2025-08-10"
+},
+{
+  "_id": {
+    "$oid": "689a6cbad1ef956c3c5fe85f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Work is destroying my mental. Not anything new I guess. Ankle feels good today",
+  "date": "2025-08-11"
+},
+{
+  "_id": {
+    "$oid": "689a8021d1ef956c3c5fe860"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "These people are making me on the verge of a crash out",
+  "date": "2025-08-11"
+},
+{
+  "_id": {
+    "$oid": "689ba8ccd1ef956c3c5fe861"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I’m sorry, I will be better.",
+  "date": "2025-08-12"
+},
+{
+  "_id": {
+    "$oid": "689bd85dd1ef956c3c5fe862"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I don’t know why today was a seven but it was. Probably bc eesha’s intern presentation went so well and project mantaray. ",
+  "date": "2025-08-12"
+},
+{
+  "_id": {
+    "$oid": "689d1933d1ef956c3c5fe863"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I know that I’m weak and disgraceful. Everyone has the right to hate me as the worst person. But there are still people willing to help someone like me",
+  "date": "2025-08-13"
+},
+{
+  "_id": {
+    "$oid": "689d3bb109fec903daf52b7f"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "v3 Dresser, but i still messed it up",
+  "date": "2025-08-13"
+},
+{
+  "_id": {
+    "$oid": "689e539c88909cc2f0bcaeac"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Hey why does it still hurt hey why can’t I run yet hey hey hyey",
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "689e6b6b88909cc2f0bcaead"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "689e8aad88909cc2f0bcaeae"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "My “boss” was making my blood boil how can someone so old have so little ability to be productive, effective, fill in blank. But I got to go sailing so that was fun. Biking was prob bad tho. ",
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "689fbf5e88909cc2f0bcaeaf"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "This weekend would actually be a good time",
+  "date": "2025-08-15"
+},
+{
+  "_id": {
+    "$oid": "689ff09788909cc2f0bcaeb0"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Grinded today. ",
+  "date": "2025-08-15"
+},
+{
+  "_id": {
+    "$oid": "68a1306a88909cc2f0bcaeb1"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-08-16"
+},
+{
+  "_id": {
+    "$oid": "68a25e4788909cc2f0bcaeb2"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "stress on weekend never good sign",
+  "date": "2025-08-17"
+},
+{
+  "_id": {
+    "$oid": "68a2765b88909cc2f0bcaeb3"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-08-16"
+},
+{
+  "_id": {
+    "$oid": "68a2768288909cc2f0bcaeb4"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Worked for 6+ hrs today (sunday). Not even that bad. It never gets easier. ",
+  "date": "2025-08-17"
+},
+{
+  "_id": {
+    "$oid": "68a3b6c188909cc2f0bcaeb5"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "Short run today",
+  "date": "2025-08-18"
+},
+{
+  "_id": {
+    "$oid": "68a3b9f088909cc2f0bcaeb6"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "The only good thing about today was hooman asking me what my half time was and him being impressed bc I’m as fast as him with no training",
+  "date": "2025-08-18"
+},
+{
+  "_id": {
+    "$oid": "68a4f5f888909cc2f0bcaeb7"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Regression. I guess this injury made me realize that I actually want to run instead of just need my to run to survive. It hurts.",
+  "date": "2025-08-19"
+},
+{
+  "_id": {
+    "$oid": "68a5126388909cc2f0bcaeb8"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "And I don’t want the world to see me, bc I don’t think they’d understand",
+  "date": "2025-08-19"
+},
+{
+  "_id": {
+    "$oid": "68a6235988909cc2f0bcaeb9"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Pathetic ",
+  "date": "2025-08-20"
+},
+{
+  "_id": {
+    "$oid": "68a6711188909cc2f0bcaeba"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Boutta pull an all nighter. I’ve pulled more all nighters this yr than in 4 years of college. ",
+  "date": "2025-08-20"
+},
+{
+  "_id": {
+    "$oid": "68a6997488909cc2f0bcaebb"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "whbabidhibiaftpalbbommdamiqssigbsawbigidrtthtma",
+  "date": "2025-08-20"
+},
+{
+  "_id": {
+    "$oid": "68a6998e88909cc2f0bcaebc"
+  },
+  "name": "grace",
+  "dval": 5,
+  "dreason": "best hike ever",
+  "date": "2025-08-10"
+},
+{
+  "_id": {
+    "$oid": "68a699a188909cc2f0bcaebd"
+  },
+  "name": "grace",
+  "dval": 6,
+  "dreason": "ALASKA",
+  "date": "2025-08-09"
+},
+{
+  "_id": {
+    "$oid": "68a699b788909cc2f0bcaebe"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "hot tubbin ",
+  "date": "2025-08-11"
+},
+{
+  "_id": {
+    "$oid": "68a699de88909cc2f0bcaebf"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "i think i might KILLMYSISTER",
+  "date": "2025-08-13"
+},
+{
+  "_id": {
+    "$oid": "68a69a0f88909cc2f0bcaec0"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "talkeetna <3",
+  "date": "2025-08-12"
+},
+{
+  "_id": {
+    "$oid": "68a69a2788909cc2f0bcaec1"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "piss off",
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "68a69a4b88909cc2f0bcaec2"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "there r two factions on this trip, the normies and the fucking tiktok obsessed narcissists ",
+  "date": "2025-08-15"
+},
+{
+  "_id": {
+    "$oid": "68a69a5088909cc2f0bcaec3"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "there r two factions on this trip, the normies and the fucking tiktok obsessed narcissists ",
+  "date": "2025-08-16"
+},
+{
+  "_id": {
+    "$oid": "68a69a9688909cc2f0bcaec4"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "sad to leave alaska but had a great time exploring by myself for a few hours but my flights got delayed and i was waiting at the airport for like 6 hours",
+  "date": "2025-08-16"
+},
+{
+  "_id": {
+    "$oid": "68a69b1188909cc2f0bcaec5"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i had to leave my luggage at the carousel bc it took too damn long to arrive and i was running out of time before denalis daycare closed and i didn’t want to have to pay another night so i had to pay a late fee for picking her up after hoursssssss then i drove BACK to the airport to pick up my suitcase but i went to the commercial pickup side so there were no cars waiting and i just walked right in and grabbed my bag 10/10",
+  "date": "2025-08-17"
+},
+{
+  "_id": {
+    "$oid": "68a69b3d88909cc2f0bcaec6"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "work againnnnnn i wanna quit and travel the world",
+  "date": "2025-08-19"
+},
+{
+  "_id": {
+    "$oid": "68a69b9e88909cc2f0bcaec7"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "michelle told me she’s quitting this week to go travel the us and not gaf for like a year then apply to grad school and i haven’t been more jealous of someone in my LIFE - highly considering this but need to get fired for severance $$",
+  "date": "2025-08-19"
+},
+{
+  "_id": {
+    "$oid": "68a69c1d88909cc2f0bcaec8"
+  },
+  "name": "grace",
+  "dval": 9,
+  "dreason": "michelle told me she’s quitting this week after less than 4 months at form to go travel the us and not gaf for like a year then apply to grad school and i haven’t been more jealous of someone in my LIFE - highly considering this but need to get fired for severance $$ ",
+  "date": "2025-08-19"
+},
+{
+  "_id": {
+    "$oid": "68a7ae1088909cc2f0bcaec9"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Have a cold,🤧 went thru so many tissues",
+  "date": "2025-08-21"
+},
+{
+  "_id": {
+    "$oid": "68a7e18a88909cc2f0bcaeca"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "At least I finished most things on my to do list. Perhaps this night was a little changing of the tides. But the tides always have a low tide anyway. ",
+  "date": "2025-08-21"
+},
+{
+  "_id": {
+    "$oid": "68a7e18f88909cc2f0bcaecb"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "At least I finished most things on my to do list. Perhaps this night was a little changing of the tides. But the tides always have a low tide anyway. ",
+  "date": "2025-08-21"
+},
+{
+  "_id": {
+    "$oid": "68a9214388909cc2f0bcaecc"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "At my limit",
+  "date": "2025-08-22"
+},
+{
+  "_id": {
+    "$oid": "68ab07c788909cc2f0bcaecd"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Road-trip +cousin ",
+  "date": "2025-08-23"
+},
+{
+  "_id": {
+    "$oid": "68ad9f8288909cc2f0bcaece"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Prior soaked, a few while claws in (surge). Sunset. Best bud. ",
+  "date": "2025-08-24"
+},
+{
+  "_id": {
+    "$oid": "68ad9fcd88909cc2f0bcaed5"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I liked the scrambly hike a lot and tacos were good. ",
+  "date": "2025-08-25"
+},
+{
+  "_id": {
+    "$oid": "68ae661d88909cc2f0bcaed7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I really enjoyed the swimming hole. Crazy how much first ranked for the pasta. ",
+  "date": "2025-08-26"
+},
+{
+  "_id": {
+    "$oid": "68ae664888909cc2f0bcaed8"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I liked the scrambly hike and tacos were good. ",
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "68b1b1f888909cc2f0bcaed9"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "You’re the via Ferrata of my eye",
+  "date": "2025-08-27"
+},
+{
+  "_id": {
+    "$oid": "68b1b21388909cc2f0bcaeda"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Tired",
+  "date": "2025-08-28"
+},
+{
+  "_id": {
+    "$oid": "68b6440688909cc2f0bcaedb"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Moving was ok, little tiring. Started spiraling and getting stressed. Needed to go for a run, felt ok but wish it was better. Worries about if this is for the best.",
+  "date": "2025-09-01"
+},
+{
+  "_id": {
+    "$oid": "68b65e4788909cc2f0bcaedc"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Wasted day",
+  "date": "2025-09-01"
+},
+{
+  "_id": {
+    "$oid": "68b7862188909cc2f0bcaedd"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "F F",
+  "date": "2025-09-02"
+},
+{
+  "_id": {
+    "$oid": "68b8aa1d88909cc2f0bcaede"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Wow I somehow forgot about how work makes me want to kms",
+  "date": "2025-09-03"
+},
+{
+  "_id": {
+    "$oid": "68b8e9cd88909cc2f0bcaedf"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "today felt okay but i still feel depressed",
+  "date": "2025-09-03"
+},
+{
+  "_id": {
+    "$oid": "68b8ea2d88909cc2f0bcaee3"
+  },
+  "name": "sara",
+  "dval": 2,
+  "dreason": "i was actually so depressed and melancholic today but decided to book an impromptu trip to MN in a couple weeks to visit postcard girl",
+  "date": "2025-09-02"
+},
+{
+  "_id": {
+    "$oid": "68b8ea3088909cc2f0bcaee4"
+  },
+  "name": "sara",
+  "dval": 2,
+  "dreason": "i was actually so depressed and melancholic today but decided to book an impromptu trip to MN in a couple weeks to visit postcard girl",
+  "date": "2025-09-02"
+},
+{
+  "_id": {
+    "$oid": "68b8ea5d88909cc2f0bcaee5"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "i was actually so depressed and melancholic today but decided to book an impromptu trip to MN in a couple weeks to visit postcard girl",
+  "date": "2025-09-02"
+},
+{
+  "_id": {
+    "$oid": "68b983da88909cc2f0bcaee6"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "drive down to dc, meeting w justin was ok, ankle not ok",
+  "date": "2025-08-23"
+},
+{
+  "_id": {
+    "$oid": "68b9840488909cc2f0bcaee7"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "hike was a grind due to pouring rain, classic",
+  "date": "2025-08-24"
+},
+{
+  "_id": {
+    "$oid": "68b9843a88909cc2f0bcaee8"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "old rag was fun due to clambering, got long at the end. drove in horse poop. first taco tank night (failure)",
+  "date": "2025-08-14"
+},
+{
+  "_id": {
+    "$oid": "68b9848388909cc2f0bcaee9"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "watering hole was fun and very cold, pasta tank night (success)",
+  "date": "2025-08-26"
+},
+{
+  "_id": {
+    "$oid": "68b984ba88909cc2f0bcaeea"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "via ferrata was v cool, maybe gotta try that again sometime. franklin",
+  "date": "2025-08-27"
+},
+{
+  "_id": {
+    "$oid": "68b9851988909cc2f0bcaeeb"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "rocky brunch, emotionally draining but good talks w sab",
+  "date": "2025-08-28"
+},
+{
+  "_id": {
+    "$oid": "68b9853f88909cc2f0bcaeec"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "therapissed session, arrived at grace's",
+  "date": "2025-08-29"
+},
+{
+  "_id": {
+    "$oid": "68b9856888909cc2f0bcaeed"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "kinda spiraled for no reason, stress of returning to work/moving getting to me",
+  "date": "2025-08-30"
+},
+{
+  "_id": {
+    "$oid": "68b9858d88909cc2f0bcaeee"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "drive back is bittersweet, 3.75",
+  "date": "2025-08-31"
+},
+{
+  "_id": {
+    "$oid": "68b9860b88909cc2f0bcaeef"
+  },
+  "name": "forest",
+  "dval": 7,
+  "dreason": "old rag was fun due to clambering, got long at the end. drove in horse poop. first taco tank night (failure)",
+  "date": "2025-08-25"
+},
+{
+  "_id": {
+    "$oid": "68ba252c88909cc2f0bcaef0"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I fear I really messed up the ankle on run today, had to stop. While walking back some hot girls asked if I was interested in church, which is crazy bc Sara told me she wanted to go to church today, and I jokingly said I’d go if there were hot girls. This day has been the strongest evidence for me that life is a simulation.",
+  "date": "2025-09-04"
+},
+{
+  "_id": {
+    "$oid": "68ba4d9a88909cc2f0bcaef1"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I was depressed today but hung out with jessalyn and by the end felt better",
+  "date": "2025-09-04"
+},
+{
+  "_id": {
+    "$oid": "68bb018a88909cc2f0bcaef2"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "aaa",
+  "date": "2025-07-21"
+},
+{
+  "_id": {
+    "$oid": "68bb01ba88909cc2f0bcaef3"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Fgff",
+  "date": "2025-06-20"
+},
+{
+  "_id": {
+    "$oid": "68bb01ef88909cc2f0bcaef4"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Snjcdjk ",
+  "date": "2025-06-21"
+},
+{
+  "_id": {
+    "$oid": "68bb4d8488909cc2f0bcaef5"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Don’t really feel like there’s any reason for me to be alive when I’m just actively a hindrance to everyone and everything ",
+  "date": "2025-09-05"
+},
+{
+  "_id": {
+    "$oid": "68bb86eb88909cc2f0bcaef6"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "work was actually pleasant (except for when a particular person messaged me), feel much better than tues-thurs this week, what does it mean when you feel worse after talking to someone",
+  "date": "2025-09-05"
+},
+{
+  "_id": {
+    "$oid": "68bccfa588909cc2f0bcaef7"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-09-06"
+},
+{
+  "_id": {
+    "$oid": "68bdd5b8a3e74d816b07fdf0"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "distracting myself with cooking is ncie",
+  "date": "2025-09-06"
+},
+{
+  "_id": {
+    "$oid": "68be296188909cc2f0bcaef8"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "If submarine90, activate plan fallen statue. Else, operation geronimo ",
+  "date": "2025-09-07"
+},
+{
+  "_id": {
+    "$oid": "68be483f88909cc2f0bcaef9"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "fine",
+  "date": "2025-09-07"
+},
+{
+  "_id": {
+    "$oid": "68bf4f6f88909cc2f0bcaefa"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Strong seagull, 4A resilience, blue moon, flower tower",
+  "date": "2025-09-08"
+},
+{
+  "_id": {
+    "$oid": "68bf590e88909cc2f0bcaefb"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "JD day. Made multiple dr appt thanks to toad",
+  "date": "2025-09-08"
+},
+{
+  "_id": {
+    "$oid": "68c0a08588909cc2f0bcaefc"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Almost crashed out bc of work. Still have os much to do tonite…",
+  "date": "2025-09-09"
+},
+{
+  "_id": {
+    "$oid": "68c0b42588909cc2f0bcaefd"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Don’t work too hard bud make sure to take care of urself",
+  "date": "2025-09-09"
+},
+{
+  "_id": {
+    "$oid": "68c0d5fc3dd6c770e8ca85c7"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-08-29"
+},
+{
+  "_id": {
+    "$oid": "68c0d6033dd6c770e8ca85c8"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-08-30"
+},
+{
+  "_id": {
+    "$oid": "68c0d60b3dd6c770e8ca85c9"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-08-31"
+},
+{
+  "_id": {
+    "$oid": "68c1ec65f206fd0b630e9ae1"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "I actually hate working with some people and need to crash out. Why can’t I just runnnn",
+  "date": "2025-09-10"
+},
+{
+  "_id": {
+    "$oid": "68c1ed8bf206fd0b630e9ae2"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Angry and ashamed at what I’ve become. I hate myself so bad that it hurts. It’s like a self fulfilling prophecy.",
+  "date": "2025-09-10"
+},
+{
+  "_id": {
+    "$oid": "68c390d73a4626346dae7a00"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "crashed out today, it's cool when people make it clear that they like you, date cancelled thank god, still need to pack.",
+  "date": "2025-09-11"
+},
+{
+  "_id": {
+    "$oid": "68c3941e3a4626346dae7a01"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Me: “wow I’m actually not feeling that bad today” my brain: “let’s change that”",
+  "date": "2025-09-11"
+},
+{
+  "_id": {
+    "$oid": "68c495cf451cc8f2d5a6605f"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I don’t want to think anymore, whenever I do I just hurt and want to die, so I’ll just not think anymore",
+  "date": "2025-09-12"
+},
+{
+  "_id": {
+    "$oid": "68c57917451cc8f2d5a66060"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Saw Kathryn and friend Emily. Good times. ",
+  "date": "2025-09-12"
+},
+{
+  "_id": {
+    "$oid": "68c60f16451cc8f2d5a66061"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Brain fog, ankle has been worse the last two days",
+  "date": "2025-09-13"
+},
+{
+  "_id": {
+    "$oid": "68c63a91451cc8f2d5a66062"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Sleep in, coffee shop, estate sales, Vineyard, stars. Knees hurting, being lonely. ",
+  "date": "2025-09-13"
+},
+{
+  "_id": {
+    "$oid": "68c75864451cc8f2d5a66063"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Life has felt a bit overwhelming and stressful recently. Talking to my mom makes me even more strsssed, bc she’s right.",
+  "date": "2025-09-14"
+},
+{
+  "_id": {
+    "$oid": "68c78359451cc8f2d5a66064"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "My knees really had me down for a while. But it was fun puzzling, and seeing an old friend. ",
+  "date": "2025-09-14"
+},
+{
+  "_id": {
+    "$oid": "68c896d3451cc8f2d5a66065"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "🔥 🔥 🦶 ",
+  "date": "2025-09-15"
+},
+{
+  "_id": {
+    "$oid": "68c8b84e451cc8f2d5a66066"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Felt so ill today. This is why I can’t drink coffee or eat acidic foods. Or maybe it’s another reason. ",
+  "date": "2025-09-15"
+},
+{
+  "_id": {
+    "$oid": "68c9b66b451cc8f2d5a66067"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "There are so many things I need to do but I just can’t. When did I become so weak",
+  "date": "2025-09-16"
+},
+{
+  "_id": {
+    "$oid": "68ca9b25451cc8f2d5a66068"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Despite working and ratatouille, it was ok. Got to see bud and that felt nice. ",
+  "date": "2025-09-16"
+},
+{
+  "_id": {
+    "$oid": "68cb4e52451cc8f2d5a66069"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Bud visiting yesterday was nice. Ankle is cooked not nice",
+  "date": "2025-09-17"
+},
+{
+  "_id": {
+    "$oid": "68cb53f6451cc8f2d5a6606a"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "working at gtl makes me less depressed.  i hate all the phonies.  catch up with anissa was good in the end.",
+  "date": "2025-09-17"
+},
+{
+  "_id": {
+    "$oid": "68cc97a5451cc8f2d5a6606b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "The long awaited announcement. I am no longer under the rat kings reign. A new ruler is afoot. ",
+  "date": "2025-09-18"
+},
+{
+  "_id": {
+    "$oid": "68ccbc44451cc8f2d5a6606c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "First day of anti ds. Dinner and demon slayer movie w Amy and Zach. I wonder if I’ll ever be able to see a future for myself.",
+  "date": "2025-09-18"
+},
+{
+  "_id": {
+    "$oid": "68cd7eda451cc8f2d5a6606d"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-09-19"
+},
+{
+  "_id": {
+    "$oid": "68cf2ada451cc8f2d5a6606e"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "sister dinner.  it was nice to see them bc i feel like i don't have to be anyone.  still melancholic tho,",
+  "date": "2025-09-19"
+},
+{
+  "_id": {
+    "$oid": "68d00272f6d24c57524f5a95"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Rough moving, bud came to drink tho which saved the day. Met Emily, green shower blue hour",
+  "date": "2025-09-20"
+},
+{
+  "_id": {
+    "$oid": "68d00624f6d24c57524f5a96"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Stressed moving, drinks w sab and em",
+  "date": "2025-09-20"
+},
+{
+  "_id": {
+    "$oid": "68d12141f6d24c57524f5a97"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Anti d actually make me dangerously tired",
+  "date": "2025-09-21"
+},
+{
+  "_id": {
+    "$oid": "68d13d4ff6d24c57524f5a98"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-09-20"
+},
+{
+  "_id": {
+    "$oid": "68d13d55f6d24c57524f5a99"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-09-21"
+},
+{
+  "_id": {
+    "$oid": "68d1cc11f6d24c57524f5a9a"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Just trying to make it thru each day. (Doctor appt)",
+  "date": "2025-09-22"
+},
+{
+  "_id": {
+    "$oid": "68d1f11cf6d24c57524f5a9b"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "The founding of the beaver pact has made me realize I will have to unwind the past decade of this journey. Just thinking about it makes me anxious enough to throw up and I know there will be so many agonizing moments of wanting to die and feeling regret. But this is the only way I can keep up my end of the bargain, otherwise I’m just slowly bleeding out.",
+  "date": "2025-09-22"
+},
+{
+  "_id": {
+    "$oid": "68d2fbb3f6d24c57524f5a9c"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Running on fumes, powered by haterade ",
+  "date": "2025-09-23"
+},
+{
+  "_id": {
+    "$oid": "68d332abf6d24c57524f5a9d"
+  },
+  "name": "sara",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-09-23"
+},
+{
+  "_id": {
+    "$oid": "68d44f13f6d24c57524f5a9e"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "You would thrive without me",
+  "date": "2025-09-24"
+},
+{
+  "_id": {
+    "$oid": "68d48dbff6d24c57524f5a9f"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Fine. ",
+  "date": "2025-09-24"
+},
+{
+  "_id": {
+    "$oid": "68d494a4dbad9f978eb4e293"
+  },
+  "name": "sarahealth",
+  "dval": 2,
+  "dreason": "knees are ok today.  joints hurting at a 2 as well.",
+  "date": "2025-09-24"
+},
+{
+  "_id": {
+    "$oid": "68d5da9b0e16dc4ea70a0dab"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Spiraled driving home (don’t have COVID) roommate made me feel better now watching black mirror",
+  "date": "2025-09-25"
+},
+{
+  "_id": {
+    "$oid": "68d5e29b0e16dc4ea70a0dac"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "FF7, grief loss and denial",
+  "date": "2025-09-25"
+},
+{
+  "_id": {
+    "$oid": "68d6ff6f3967fa719294c013"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I’ve realized that depression has eroded away at my being. I can no longer enjoy things or feel passionate. I don’t even know who I am anymore. I only have a few things left and they’ll leave me eventually too. I feel I should end myself while I still have a bit of sanity left.",
+  "date": "2025-09-26"
+},
+{
+  "_id": {
+    "$oid": "68d72baa3967fa719294c015"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Every part of my body hurts. I wish I could do stuff like I used to but I have no energy anymore. ",
+  "date": "2025-09-26"
+},
+{
+  "_id": {
+    "$oid": "68d877f73967fa719294c016"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Nearly shit myself twice during run today. Just gotta endure until I fully move hopefully will be less stressed",
+  "date": "2025-09-27"
+},
+{
+  "_id": {
+    "$oid": "68d87b423967fa719294c017"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Bed ridden in the morning. Coffee shop with family. Out to dinner. Body hurts. ",
+  "date": "2025-09-27"
+},
+{
+  "_id": {
+    "$oid": "68d9cc883967fa719294c018"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "steel wind",
+  "date": "2025-09-28"
+},
+{
+  "_id": {
+    "$oid": "68d9ede93967fa719294c019"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Feeling lethargic and struggling with my health and how it prohibits me in all aspects of life rn but enjoyable to be with family (believe it or not). ",
+  "date": "2025-09-28"
+},
+{
+  "_id": {
+    "$oid": "68daf3043967fa719294c01a"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Anxiety is so bad today. I want to stop taking anti deps",
+  "date": "2025-09-29"
+},
+{
+  "_id": {
+    "$oid": "68db2d643967fa719294c01b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Feel surprisingly okay. Goodbye ice cream with Salome. Then see family one last time. ",
+  "date": "2025-09-29"
+},
+{
+  "_id": {
+    "$oid": "68dc32343967fa719294c01c"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-09-30"
+},
+{
+  "_id": {
+    "$oid": "68dc33db3967fa719294c01d"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Doctor appt. Many meetings, hard to be productive. I hate that I’m always like thissssss. ",
+  "date": "2025-09-30"
+},
+{
+  "_id": {
+    "$oid": "68dd8c753967fa719294c01e"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "You have no scar",
+  "date": "2025-10-01"
+},
+{
+  "_id": {
+    "$oid": "68ddbeb93967fa719294c01f"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Finally finished timesheet today. Anne hardy lunch. Need to make up work I didn’t do today. ",
+  "date": "2025-10-01"
+},
+{
+  "_id": {
+    "$oid": "68df07713967fa719294c020"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-10-02"
+},
+{
+  "_id": {
+    "$oid": "68df09bb3967fa719294c021"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "My body is unwell. ",
+  "date": "2025-10-02"
+},
+{
+  "_id": {
+    "$oid": "68e0757f3967fa719294c022"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "It is not going to be a good weekend I can already tell",
+  "date": "2025-10-03"
+},
+{
+  "_id": {
+    "$oid": "68e15d563967fa719294c023"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-10-04"
+},
+{
+  "_id": {
+    "$oid": "68e1bf073967fa719294c024"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "first time red line to pick up bib. hmart grocery shopping. long run hard. need to discard the imaginary people inside my head",
+  "date": "2025-10-04"
+},
+{
+  "_id": {
+    "$oid": "68e2f0223967fa719294c025"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I hate these thoughts its unbearable ",
+  "date": "2025-10-05"
+},
+{
+  "_id": {
+    "$oid": "68e313ff3967fa719294c026"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "believe it or not, camping with leslie made me feel a lot better.  we laughed a lot.  feel more like myself this evening than i have for a while.  still not perfect, but i'll just bask in it for now.",
+  "date": "2025-10-05"
+},
+{
+  "_id": {
+    "$oid": "68e44baf3967fa719294c028"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Ankle was feeling pretty rough during run today (some acute pain), prob went too hard last week. Parking ticket. This weeks admin goals: pay parking ticket, cancel internet+gas, change addresses ",
+  "date": "2025-10-06"
+},
+{
+  "_id": {
+    "$oid": "68e4ef8c3967fa719294c029"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Called many doctors. Need a project to work on. ",
+  "date": "2025-10-07"
+},
+{
+  "_id": {
+    "$oid": "68e59f3a3967fa719294c02a"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Idk if it’s a recent development but my ankle feels a bit swollen which is a little concerning. Called and canceled my internet and gas which took all of my emotional mental and spiritual energy",
+  "date": "2025-10-07"
+},
+{
+  "_id": {
+    "$oid": "68e5afb93967fa719294c02b"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Today was fine/good.  My legs hurting is really scaring me again. ",
+  "date": "2025-10-07"
+},
+{
+  "_id": {
+    "$oid": "68e68d513967fa719294c02c"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I hope you all die",
+  "date": "2025-10-08"
+},
+{
+  "_id": {
+    "$oid": "68e6efc63967fa719294c02d"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "Still stressing. Texted jessalyn with all my symptoms in a Hail Mary panic. ",
+  "date": "2025-10-08"
+},
+{
+  "_id": {
+    "$oid": "68e841623967fa719294c02e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "finally won a battle (UTI).  thanks to toad for saying i should go to urgent care.  hopefully on the up and up.",
+  "date": "2025-10-09"
+},
+{
+  "_id": {
+    "$oid": "68e866bc3967fa719294c02f"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "gj frog",
+  "date": "2025-10-09"
+},
+{
+  "_id": {
+    "$oid": "68e993fb3967fa719294c030"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "so unproductive work wise.  but mri scheduled!  feeling more like myself.  perhaps we've reached 7 baseline territory?",
+  "date": "2025-10-10"
+},
+{
+  "_id": {
+    "$oid": "68e9abee3967fa719294c031"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "frog set up my prescription yippers",
+  "date": "2025-10-10"
+},
+{
+  "_id": {
+    "$oid": "68eaead43967fa719294c032"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "So tired. ",
+  "date": "2025-10-11"
+},
+{
+  "_id": {
+    "$oid": "68eaeada3967fa719294c033"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "So tired. Monopoly with gram. ",
+  "date": "2025-10-11"
+},
+{
+  "_id": {
+    "$oid": "68eaf0103967fa719294c034"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Turtle mode activated to deal with song family",
+  "date": "2025-10-11"
+},
+{
+  "_id": {
+    "$oid": "68ec263e3967fa719294c035"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Idk if I will ever be able to interact w my parents without going insane. I prob hold all of the power to fix it but I just can’t. I’ve realized I treat them (in my head) the same way I treat myself (not well)",
+  "date": "2025-10-12"
+},
+{
+  "_id": {
+    "$oid": "68ec356e3967fa719294c036"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "proper lazy day and i'm not even mad about it",
+  "date": "2025-10-12"
+},
+{
+  "_id": {
+    "$oid": "68ed93333967fa719294c037"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Watching slocg w sab was good. I need to stop being like this, it’s disgusting and pitiful ",
+  "date": "2025-10-13"
+},
+{
+  "_id": {
+    "$oid": "68eda8ea3967fa719294c038"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Slocg with frog. Plus chips. (I must stop doing that). Also tent progress. ",
+  "date": "2025-10-13"
+},
+{
+  "_id": {
+    "$oid": "68eeece23967fa719294c039"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "work = enjoyable.  planned out pbn v2.  felipe's with samip.",
+  "date": "2025-10-14"
+},
+{
+  "_id": {
+    "$oid": "68eef1e33967fa719294c03a"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "first time carpool w frog which was good. I was actually feeling good after run but then had a bad thought and spiraled and became miserable. I'm so messed up.",
+  "date": "2025-10-14"
+},
+{
+  "_id": {
+    "$oid": "68f030543967fa719294c03b"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Got a random nosebleed while running, my hands got covered in blood. Had to stop and use some leaves as tissues, but it kept gushing so had to run back with a leaf in my left nostril. Certainly an unexpected new running experience ",
+  "date": "2025-10-15"
+},
+{
+  "_id": {
+    "$oid": "68f032533967fa719294c03c"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "felt good, lunch with old pals, but then panic about health, messaged doctor (did schedule ortho tho btw), chat gpting with dina",
+  "date": "2025-10-15"
+},
+{
+  "_id": {
+    "$oid": "68f1097f3967fa719294c03d"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Icbihstn.iwtjbmbotsitfu.ijntdaampwbs.iwhtftwa.fyayay.waisaibsldyutio?ss.hdynuticd?ilhnoalcotayad.wwwm.d.d.dddddd.",
+  "date": "2025-10-16"
+},
+{
+  "_id": {
+    "$oid": "68f179f83967fa719294c03e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "My stomach hurts but at least the tenderness has been reduced. ",
+  "date": "2025-10-16"
+},
+{
+  "_id": {
+    "$oid": "68f17a3e3967fa719294c03f"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "My stomach hurts but at least the tenderness has been reduced. Finally got 3D printer working again. Working on Emily’s playlist this eve. ",
+  "date": "2025-10-16"
+},
+{
+  "_id": {
+    "$oid": "68f2c28b3967fa719294c040"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "ave day.  still in pain.  pt start.",
+  "date": "2025-10-17"
+},
+{
+  "_id": {
+    "$oid": "68f2ccdc3967fa719294c041"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I’m ok. Frog sonnets and lyrics made me feel better and come back to reality. It’s not that deep, in fact it’s quite shallow. Should prob stay away from knives for a bit.",
+  "date": "2025-10-17"
+},
+{
+  "_id": {
+    "$oid": "68f4156a3967fa719294c042"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "ER with forest this morning.  then trader joes & slocg.  i'm just happy to not have dvt.  couldn't shake the feeling that i might.",
+  "date": "2025-10-18"
+},
+{
+  "_id": {
+    "$oid": "68f42dc13967fa719294c043"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Glad that sab doesn’t have blood clot, ultrasound looks interesting. Long run was tough many things hurt",
+  "date": "2025-10-18"
+},
+{
+  "_id": {
+    "$oid": "68f579243967fa719294c044"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Providence w sab was good. Mom is too sharp w the power of gps and questioning. Body was very beat up during run today, struggled to hold 11 min miles. Sharp ankle pain returned. Def pushed too hard yesterday.",
+  "date": "2025-10-19"
+},
+{
+  "_id": {
+    "$oid": "68f57c4b3967fa719294c045"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I feel back to my old self with looming pain.  spent this evening on reelgs (ugh) and also finishing emily playlst.  i worry for toad and wish i could do more to help.  i promise one day it will be different.",
+  "date": "2025-10-19"
+},
+{
+  "_id": {
+    "$oid": "68f69aa93967fa719294c046"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "It took my everything to endure work today. Talking w people makes me realize how incompetent and broken I’ve become. I can’t do anything I can’t I can’t i can’t I can’t I can’t I can’t. So I need to quit work. But then my parents would be involved in my life more and might ask me to move back or help me out which I wouldn’t be able to endure. I feel trapped. I don’t know how I’ve let myself get to this point. So far gone, so farrr goneee. I feel bad that I can’t do anything for frog. And she is so encouraging and helpful to me but I still can’t feel better which makes me hate myself why can’t I feel better. Also I’m sick and can’t stop coughing and sneezing and getting bloody noses bc I’m using so many tissues",
+  "date": "2025-10-20"
+},
+{
+  "_id": {
+    "$oid": "68f6c9843967fa719294c047"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I wish I was better. Been sad abt u know who lately and wonder if it could work. Driving to get with new boss. ",
+  "date": "2025-10-20"
+},
+{
+  "_id": {
+    "$oid": "68f80d9d3967fa719294c048"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Work was brutal mentally. The Danya rabbit hole was a mistake to go down. From googling I’m pretty sure I’ve just had tears in my hip labrums for like 5 years",
+  "date": "2025-10-21"
+},
+{
+  "_id": {
+    "$oid": "68f831993967fa719294c049"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Body feels rough but potentially on mend. Pulled back muscle yesterday but that is of little concern. VT conference. Been missing lasagna girl so much lately and maybe it just hit me I will never see her again. It’s hit before, but each time a little more real and deeper. doctor finally responded. A plus of all of this is falling asleep quickly and getting tired at 9pm. ",
+  "date": "2025-10-21"
+},
+{
+  "_id": {
+    "$oid": "68f94a853967fa719294c04a"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I am so fucking stupid it is incredible. I didn’t spiral too hard or get too insane today. Just feeling overwhelming and crushing sadness. I can’t help but feel like I will never feel better than 9/10 ever again. I don’t see how I could possibly get better. It is hopeless.",
+  "date": "2025-10-22"
+},
+{
+  "_id": {
+    "$oid": "68fad7ee3967fa719294c04b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Tent progress, yay.  kayla said i sent a good email, yay.  body still hurts.  cried over L grl while staring at a photo of her.  i am definitely in a rough patch with that.",
+  "date": "2025-10-23"
+},
+{
+  "_id": {
+    "$oid": "68fada383967fa719294c04c"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Bad hip pain, headache, road rage, hate lake st traffic, it’s all in my head? Work is stressful, I wish people would just understand that I’m struggling",
+  "date": "2025-10-23"
+},
+{
+  "_id": {
+    "$oid": "68fbfe033967fa719294c04d"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Never been so productive at work. Legs feel a bit hopeless. Spiraling abt lasagna girl still",
+  "date": "2025-10-24"
+},
+{
+  "_id": {
+    "$oid": "68fd55f63967fa719294c04e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Pottery. Car inspection. Clean house with Dina. ",
+  "date": "2025-10-25"
+},
+{
+  "_id": {
+    "$oid": "68fd59503967fa719294c04f"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-10-25"
+},
+{
+  "_id": {
+    "$oid": "68fd59613967fa719294c050"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-10-24"
+},
+{
+  "_id": {
+    "$oid": "68fea09e3967fa719294c051"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Spent a good portion of the day on phone, but was productive for last third of the day. (recorded pod ep, transferred photos from phone to computer, walk). Ran into Derek on walk. Will do more chores when I get home. Till 8:30. Then will get ready for bed. ",
+  "date": "2025-10-26"
+},
+{
+  "_id": {
+    "$oid": "68feb1233967fa719294c052"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-10-26"
+},
+{
+  "_id": {
+    "$oid": "69003f2d3967fa719294c053"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-10-27"
+},
+{
+  "_id": {
+    "$oid": "6901245d3967fa719294c054"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Every cough leads to sharp pain in the hip. This half might get ugly. Negative thoughts are constant but not too overwhelming today. Lunch w Sara was good and hbd grace",
+  "date": "2025-10-28"
+},
+{
+  "_id": {
+    "$oid": "69016d5a3967fa719294c055"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Didn’t get much done at work. Started volunteer again. It was boring and mostly waiting around. ",
+  "date": "2025-10-28"
+},
+{
+  "_id": {
+    "$oid": "690290733967fa719294c056"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-10-29"
+},
+{
+  "_id": {
+    "$oid": "6902aac73967fa719294c057"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "feeling that my health is failing me again and holding me back in all regards, but 3d printer is fixed so that's exciting.  ft with forest ",
+  "date": "2025-10-29"
+},
+{
+  "_id": {
+    "$oid": "6903d1373967fa719294c058"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Stop having false expectations of people",
+  "date": "2025-10-30"
+},
+{
+  "_id": {
+    "$oid": "69040cdf3967fa719294c059"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "i like that i made good progress at work, people are getting laid off at work",
+  "date": "2025-10-30"
+},
+{
+  "_id": {
+    "$oid": "69050bb23967fa719294c05a"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I just feel so broken and defeated. Even just trying to buy some $3 earbuds made my brain tell me there’s no point. I’m worried that after this half I’ll have nothing to live for. Hip pain is bad can’t sleep, ofc I always do this to myself. I’m just sad and anxious bc the meds will take at least a month to kick in but I don’t feel like I can last that long.",
+  "date": "2025-10-31"
+},
+{
+  "_id": {
+    "$oid": "690558cd3967fa719294c05b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "This morning was discouraging bc I called so many doctors but I ended up messaging mine. I sent and other message later in the day. Right as I sent my message she responded and that has made me feel embarrassed and I need to get it off my chest. Pat reminders me of what feeling good in your body can be like. Working today was good. I worked late bc what I’m doing now is interesting. ",
+  "date": "2025-10-31"
+},
+{
+  "_id": {
+    "$oid": "6906a3bf3967fa719294c05c"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Cleaned, blue bike journey",
+  "date": "2025-11-01"
+},
+{
+  "_id": {
+    "$oid": "6906b1e43967fa719294c05d"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Productive day (stretches, Vote, gram, grocery shop, newsletter, basketball)",
+  "date": "2025-11-01"
+},
+{
+  "_id": {
+    "$oid": "6907d8b73967fa719294c05e"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "First 8 in who knows how long. Enjoyed bike ride to race w sunrise and city waking up. Ran 1:33:56, didn’t really make me feel anything. Other than ankle body feels ok. Ty Sara for meeting at the finish and risking running people over while driving to make me a sign",
+  "date": "2025-11-02"
+},
+{
+  "_id": {
+    "$oid": "690819623967fa719294c05f"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "New baseline is definitely 7. Body still in recovery mode but feeling less weak now. Forest ran! Messed up sign. Many reels. Got good work done - v0 of new web app for work. Dropped off ballot. Stretched!",
+  "date": "2025-11-02"
+},
+{
+  "_id": {
+    "$oid": "690948cb3967fa719294c060"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Post race blues. Work was rough. Still just feel so mentally ill, feel like I can’t do anything. Physically I was so exhausted today even though I got 10 hrs of sleep",
+  "date": "2025-11-03"
+},
+{
+  "_id": {
+    "$oid": "690966f13967fa719294c061"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Finished a thing I was working on at work today which made me happy. Worked on tent for a sec. Call with grace. PT stretches. Called rheumatologist office and booked appt for tomorrow. ",
+  "date": "2025-11-03"
+},
+{
+  "_id": {
+    "$oid": "690a6af23967fa719294c062"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I don’t want to run anymore. I don’t want to go to work anymore. I don’t want to eat anymore. I just want to lie in bed.",
+  "date": "2025-11-04"
+},
+{
+  "_id": {
+    "$oid": "690ab6973967fa719294c063"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I was on the fence if I should be a 6 or 7 today but volunteering pushed me over the edge. In good news, rheumatology appt and work progress. ",
+  "date": "2025-11-04"
+},
+{
+  "_id": {
+    "$oid": "690c010cd43bbda4934cf191"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Still so tired but forest gave me some al tubes plus a mini cassette with stsp & my logo on it which made me happy.  i would put high 6 but that is not an option.",
+  "date": "2025-11-05"
+},
+{
+  "_id": {
+    "$oid": "690c028ed43bbda4934cf193"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Work feels so overwhelming. There’s so much work to do but I can’t do it. But I also keep saying yes to more work. Idk what I’m going to do. It’s actually over.",
+  "date": "2025-11-05"
+},
+{
+  "_id": {
+    "$oid": "691551da42c9667fb20792dc"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "2nd day of training was so brutal. My brain was so tired but it couldn’t stop thinking at a million mph. Spiraled so hard. Debrief w sab in car was good. Think I should go to pt. We shall see if I am mentally capable of doing so one day.",
+  "date": "2025-11-12"
+},
+{
+  "_id": {
+    "$oid": "6916788042c9667fb20792de"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-13"
+},
+{
+  "_id": {
+    "$oid": "6918868142c9667fb20792df"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-14"
+},
+{
+  "_id": {
+    "$oid": "6918c51842c9667fb20792e0"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-11-06"
+},
+{
+  "_id": {
+    "$oid": "6918c51e42c9667fb20792e1"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-11-07"
+},
+{
+  "_id": {
+    "$oid": "6918c52c42c9667fb20792e2"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "gram lunch + sam housewarming (i need more gay frends)",
+  "date": "2025-11-08"
+},
+{
+  "_id": {
+    "$oid": "6918c53642c9667fb20792e3"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "reels + GTL to finally remove plywood from car & work on table design.  CAD legs in ONshape + started 3D printing.  will take 11 hours so i'll check back tomorrow morn. I saw a reel that said that you were part of the relationship and that's why it was fun. It makes me think and feel secure for the future. Doesn't completely take the hurt away but today when I was showing I thought that lg was kinda a shorty person to me. I just keep trying to remind myself of all the bad stuff so I can move on. I feel like every time I go to a party I meet someone that I could like, so really no stress. Just focusing on trying to get better now. ",
+  "date": "2025-11-09"
+},
+{
+  "_id": {
+    "$oid": "6918c54142c9667fb20792e4"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Work was unproductive, probably bc I spent the second half of the day working on my website and Leslie's table",
+  "date": "2025-11-10"
+},
+{
+  "_id": {
+    "$oid": "6918c54f42c9667fb20792e6"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Not enough sleep last night. PM training was boring but at least I don't need to do work. Been making my own portfolio. Easy and fun bc it's unserious and I'm not trying to learn html so I can do all of it with chat gpt.  Volunteering was nice bc there was actually something to do. ",
+  "date": "2025-11-11"
+},
+{
+  "_id": {
+    "$oid": "6918c58842c9667fb20792e7"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Body getting me down and really tired, but 3d printed legs came out good and significant website progress",
+  "date": "2025-11-12"
+},
+{
+  "_id": {
+    "$oid": "6918c59142c9667fb20792e8"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Mental breakdown today. So fatigued. Gyno appt. Fine. Blood test. ",
+  "date": "2025-11-13"
+},
+{
+  "_id": {
+    "$oid": "6918c5b342c9667fb20792ea"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Tough morning (took day half off from work).  Went to library for a bit to work.  PT was fine.  feel like sleeping has been bad lately wake up a lot and knees/legs in pain.  bought a new shirt at vintage racks.  movie night was somewhat rejuvenating",
+  "date": "2025-11-14"
+},
+{
+  "_id": {
+    "$oid": "691921a442c9667fb20792eb"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-15"
+},
+{
+  "_id": {
+    "$oid": "69193c6942c9667fb20792ec"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "took embroidery out of shirt.  many reels.  worked on table - just waiting for printing + stain to arrive.",
+  "date": "2025-11-15"
+},
+{
+  "_id": {
+    "$oid": "691a88f442c9667fb20792ed"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "slocg s2",
+  "date": "2025-11-16"
+},
+{
+  "_id": {
+    "$oid": "691b9f2e42c9667fb20792ee"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Honestly was feeling pretty fine for most of the day. Not too many negative thoughts or anything. Then I got pressured into going home the full thanksgiving weekend. It’s gonna be hard to deal with. I want to just lie in bed for 4 days instead. Even the thought of seeing old friends fills me with dread. I don’t want to see them like this. Also bad anxiety after realizing my mom will prob check my credit card statement and see that I’m paying for psychiatrist appts. Why can’t I just be alone.",
+  "date": "2025-11-17"
+},
+{
+  "_id": {
+    "$oid": "691be79742c9667fb20792ef"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Are my legs getting slightly better? Been calling leslie everyday walking home. Feel slightly hopeful for knees. ",
+  "date": "2025-11-17"
+},
+{
+  "_id": {
+    "$oid": "691d0cd842c9667fb20792f0"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Don’t care anymore ",
+  "date": "2025-11-18"
+},
+{
+  "_id": {
+    "$oid": "691d33c042c9667fb20792f1"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I need to lock in for the end of the year. I’m glad that my worries have become meetings and sending emails again. ",
+  "date": "2025-11-18"
+},
+{
+  "_id": {
+    "$oid": "691e692d42c9667fb20792f2"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "I want to *** so badly it hurts",
+  "date": "2025-11-19"
+},
+{
+  "_id": {
+    "$oid": "691f9b6c42c9667fb20792f3"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "skipped work today and starting home again, i’m such a fake fuck ",
+  "date": "2025-11-20"
+},
+{
+  "_id": {
+    "$oid": "691fc40042c9667fb20792f4"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Anytime Anywhere",
+  "date": "2025-11-20"
+},
+{
+  "_id": {
+    "$oid": "691fc57942c9667fb20792f6"
+  },
+  "name": "grace",
+  "dval": 7,
+  "dreason": "skipped work today and starting ahome again, i’m such a fake fuck",
+  "date": "2025-11-19"
+},
+{
+  "_id": {
+    "$oid": "691fcd7a42c9667fb20792f7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Got code working, My body hurts more than yesterday. Did a bad job stretching today. grams for dinner. ",
+  "date": "2025-11-20"
+},
+{
+  "_id": {
+    "$oid": "6921063e42c9667fb20792f8"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Hip and ankle not good. I regret saying those things. I just wish I wasn’t so mentally broken.",
+  "date": "2025-11-21"
+},
+{
+  "_id": {
+    "$oid": "692106f242c9667fb20792f9"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Felt tired today. Feeling emotional about lg and relationships in general. I’m mad at myself for not being over it all. Dina’s Friendsgiving is tonight and I think this has me feeling nostalgic for last year. ",
+  "date": "2025-11-21"
+},
+{
+  "_id": {
+    "$oid": "6922568c42c9667fb20792fa"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Just me I guess",
+  "date": "2025-11-22"
+},
+{
+  "_id": {
+    "$oid": "692279c942c9667fb20792fb"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-11-22"
+},
+{
+  "_id": {
+    "$oid": "6923cadc42c9667fb20792fc"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Low key day. Reels and website progress. Good stretching sesh. Throat always so dry now. And also eyes so dry that I wake up rubbing them intensely. ",
+  "date": "2025-11-23"
+},
+{
+  "_id": {
+    "$oid": "6923dbe042c9667fb20792fd"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Actually didn’t have a mental breakdown today. Hip hurts v bad can’t walk. Actually asked to hang out w people during thanksgiving. Hmart w sab, rice acquired ",
+  "date": "2025-11-23"
+},
+{
+  "_id": {
+    "$oid": "69250ca842c9667fb20792fe"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "high stress, caught up with a friend",
+  "date": "2025-11-24"
+},
+{
+  "_id": {
+    "$oid": "69250fbd42c9667fb20792ff"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Back to back 8s who am I. Was productive at work and delivered two things and both BU people were happy. I really need to commit to getting healthy. Have anxiety about going home for thanksgiving still.",
+  "date": "2025-11-24"
+},
+{
+  "_id": {
+    "$oid": "692520cb42c9667fb2079300"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Eye appt that lady was incompetent and a gnome despite being nice. I made stuffing with Leslie and Marilyn. Finished qq for now. ",
+  "date": "2025-11-24"
+},
+{
+  "_id": {
+    "$oid": "6926419542c9667fb2079301"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-11-25"
+},
+{
+  "_id": {
+    "$oid": "692650a642c9667fb2079302"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Chill study was the only thing that got me thru the day. Thought a lot about why I am like this, thinking about my circumstances/environment and also my decisions. Frustrating call w mom. Body felt rough on run.",
+  "date": "2025-11-25"
+},
+{
+  "_id": {
+    "$oid": "6927a9a742c9667fb2079303"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": "It’s been a rough past couple of days. I don’t feel depressed just really mentally taxed and tired. ",
+  "date": "2025-11-26"
+},
+{
+  "_id": {
+    "$oid": "6929149542c9667fb2079304"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "It feels really tough to not feel like myself lately but I’m trying my best. ",
+  "date": "2025-11-27"
+},
+{
+  "_id": {
+    "$oid": "6929fa3a42c9667fb2079305"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-26"
+},
+{
+  "_id": {
+    "$oid": "6929fa4642c9667fb2079306"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-27"
+},
+{
+  "_id": {
+    "$oid": "692a41a642c9667fb2079307"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-28"
+},
+{
+  "_id": {
+    "$oid": "692a560442c9667fb2079308"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "I didn’t do anything today. Phone over 11 hrs screw time. ",
+  "date": "2025-11-28"
+},
+{
+  "_id": {
+    "$oid": "692d9a4542c9667fb2079309"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Blue",
+  "date": "2025-11-30"
+},
+{
+  "_id": {
+    "$oid": "692e534e42c9667fb207930a"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Work has felt meaningless/overload lately. Legs got me down today. New bed finally ordered. ",
+  "date": "2025-12-01"
+},
+{
+  "_id": {
+    "$oid": "692f73bc24a08918a353750a"
+  },
+  "name": "sara",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-02"
+},
+{
+  "_id": {
+    "$oid": "6930a90f24a08918a353750b"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-03"
+},
+{
+  "_id": {
+    "$oid": "6930a91824a08918a353750d"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-02"
+},
+{
+  "_id": {
+    "$oid": "6930a94024a08918a353750e"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-01"
+},
+{
+  "_id": {
+    "$oid": "6930a95a24a08918a3537510"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-30"
+},
+{
+  "_id": {
+    "$oid": "6930a97824a08918a3537512"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-11-29"
+},
+{
+  "_id": {
+    "$oid": "6931af70c44cdf9d5b11ce62"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-03"
+},
+{
+  "_id": {
+    "$oid": "69323016c44cdf9d5b11ce63"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Painful but needed to happen, maybe.",
+  "date": "2025-12-04"
+},
+{
+  "_id": {
+    "$oid": "69324767c44cdf9d5b11ce65"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Today was a really rough day. Been really emotional and crying a lot lately. The more the days go by, the more I understand Leslie. Trying my best. Felt okay after calling her. Enjoy extending my leg on the leg ext machine. I know this rough patch will not last forever. ",
+  "date": "2025-12-04"
+},
+{
+  "_id": {
+    "$oid": "693385ff1d296c9cec3fe0cf"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-05"
+},
+{
+  "_id": {
+    "$oid": "6933ac301d296c9cec3fe0d1"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Life still sucks. Trying my best to push through because it’s the only way. New doc appt scheduled. Karina visited. Roommate chats. ",
+  "date": "2025-12-05"
+},
+{
+  "_id": {
+    "$oid": "6934eda91d296c9cec3fe0d2"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-06"
+},
+{
+  "_id": {
+    "$oid": "6934ee861d296c9cec3fe0d3"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Pain still is always on my mind but my attitude has been slightly better past few days. Went to war memorial gym. Nice. Also to grams. Drove around for 2hrs. Really nice. I told her the big news. Maybe it’s not so big anymore. Maybe it never was. ",
+  "date": "2025-12-06"
+},
+{
+  "_id": {
+    "$oid": "693622be1d296c9cec3fe0d4"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-07"
+},
+{
+  "_id": {
+    "$oid": "69362de11d296c9cec3fe0d5"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Didn’t do much today. Shorts have replaced reels. Went to library for a bit. Legs have been nothing me. ",
+  "date": "2025-12-07"
+},
+{
+  "_id": {
+    "$oid": "69375e511d296c9cec3fe0d6"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Can’t endure much longer.",
+  "date": "2025-12-08"
+},
+{
+  "_id": {
+    "$oid": "69378e0e1d296c9cec3fe0d7"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Really hoping all the doctors can tell me what’s wrong.  Really hoping for deficiency still. Still processing this summer. Excited for new bed.  Work was average today. Today in general has been very average. ",
+  "date": "2025-12-08"
+},
+{
+  "_id": {
+    "$oid": "6938df121d296c9cec3fe0d8"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-09"
+},
+{
+  "_id": {
+    "$oid": "6939e5f31d296c9cec3fe0d9"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Sorry for writing this. Actually guess I'm not that sorry considering I am selfishly posting it. Just don’t read it, it’s long and who knows if ahome can handle this much text. I am in so much pain. It hurts so bad. Just thinking makes me go insane. I think Thanksgiving week broke me permanently. It’s crazy that I got ghosted by 4 people when I was trying my best to get better and be a good friend. Or maybe it’s just normal. I tried my best to be a good friend to S but guess I was just doing more harm than good. It was just me that enjoyed our time together. Good to know that my life is not even worth 1% of your effort and it doesn’t matter to you if we keep talking. Maybe my expectations are too high and the meaning of having someone’s back is not what I think it is. How can a psychiatrist not give meds on time. Literally paying $1000 an hour and can’t even do their job. Why do I even bother with something that has made me worse. I guess I give a pass to A? Good to know that only I think of them as a tenured friend though. I guess J never felt the same why I did about our running trips. It was only me that enjoyed them and wanted to keep doing them. That’s why I’ve been running all this time. But it never mattered to them. Is it too much to want a genuine caring relationship with someone? It hurts knowing how much I’ve cared and how much time I’ve spent thinking about it while I never even cross their mind. I want to die just to make them feel bad and feel a fraction of my pain. Probably the only way I can get people to think about me. Sadly they would just not care though. I wonder if I was a woman would people care about my feelings? If I was attractive would people give me attention? If I didn’t have this nasty personality would I have dated by now and not been so insecure? If I was white would I have stayed friends with B? If I didn’t experience racism as a kid would I have stayed outgoing? If I had not tried so hard and cared so much at getting better at robotics would I not hate myself this much? If I hadn’t lost my math binder? If I got hired a bit later at SG and made friends with the other REs? My plans have gotten much more concrete. I feel like a big hurdle used to be that I wasn’t sure how I would do it. But I realized it’s easier than I thought. I think my entire life I’ve only made wrong choices. Literally only getting worse and worse when I didn’t think it was possible. Have never gotten better. Why did things turn out like this. Sorry.",
+  "date": "2025-12-10"
+},
+{
+  "_id": {
+    "$oid": "693b89bc1d296c9cec3fe0da"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-11"
+},
+{
+  "_id": {
+    "$oid": "693cbb3d1d296c9cec3fe0dc"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-11"
+},
+{
+  "_id": {
+    "$oid": "693cbb431d296c9cec3fe0dd"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-12"
+},
+{
+  "_id": {
+    "$oid": "693cc93b1d296c9cec3fe0de"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Mentally feel back to my old self, now need to get the body back. PT was good.  Work progress. New bed debacle. ",
+  "date": "2025-12-12"
+},
+{
+  "_id": {
+    "$oid": "693e261f1d296c9cec3fe0df"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Thanks for today. Long road ahead.",
+  "date": "2025-12-13"
+},
+{
+  "_id": {
+    "$oid": "693f5f8d1d296c9cec3fe0e0"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "First (weekend) day since taking vit d. Was busy whole day like old times. Felt soooo nice. Made bed frame in morning. Picked up pottery. Went to Emily’s house - felt nice to talk to new people and also people who are artsy and think everything I build is cool. Call with quitterz makes me feel hopeful and reminds me of the good days (may). ",
+  "date": "2025-12-13"
+},
+{
+  "_id": {
+    "$oid": "693f602f1d296c9cec3fe0e1"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "Got rid of old bed to Logan with mostafa. Also went to laundromat in morning to wash stuff. New room design feels very nice, spacious, well designed? Went to grams. Lied about buying soup I made which she said tasted horrible. I agree but still will eat it. Came back and finished cleaning room in evening. Finally will relax for a bit before going to bed. ",
+  "date": "2025-12-14"
+},
+{
+  "_id": {
+    "$oid": "693f79ea1d296c9cec3fe0e2"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "felt pretty rough physically and mentally today. Haven't been eating much recently. No groceries. I guess for some reason I thought getting better would be easier but I still have a lot of dark thoughts.",
+  "date": "2025-12-14"
+},
+{
+  "_id": {
+    "$oid": "6940be031d296c9cec3fe0e3"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Feel like I’m learning at work which is nice. Target with forest. ",
+  "date": "2025-12-15"
+},
+{
+  "_id": {
+    "$oid": "6940cdbe1d296c9cec3fe0e4"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Call with dad. Some good and bad but I think they understand me a bit better now. Work is stressful but carpooling w sab was good, and she took me for groceries. Run felt really strong except some shin pain, I think eating half of the chips was a real boost",
+  "date": "2025-12-15"
+},
+{
+  "_id": {
+    "$oid": "69420d401d296c9cec3fe0e5"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Headaches haven’t been going away recently. Work has been difficult. After talking w my dad reliving a bunch of bad memories made me spiral.",
+  "date": "2025-12-16"
+},
+{
+  "_id": {
+    "$oid": "694328911d296c9cec3fe0e6"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Felt miserable today. Headaches, and getting mad at people, especially hating myself. It feels like it’s easier to be depressed (the devil I know) than trying to get better (the heaven I don’t). I’m just so messed up I don’t know if I can climb back up.",
+  "date": "2025-12-17"
+},
+{
+  "_id": {
+    "$oid": "69436ed21d296c9cec3fe0e7"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Average day. Cult like doctor practice",
+  "date": "2025-12-17"
+},
+{
+  "_id": {
+    "$oid": "69436ee41d296c9cec3fe0e8"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2025-12-16"
+},
+{
+  "_id": {
+    "$oid": "6944861f1d296c9cec3fe0e9"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Still feeling headaches and nausea, maybe I’m sick",
+  "date": "2025-12-18"
+},
+{
+  "_id": {
+    "$oid": "6944bf301d296c9cec3fe0ea"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "2 dr appt.  trying my best with everything right now.  ",
+  "date": "2025-12-18"
+},
+{
+  "_id": {
+    "$oid": "6945e9811d296c9cec3fe0eb"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "i just spilled hot soup all over me and on my blanket and couch and then in the haste of trying to clean it up, i dropped my phone in my soup charger port down so now im cleaning the soup out of my phone while writing this and thought id give u guys a chuckle if u read this. kill me now ",
+  "date": "2025-12-19"
+},
+{
+  "_id": {
+    "$oid": "694763af1d296c9cec3fe0ed"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "gym day 1",
+  "date": "2025-12-20"
+},
+{
+  "_id": {
+    "$oid": "694764db1d296c9cec3fe0ee"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-20"
+},
+{
+  "_id": {
+    "$oid": "694764e51d296c9cec3fe0ef"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-19"
+},
+{
+  "_id": {
+    "$oid": "6948af981d296c9cec3fe0f0"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "The days have pretty emotional lately. Stooped so low I watched mr beast and Minecraft videos all evening",
+  "date": "2025-12-21"
+},
+{
+  "_id": {
+    "$oid": "6949efe51d296c9cec3fe0f1"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Manically cleaning house/doing stuff I’ve been putting off, COVID shot, more supplements, gram newton Wellesley, hang man, food, trivia. Legs hurt. ",
+  "date": "2025-12-22"
+},
+{
+  "_id": {
+    "$oid": "6949f58d1d296c9cec3fe0f2"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-22"
+},
+{
+  "_id": {
+    "$oid": "6949f5981d296c9cec3fe0f3"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-21"
+},
+{
+  "_id": {
+    "$oid": "694b34621d296c9cec3fe0f4"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Felt really sick today. Pt and then hospital to see gram. ",
+  "date": "2025-12-23"
+},
+{
+  "_id": {
+    "$oid": "694c8e641d296c9cec3fe0f5"
+  },
+  "name": "grace",
+  "dval": 5,
+  "dreason": "went to the spa and talked with old friends all day 10/10",
+  "date": "2025-12-24"
+},
+{
+  "_id": {
+    "$oid": "694c9b2f1d296c9cec3fe0f6"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Still sick. Didn’t do anything today but smosh videos. Finally returned Uniqlo shirt an hr before close. ",
+  "date": "2025-12-24"
+},
+{
+  "_id": {
+    "$oid": "694cac0c1d296c9cec3fe0f7"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-24"
+},
+{
+  "_id": {
+    "$oid": "694cac351d296c9cec3fe0f8"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-23"
+},
+{
+  "_id": {
+    "$oid": "694de13c1d296c9cec3fe0f9"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-25"
+},
+{
+  "_id": {
+    "$oid": "694eee991d296c9cec3fe0fa"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Went to grams rehab for Christmas. ",
+  "date": "2025-12-25"
+},
+{
+  "_id": {
+    "$oid": "694f53b41d296c9cec3fe0fb"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": null,
+  "date": "2025-12-26"
+},
+{
+  "_id": {
+    "$oid": "694f679d1d296c9cec3fe0fc"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2025-12-26"
+},
+{
+  "_id": {
+    "$oid": "695015491d296c9cec3fe0fd"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-26"
+},
+{
+  "_id": {
+    "$oid": "69509b121d296c9cec3fe0fe"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Went to grams house to grab stuff. Emotional. Than to rehab. Pt and ot came (wink). Harley also visited. Stretches today at home (tried hard). Quitters game. ",
+  "date": "2025-12-27"
+},
+{
+  "_id": {
+    "$oid": "69517c841d296c9cec3fe0ff"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2025-12-27"
+},
+{
+  "_id": {
+    "$oid": "6952b69d1d296c9cec3fe100"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I am defective",
+  "date": "2025-12-28"
+},
+{
+  "_id": {
+    "$oid": "695314971d296c9cec3fe101"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Felt better being alone today",
+  "date": "2025-12-29"
+},
+{
+  "_id": {
+    "$oid": "695332cd1d296c9cec3fe102"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "smosh, mri",
+  "date": "2025-12-29"
+},
+{
+  "_id": {
+    "$oid": "695480e41d296c9cec3fe103"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "finally starting to feel better, but now the break is nearing its end.  got a lot done today.",
+  "date": "2025-12-30"
+},
+{
+  "_id": {
+    "$oid": "695490b11d296c9cec3fe104"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Felt terrible physically (headaches, stomach pain) and mentally today. I think I’ve regressed mentally since start of break due to parents being overwhelming and playing too many video games, then feeling terrible for not being responsible and getting better. Felt a bit better after run, cleaning and stretching except for stomach pain. Have to try to focus but it’s hard. Day 2 of doing single leg calf raises and squats while brushing teeth",
+  "date": "2025-12-30"
+},
+{
+  "_id": {
+    "$oid": "6956c84e1d296c9cec3fe105"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Talking w my parents is equal to torture. They don’t understand me at all. Nobody can understand the depth of how I’m feeling and nobody or nothing can help me. I’m ashamed that I forgot to bring my anti d back to nj so I guess I’m off the meds. Going home made me remember a lot of things. I think I was already messed up as a kid. I’ve just been acting normal all this time. Sara’s nye party was fine. Similar feelings to last year, maybe a bit better. Have been irresponsible and sleeping at 4. I don’t know how I am gonna be able to get back to work. Just thinking about how much worse I got in 2025 is soul crushing. Haven’t been journaling and thinking about positive things. I always quit and can’t do anything. Bad feelings of insecurity again. Do I just need to be locked up in a mental institution? My thought process is almost manic, like an insane person. I have to hold onto running bc it’s all that I have left, just sucks cause it’s felt so physically terrible recently.",
+  "date": "2025-12-31"
+},
+{
+  "_id": {
+    "$oid": "695720471d296c9cec3fe106"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Date w tifa",
+  "date": "2026-01-01"
+},
+{
+  "_id": {
+    "$oid": "695727d31d296c9cec3fe107"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Busy all day. Baking, cleaning, PTing, etc. nice change of pace since I’m finally not so sick anymore. Keep calling gram just to check in. Nye part was fun. I have a lot of areas I want to improve. Starting to feel like maybe that’ll be possible again. ",
+  "date": "2025-12-31"
+},
+{
+  "_id": {
+    "$oid": "6957280a1d296c9cec3fe108"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Pretty tired today. Worked on stamp more before marty supreme.   Nostalgic for how things were. ",
+  "date": "2026-01-01"
+},
+{
+  "_id": {
+    "$oid": "6958912c1d296c9cec3fe109"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Felt ok today. Work and run sucked but didn’t let it bother me too much. I think doing chores helps. If I do 4 of the 8 things on my to do list this weekend I’ll buy a pair of the neo zens",
+  "date": "2026-01-02"
+},
+{
+  "_id": {
+    "$oid": "6959b2771d296c9cec3fe10a"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "talking w my best buds ",
+  "date": "2026-01-03"
+},
+{
+  "_id": {
+    "$oid": "6959b29b1d296c9cec3fe10b"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": "retrospective",
+  "date": "2025-12-31"
+},
+{
+  "_id": {
+    "$oid": "695aaf461d296c9cec3fe10c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2026-01-03"
+},
+{
+  "_id": {
+    "$oid": "695b086b1d296c9cec3fe10d"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "As long as I keep trying until I can do it, I can actually do it",
+  "date": "2026-01-04"
+},
+{
+  "_id": {
+    "$oid": "695b1c8f1d296c9cec3fe10e"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "spent day with leslie (visited assisted living), treated to lunch, to gram :/, quitterz steam",
+  "date": "2026-01-03"
+},
+{
+  "_id": {
+    "$oid": "695b1cb31d296c9cec3fe10f"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "more smosh, also many emails, finish stamp project for now...",
+  "date": "2026-01-04"
+},
+{
+  "_id": {
+    "$oid": "695ca1421d296c9cec3fe110"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Nausea and stomach pain have been bad the last few days. Upon consulting w dr grace Patterson and Google, pretty sure it’s Zoloft withdrawal. It’s rough but hopefully goes away soon. At least mental has been somewhat stable, 4 8 ratings in a row.",
+  "date": "2026-01-05"
+},
+{
+  "_id": {
+    "$oid": "695dbb411d296c9cec3fe111"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2026-01-06"
+},
+{
+  "_id": {
+    "$oid": "695dbc321d296c9cec3fe112"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "i think this is the new status quo.  i feel i could be at a 6 but doesn't feel right with the chaos around me.  today was again productive and work has been enjoyable.  hopefully sleep better tonight.  ",
+  "date": "2026-01-06"
+},
+{
+  "_id": {
+    "$oid": "695dbc6a1d296c9cec3fe113"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "worked from gtl for first time in a while.  productive day yay.  walked home, worked out, grocery shopped, planet fitness, ate, brain wired and couldn't fall asleep, restless night.",
+  "date": "2026-01-05"
+},
+{
+  "_id": {
+    "$oid": "695f00311d296c9cec3fe114"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I always thought I was messed up, but my mom might be even more insane than me… is it genetic? Spent a lot of time talking w my running coach ChatGPT & copilot. Set up 3d printer.",
+  "date": "2026-01-07"
+},
+{
+  "_id": {
+    "$oid": "695f03ff1d296c9cec3fe115"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "I need to stop wfh I’m never productive",
+  "date": "2026-01-07"
+},
+{
+  "_id": {
+    "$oid": "6961a55a1d296c9cec3fe116"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Again just ranking on overall day. NOT DEPRESSION. Emotional day. Also very unproductive. ",
+  "date": "2026-01-09"
+},
+{
+  "_id": {
+    "$oid": "6961a5821d296c9cec3fe117"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Good day of work at gtl. Finally returned ice cream maker. Cried a lot. ",
+  "date": "2026-01-08"
+},
+{
+  "_id": {
+    "$oid": "69630d0a1d296c9cec3fe118"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Still tough. Bad at sleeping and emotional but productive too. Played some bingo, worked, chores. ",
+  "date": "2026-01-10"
+},
+{
+  "_id": {
+    "$oid": "696332551d296c9cec3fe119"
+  },
+  "name": "grace",
+  "dval": 10,
+  "dreason": null,
+  "date": "2026-01-10"
+},
+{
+  "_id": {
+    "$oid": "69644d251d296c9cec3fe11a"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Newton hills long run. Withdrawal symptoms still suck",
+  "date": "2026-01-10"
+},
+{
+  "_id": {
+    "$oid": "69644d341d296c9cec3fe11b"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2026-01-09"
+},
+{
+  "_id": {
+    "$oid": "69644d561d296c9cec3fe11c"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": null,
+  "date": "2026-01-08"
+},
+{
+  "_id": {
+    "$oid": "69644d791d296c9cec3fe11d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2026-01-11"
+},
+{
+  "_id": {
+    "$oid": "696451bd1d296c9cec3fe11e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Sick, emotional, but good talk with aunt Tracy. ",
+  "date": "2026-01-11"
+},
+{
+  "_id": {
+    "$oid": "6965a9d01d296c9cec3fe120"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "It’s ok. You’ve endured worse than this",
+  "date": "2026-01-12"
+},
+{
+  "_id": {
+    "$oid": "6965acc51d296c9cec3fe121"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Feeling troubled by family, but also happy for support. Grams first day in assisted living. I know it is tough for her, but in the end will be fine. ",
+  "date": "2026-01-12"
+},
+{
+  "_id": {
+    "$oid": "6966fc6d1d296c9cec3fe122"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I feel like I really did try my best today but it just really sucked",
+  "date": "2026-01-13"
+},
+{
+  "_id": {
+    "$oid": "696873241d296c9cec3fe123"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2026-01-14"
+},
+{
+  "_id": {
+    "$oid": "6968f13d1d296c9cec3fe124"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2026-01-14"
+},
+{
+  "_id": {
+    "$oid": "6968f1421d296c9cec3fe125"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2026-01-13"
+},
+{
+  "_id": {
+    "$oid": "6969639a1d296c9cec3fe126"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "Stomach pain, brain fog, no energy, sharp leg muscle pains. Ofc it sucks physically but also mentally reminds me of all my dumb mistakes. Did that run actually break me somehow? I wish I had been a more understanding friend.",
+  "date": "2026-01-15"
+},
+{
+  "_id": {
+    "$oid": "696ae2761d296c9cec3fe127"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": null,
+  "date": "2026-01-16"
+},
+{
+  "_id": {
+    "$oid": "696baad11d296c9cec3fe128"
+  },
+  "name": "grace",
+  "dval": 8,
+  "dreason": "meow",
+  "date": "2026-01-16"
+},
+{
+  "_id": {
+    "$oid": "696bc84a1d296c9cec3fe129"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": null,
+  "date": "2026-01-16"
+},
+{
+  "_id": {
+    "$oid": "696bc8521d296c9cec3fe12a"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2026-01-15"
+},
+{
+  "_id": {
+    "$oid": "696c5fb267007de41ef9e215"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "I think symptoms may be getting a bit better, able to complete shorter long run today without too much pain. First time hanging w sab in a while, tacos plus slocg, Renee rapp gone :(",
+  "date": "2026-01-17"
+},
+{
+  "_id": {
+    "$oid": "696d88d067007de41ef9e216"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Rough sleep, waking up due to stomach pain. Woke up at 4 and couldn’t go back to sleep. I think overall it is feeling better. Still very fatigued on runs. Now that therapy is sorted, I think next big thing is pcp and blood panel for iron and vit d. Should hurry to fit in before spring races. Ok enough of boring stuff off to beat ff7 rebirth",
+  "date": "2026-01-18"
+},
+{
+  "_id": {
+    "$oid": "696d96ab67007de41ef9e217"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "solid birthday - was productive, also nice to spend time with myself and such.  dinner was good.",
+  "date": "2026-01-18"
+},
+{
+  "_id": {
+    "$oid": "696d96c367007de41ef9e218"
+  },
+  "name": "sara",
+  "dval": 6,
+  "dreason": "got a good workout in and watching slocg with forest felt nice",
+  "date": "2026-01-17"
+},
+{
+  "_id": {
+    "$oid": "696fc67767007de41ef9e219"
+  },
+  "name": "forest",
+  "dval": 8,
+  "dreason": "Finished the main story of ff7 rebirth. I think it’s one of the best games I’ve ever played. 8/10 story, 9/10 characters and combat, 10/10 art and soundtrack. I think also sometimes when you consume a piece of media matters a lot. I think this game came into my life at the right time, in a good and bad way. I think due to my own mental struggles I was able to relate to some mentally ill characters that I normally would not fully understand. On one hand it did confuse me about what was real and if I was going insane, but also I think I’ve eventually realized that it’s not the right way to live. It also made me feel emotions that I haven’t felt in a while, making me laugh, smile, feel like crying. I think also grinding all the endless side quests is not something I would normally do but needed to cope with reality. Sadly it is the 2nd part of a trilogy and the 3rd part is not out yet. I want to see cloud get better, and believe that I can also get better. I guess I have to survive until the third game comes out in likely 2027. Until then this game has left me an empty shell. ",
+  "date": "2026-01-19"
+},
+{
+  "_id": {
+    "$oid": "697027aa67007de41ef9e21a"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Pretty bad hip pain again. Ankle also not great. I should be feeling better bc I’ve run less but I haven’t felt good at all. First therapy session was meh. I’ll try to persevere ",
+  "date": "2026-01-20"
+},
+{
+  "_id": {
+    "$oid": "69702e5867007de41ef9e21b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "lots to do at work, gym sesh was good.  work always feels like fire fighting",
+  "date": "2026-01-20"
+},
+{
+  "_id": {
+    "$oid": "697115be67007de41ef9e21d"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Just feeling sad and angry. What even is the point of anything. Therapy is not gonna help, no point in running, or having friends or family. I get mad when I see people happily chatting and laughing.",
+  "date": "2026-01-21"
+},
+{
+  "_id": {
+    "$oid": "6971837b67007de41ef9e21e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "really busy day, but proud of myself for doing my PT despite leaving work at 7 pm",
+  "date": "2026-01-21"
+},
+{
+  "_id": {
+    "$oid": "6972c79467007de41ef9e21f"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "At a 10 mentally, physically starting to feel better, stomach at 90%, hip hurts but much better after activations. Still feeling very fatigued. Trying to get a hold of pcp.",
+  "date": "2026-01-22"
+},
+{
+  "_id": {
+    "$oid": "6973d82967007de41ef9e220"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "PCP scheduled for march",
+  "date": "2026-01-23"
+},
+{
+  "_id": {
+    "$oid": "6974185967007de41ef9e222"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Average",
+  "date": "2026-01-22"
+},
+{
+  "_id": {
+    "$oid": "6974189e67007de41ef9e223"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Got outside which was nice. PT was good. Nice to talk, see progress, and just be in ma intense mode now. Walked home. There is a shirt that I saw that I should’ve gotten at vintage rack. Maybe I will go back tomorrow. Chill night. ",
+  "date": "2026-01-23"
+},
+{
+  "_id": {
+    "$oid": "6975764467007de41ef9e224"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "I’m doing a bit better. I think I’m just tired of always acting like I’m ok when I’m not. At work, with family, friends, therapist. I think I’ve been craving validation from others bc I hold so little value in my own opinion. But I need to learn to accept myself. Running is slowly starting to feel better, prob mix of symptoms improving, maybe also vit d.",
+  "date": "2026-01-24"
+},
+{
+  "_id": {
+    "$oid": "6976a5d567007de41ef9e225"
+  },
+  "name": "forest",
+  "dval": 9,
+  "dreason": "Stuff with the ICE and USA are just so messed up. It’s like a slow moving train wreck that nobody has the power to stop.",
+  "date": "2026-01-25"
+},
+{
+  "_id": {
+    "$oid": "6976d04967007de41ef9e226"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Screen, workout, screen on snowy sunday",
+  "date": "2026-01-25"
+},
+{
+  "_id": {
+    "$oid": "6976d06267007de41ef9e227"
+  },
+  "name": "sara",
+  "dval": 8,
+  "dreason": "Stressful day i was losing it",
+  "date": "2026-01-24"
+},
+{
+  "_id": {
+    "$oid": "6977f50e67007de41ef9e228"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": "If only I’d known it would turn out like this",
+  "date": "2026-01-26"
+},
+{
+  "_id": {
+    "$oid": "69781a7167007de41ef9e229"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "Unproductive. Maybe i define a day partially as productivity/how much I was able to accomplish",
+  "date": "2026-01-26"
+},
+{
+  "_id": {
+    "$oid": "697953bd67007de41ef9e22a"
+  },
+  "name": "forest",
+  "dval": 10,
+  "dreason": null,
+  "date": "2026-01-27"
+},
+{
+  "_id": {
+    "$oid": "6979726e67007de41ef9e22b"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "workout in mornign with leslie, worked till 8 pm, life is boring these days",
+  "date": "2026-01-27"
+},
+{
+  "_id": {
+    "$oid": "697c219a67007de41ef9e22c"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2026-01-29"
+},
+{
+  "_id": {
+    "$oid": "697eb75667007de41ef9e22d"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": null,
+  "date": "2026-01-30"
+},
+{
+  "_id": {
+    "$oid": "697eb79467007de41ef9e22e"
+  },
+  "name": "sara",
+  "dval": 7,
+  "dreason": "status quo.  went to grams to get rid of all the stuff in her apt.  played bunco dice game.  oh also had a dream abt lg so now we're back to square one.",
+  "date": "2026-01-31"
+}]
